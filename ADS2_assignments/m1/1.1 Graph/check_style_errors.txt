@@ -15,7 +15,6 @@ Starting audit...
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m1/1.1 Graph/Solution.java:22:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m1/1.1 Graph/Solution.java:39:26: Name 'v_e' must match pattern '^[a-z][a-zA-Z0-9]*$'. [LocalVariableName]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m1/1.1 Graph/Solution.java:42:27: ';' is preceded with whitespace. [NoWhitespaceBefore]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m1/1.1 Graph/Solution.java:61: Line has trailing spaces. [RegexpSingleline]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m1/1.1 Graph/Solution.java:76:5: Missing a Javadoc comment. [JavadocVariable]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m1/1.1 Graph/Solution.java:77:5: Missing a Javadoc comment. [JavadocVariable]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m1/1.1 Graph/Solution.java:78:5: Missing a Javadoc comment. [JavadocVariable]
@@ -30,7 +29,7 @@ Starting audit...
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m1/1.1 Graph/Solution.java:137:28: Parameter v should be final. [FinalParameters]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m1/1.1 Graph/Solution.java:137:35: Parameter w should be final. [FinalParameters]
 Audit done.
-Checkstyle ends with 30 errors.
+Checkstyle ends with 29 errors.
 Starting audit...
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m1/1.1 Graph/Bag.java:18: Line is longer than 80 characters (found 81). [LineLength]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m1/1.1 Graph/Bag.java:20: Line is longer than 80 characters (found 105). [LineLength]

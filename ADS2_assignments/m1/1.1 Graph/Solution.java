@@ -33,9 +33,9 @@ public final class Solution {
         int edges = Integer.parseInt(sc.nextLine());
         String[] states = sc.nextLine().split(",");
         // if (input.equals("List")) {
-            switch (input) {
-                case"List":
-                for (int i = 0; i < edges; i++) {
+        switch (input) {
+        case"List":
+            for (int i = 0; i < edges; i++) {
                 String[] v_e = sc.nextLine().split(" ");
                 gl.addEdge(Integer.parseInt(v_e[0]), Integer.parseInt(v_e[1]));
             }
@@ -55,10 +55,10 @@ public final class Solution {
 
             }
             break;
-            default:
+        default:
             break;
-            }
-            
+        }
+
 
 
 
