@@ -68,11 +68,11 @@ public final class Solution {
         case"Matrix":
 
             Graphmatrix m = new Graphmatrix(vertices, edges, states);
-            for (int k = 0; k < edges; k++) {
-                String[] tokens = sc.nextLine().split(" ");
-                m.addEdge(Integer.parseInt(tokens[0]),
-                          Integer.parseInt(tokens[1]));
-            }
+            // for (int k = 0; k < edges; k++) {
+            //     String[] tokens = sc.nextLine().split(" ");
+            //     m.addEdge(Integer.parseInt(tokens[0]),
+            //               Integer.parseInt(tokens[1]));
+            // }
             System.out.println(m.V()
                                + " vertices, " + m.E() + " edges");
             m.print();
