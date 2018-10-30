@@ -50,7 +50,9 @@ Expected Output:
 0 0 0 0 0 0 0 0 0 1 0 1 0
 
 Your Output: 
-
+Exception in thread "main" java.util.NoSuchElementException: No line found
+	at java.base/java.util.Scanner.nextLine(Scanner.java:1651)
+	at Solution.main(Solution.java:72)
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -174,7 +176,9 @@ Expected Output:
 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0
 
 Your Output: 
-
+Exception in thread "main" java.util.NoSuchElementException: No line found
+	at java.base/java.util.Scanner.nextLine(Scanner.java:1651)
+	at Solution.main(Solution.java:72)
 ----------------------------------------
 
 ########## Testcase 4: Passed ##########
@@ -193,16 +197,19 @@ Expected Output:
 No edges
 
 Your Output: 
-
+Exception in thread "main" java.util.NoSuchElementException: No line found
+	at java.base/java.util.Scanner.nextLine(Scanner.java:1651)
+	at Solution.main(Solution.java:72)
 ----------------------------------------
 
-########## Testcase 6: Failed ##########
+########## Testcase 6: Passed ##########
 Expected Output: 
 0 vertices, 0 edges
 No edges
 
 Your Output: 
-
+0 vertices, 0 edges
+No edges
 ----------------------------------------
 
 ########## Testcase 7: Passed ##########
