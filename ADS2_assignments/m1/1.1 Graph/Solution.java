@@ -142,8 +142,12 @@ class GraphList implements Graph {
      * @return     True if has edge, False otherwise.
      */
     public boolean hasEdge(int v, int w) {
-        return (adj[v].iterator().next() == w);
-
+        for(int each : adj[v]) {
+            if(each == w) {
+                return true;
+            }
+        }
+        return false;
     }
 
 }
