@@ -32,40 +32,38 @@ public final class Solution {
         GraphList gl = new GraphList(vertices);
         int edges = Integer.parseInt(sc.nextLine());
         String[] states = sc.nextLine().split(",");
-        // System.out.println(Arrays.toString(states));
-
-
-        if (input.equals("List")) {
-            // System.out.println("hvfg");
-            for (int i = 0; i < edges; i++) {
+        // if (input.equals("List")) {
+            switch (input) {
+                case"List":
+                for (int i = 0; i < edges; i++) {
                 String[] v_e = sc.nextLine().split(" ");
-                // System.out.println(Arrays.toString(v_e));
                 gl.addEdge(Integer.parseInt(v_e[0]), Integer.parseInt(v_e[1]));
             }
-                // System.out.println("-----------------------------");
-
             for (int j = 0 ; j < vertices; j++) {
                 System.out.print(states[j] + " :");
-                    String str = "";
+                String str = "";
 
                 for (int s : gl.adj[j]) {
-                    str= str+states[s]+" ";
-                    
+                    str = str + states[s] + " ";
                 }
-                if(!str.equals(""))
-                {
-                System.out.println(str.substring(0, str.length()-1));
+                if (!str.equals("")) {
+                    System.out.println(str.substring(0, str.length() - 1));
 
                 }
 
 
 
             }
+            break;
+            default:
+            break;
+            }
+            
 
 
 
 
-        }
+        // }
 
     }
 
