@@ -35,6 +35,7 @@ public final class Solution {
         // if (input.equals("List")) {
         switch (input) {
         case"List":
+        System.out.println(vertices+" vertices, "+gl.E()+" edges");
             for (int i = 0; i < edges; i++) {
                 String[] v_e = sc.nextLine().split(" ");
                 gl.addEdge(Integer.parseInt(v_e[0]), Integer.parseInt(v_e[1]));
@@ -109,6 +110,9 @@ class GraphList implements Graph {
      * @param      w    verties.
      */
     public void addEdge(int v, int w) {
+        if(v != w){
+            edges++;
+        }
         adj[v].add(w);
         // System.out.println("----------------");
         adj[w].add(v);
