@@ -1,34 +1,17 @@
 Starting audit...
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m1/1.1 Graph/Solution.java:8:8: Unused import - java.util.Arrays. [UnusedImports]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m1/1.1 Graph/Solution.java:18:5: Redundant 'public' modifier. [RedundantModifier]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m1/1.1 Graph/Solution.java:18:16: Name 'V' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MethodName]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m1/1.1 Graph/Solution.java:24:5: Redundant 'public' modifier. [RedundantModifier]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m1/1.1 Graph/Solution.java:24:16: Name 'E' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MethodName]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m1/1.1 Graph/Solution.java:31:5: Redundant 'public' modifier. [RedundantModifier]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m1/1.1 Graph/Solution.java:40:5: Redundant 'public' modifier. [RedundantModifier]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m1/1.1 Graph/Solution.java:67:22: Name 'v_e' must match pattern '^[a-z][a-zA-Z0-9]*$'. [LocalVariableName]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m1/1.1 Graph/Solution.java:77:31: ';' is preceded with whitespace. [NoWhitespaceBefore]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m1/1.1 Graph/Solution.java:85:73: ')' is preceded with whitespace. [ParenPad]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m1/1.1 Graph/Solution.java:130:27: Variable 'adj' must be private and have accessor methods. [VisibilityModifier]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m1/1.1 Graph/Solution.java:149:16: Name 'V' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MethodName]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m1/1.1 Graph/Solution.java:158:16: Name 'E' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MethodName]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m1/1.1 Graph/Solution.java:266:22: Parameter v should be final. [FinalParameters]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m1/1.1 Graph/Solution.java:274:16: Name 'V' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MethodName]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m1/1.1 Graph/Solution.java:282:16: Name 'E' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MethodName]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m1/1.1 Graph/Solution.java:17:5: Redundant 'public' modifier. [RedundantModifier]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m1/1.1 Graph/Solution.java:23:5: Redundant 'public' modifier. [RedundantModifier]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m1/1.1 Graph/Solution.java:30:5: Redundant 'public' modifier. [RedundantModifier]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m1/1.1 Graph/Solution.java:39:5: Redundant 'public' modifier. [RedundantModifier]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m1/1.1 Graph/Solution.java:66:22: Name 'v_e' must match pattern '^[a-z][a-zA-Z0-9]*$'. [LocalVariableName]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m1/1.1 Graph/Solution.java:76:31: ';' is preceded with whitespace. [NoWhitespaceBefore]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m1/1.1 Graph/Solution.java:84:73: ')' is preceded with whitespace. [ParenPad]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m1/1.1 Graph/Solution.java:129:27: Variable 'adj' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m1/1.1 Graph/Solution.java:265:22: Parameter v should be final. [FinalParameters]
 Audit done.
-Checkstyle ends with 16 errors.
+Checkstyle ends with 9 errors.
 Starting audit...
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m1/1.1 Graph/Bag.java:18: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m1/1.1 Graph/Bag.java:20: Line is longer than 80 characters (found 105). [LineLength]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m1/1.1 Graph/Bag.java:23: Type Javadoc comment is missing @param <Item> tag. [JavadocType]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m1/1.1 Graph/Bag.java:24: First sentence should end with a period. [JavadocStyle]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m1/1.1 Graph/Bag.java:27:17: Name 'N' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MemberName]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m1/1.1 Graph/Bag.java:58: Expected @return tag. [JavadocMethod]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m1/1.1 Graph/Bag.java:65: Expected @return tag. [JavadocMethod]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m1/1.1 Graph/Bag.java:72:21: Parameter item should be final. [FinalParameters]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m1/1.1 Graph/Bag.java:72:26: Expected @param tag for 'item'. [JavadocMethod]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m1/1.1 Graph/Bag.java:84: Expected @return tag. [JavadocMethod]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m1/1.1 Graph/Bag.java:103: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m1/1.1 Graph/Bag.java:103:35: '{' at column 35 should have line break after. [LeftCurly]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m1/1.1 Graph/Bag.java:52: Expected @return tag. [JavadocMethod]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m1/1.1 Graph/Bag.java:59: Expected @return tag. [JavadocMethod]
 Audit done.
-Checkstyle ends with 12 errors.
+Checkstyle ends with 2 errors.

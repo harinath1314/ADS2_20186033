@@ -5,7 +5,6 @@
  * problem - Graph.
  */
 import java.util.Scanner;
-import java.util.Arrays;
 /**
  * Interface for graph.
  */
@@ -15,13 +14,13 @@ interface Graph {
      *
      * @return     { int type. }
      */
-    public int V();
+    public int v();
     /**
      * E() gives the number of edges connected.
      *
      * @return     { int type. }
      */
-    public int E();
+    public int e();
     /**
      * Adds an edge.
      *
@@ -72,8 +71,8 @@ public final class Solution {
         switch (input) {
         case"List":
 
-            System.out.println(vertices + " vertices, " + gl.E() + " edges");
-            if (gl.E() != 0) {
+            System.out.println(vertices + " vertices, " + gl.e() + " edges");
+            if (gl.e() != 0) {
                 for (int j = 0 ; j < vertices; j++) {
                     System.out.print(states[j] + ": ");
                     String str = "";
@@ -98,8 +97,8 @@ public final class Solution {
 
             break;
         case"Matrix":
-            System.out.println(m.V()
-                               + " vertices, " + m.E() + " edges");
+            System.out.println(m.v()
+                               + " vertices, " + m.e() + " edges");
             m.print();
 
 
@@ -146,7 +145,7 @@ class GraphList implements Graph {
      *
      * @return     int type.
      */
-    public int V() {
+    public int v() {
         return vertex;
 
     }
@@ -155,7 +154,7 @@ class GraphList implements Graph {
      *
      * @return     void.
      */
-    public int E() {
+    public int e() {
         return edges;
     }
     /**
@@ -271,7 +270,7 @@ class Graphmatrix implements Graph {
      *
      * @return     { description_of_the_return_value }
      */
-    public int V() {
+    public int v() {
         return this.vertex;
     }
     /**
@@ -279,7 +278,7 @@ class Graphmatrix implements Graph {
      *
      * @return     { description_of_the_return_value }
      */
-    public int E() {
+    public int e() {
         return this.edge;
     }
     /**
