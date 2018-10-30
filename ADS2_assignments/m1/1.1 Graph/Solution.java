@@ -33,12 +33,13 @@ public final class Solution {
         int edges = Integer.parseInt(sc.nextLine());
         String[] states = sc.nextLine().split(",");
         // if (input.equals("List")) {
-        switch (input) {
-        case"List":
-            for (int i = 0; i < edges; i++) {
+        for (int i = 0; i < edges; i++) {
                 String[] v_e = sc.nextLine().split(" ");
                 gl.addEdge(Integer.parseInt(v_e[0]), Integer.parseInt(v_e[1]));
             }
+        switch (input) {
+        case"List":
+            
             System.out.println(vertices + " vertices, " + gl.E() + " edges");
 
             for (int j = 0 ; j < vertices; j++) {

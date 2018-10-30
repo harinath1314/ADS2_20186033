@@ -18,9 +18,9 @@ Haryana: Gujarat Delhi
 Your Output: 
 Exception in thread "main" java.util.NoSuchElementException
 	at Bag$ListIterator.next(Solution.java:318)
-	at GraphList.hasEdge(Solution.java:144)
-	at GraphList.addEdge(Solution.java:114)
-	at Solution.main(Solution.java:40)
+	at GraphList.hasEdge(Solution.java:145)
+	at GraphList.addEdge(Solution.java:115)
+	at Solution.main(Solution.java:38)
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -41,7 +41,11 @@ Expected Output:
 0 0 0 0 0 0 0 0 0 1 0 1 0
 
 Your Output: 
-
+Exception in thread "main" java.util.NoSuchElementException
+	at Bag$ListIterator.next(Solution.java:318)
+	at GraphList.hasEdge(Solution.java:145)
+	at GraphList.addEdge(Solution.java:115)
+	at Solution.main(Solution.java:38)
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -87,9 +91,9 @@ West Bengal: Uttar Pradesh Bihar
 Your Output: 
 Exception in thread "main" java.util.NoSuchElementException
 	at Bag$ListIterator.next(Solution.java:318)
-	at GraphList.hasEdge(Solution.java:144)
-	at GraphList.addEdge(Solution.java:114)
-	at Solution.main(Solution.java:40)
+	at GraphList.hasEdge(Solution.java:145)
+	at GraphList.addEdge(Solution.java:115)
+	at Solution.main(Solution.java:38)
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -133,7 +137,11 @@ Expected Output:
 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0
 
 Your Output: 
-
+Exception in thread "main" java.util.NoSuchElementException
+	at Bag$ListIterator.next(Solution.java:318)
+	at GraphList.hasEdge(Solution.java:145)
+	at GraphList.addEdge(Solution.java:115)
+	at Solution.main(Solution.java:38)
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
