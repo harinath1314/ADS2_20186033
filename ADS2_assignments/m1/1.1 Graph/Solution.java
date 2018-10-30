@@ -30,12 +30,17 @@ public final class Solution {
         String input = sc.nextLine();
         int vertices = Integer.parseInt(sc.nextLine());
         GraphList gl = new GraphList(vertices);
+
         int edges = Integer.parseInt(sc.nextLine());
         String[] states = sc.nextLine().split(",");
+        Graphmatrix m = new Graphmatrix(vertices, edges, states);
+
         // if (input.equals("List")) {
         for (int i = 0; i < edges; i++) {
             String[] v_e = sc.nextLine().split(" ");
             gl.addEdge(Integer.parseInt(v_e[0]), Integer.parseInt(v_e[1]));
+            m.addEdge(Integer.parseInt(v_e[0]),
+                      Integer.parseInt(v_e[1]));
         }
         switch (input) {
         case"List":
@@ -67,11 +72,10 @@ public final class Solution {
             break;
         case"Matrix":
 
-            Graphmatrix m = new Graphmatrix(vertices, edges, states);
             // for (int k = 0; k < edges; k++) {
             //     String[] tokens = sc.nextLine().split(" ");
-            //     m.addEdge(Integer.parseInt(tokens[0]),
-            //               Integer.parseInt(tokens[1]));
+            // m.addEdge(Integer.parseInt(tokens[0]),
+            //           Integer.parseInt(tokens[1]));
             // }
             System.out.println(m.V()
                                + " vertices, " + m.E() + " edges");
