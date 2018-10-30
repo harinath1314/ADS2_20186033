@@ -50,7 +50,7 @@ public final class Solution {
                     str = str + states[s] + " ";
                 }
                 if (!str.equals("")) {
-                    System.out.println(str.substring(0, str.length() - 1));
+                    System.out.println(str.substring(0, str.length() ));
 
                 }
 
