@@ -110,13 +110,14 @@ class GraphList implements Graph {
      * @param      w    verties.
      */
     public void addEdge(int v, int w) {
-        if(v != w){
-            edges++;
+        if(v == w || hasEdge(v, w)){
+            return;
         }
         adj[v].add(w);
         // System.out.println("----------------");
         adj[w].add(v);
         // System.out.println("===============");
+        edges++;
 
     }
     /**
