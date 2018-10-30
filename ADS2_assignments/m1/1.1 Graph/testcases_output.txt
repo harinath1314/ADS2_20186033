@@ -16,12 +16,11 @@ Gujarat: Delhi Haryana
 Haryana: Gujarat Delhi
 
 Your Output: 
-13 vertices, 0 edges
 Exception in thread "main" java.util.NoSuchElementException
 	at Bag$ListIterator.next(Solution.java:318)
-	at GraphList.hasEdge(Solution.java:143)
-	at GraphList.addEdge(Solution.java:113)
-	at Solution.main(Solution.java:41)
+	at GraphList.hasEdge(Solution.java:144)
+	at GraphList.addEdge(Solution.java:114)
+	at Solution.main(Solution.java:40)
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -86,12 +85,11 @@ Uttarakhand: Assam
 West Bengal: Uttar Pradesh Bihar
 
 Your Output: 
-36 vertices, 0 edges
 Exception in thread "main" java.util.NoSuchElementException
 	at Bag$ListIterator.next(Solution.java:318)
-	at GraphList.hasEdge(Solution.java:143)
-	at GraphList.addEdge(Solution.java:113)
-	at Solution.main(Solution.java:41)
+	at GraphList.hasEdge(Solution.java:144)
+	at GraphList.addEdge(Solution.java:114)
+	at Solution.main(Solution.java:40)
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
