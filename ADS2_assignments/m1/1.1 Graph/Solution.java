@@ -14,20 +14,20 @@ interface Graph {
      *
      * @return     { int type. }
      */
-    public int v();
+    int v();
     /**
      * E() gives the number of edges connected.
      *
      * @return     { int type. }
      */
-    public int e();
+    int e();
     /**
      * Adds an edge.
      *
      * @param      v     { int tpyoe }
      * @param      w     { int type }
      */
-    public void addEdge(int v, int w);
+    void addEdge(int v, int w);
     /**
      * Determines if it has edge.
      *
@@ -36,7 +36,7 @@ interface Graph {
      *
      * @return     True if has edge, False otherwise.
      */
-    public boolean hasEdge(int v, int w);
+    boolean hasEdge(int v, int w);
 }
 /**
  * Solution class.
@@ -63,17 +63,17 @@ public final class Solution {
         String[] states = sc.nextLine().split(",");
         Graphmatrix m = new Graphmatrix(vertices, edges, states);
         for (int i = 0; i < edges; i++) {
-            String[] v_e = sc.nextLine().split(" ");
-            gl.addEdge(Integer.parseInt(v_e[0]), Integer.parseInt(v_e[1]));
-            m.addEdge(Integer.parseInt(v_e[0]),
-                      Integer.parseInt(v_e[1]));
+            String[] ve = sc.nextLine().split(" ");
+            gl.addEdge(Integer.parseInt(ve[0]), Integer.parseInt(ve[1]));
+            m.addEdge(Integer.parseInt(ve[0]),
+                      Integer.parseInt(ve[1]));
         }
         switch (input) {
         case"List":
 
             System.out.println(vertices + " vertices, " + gl.e() + " edges");
             if (gl.e() != 0) {
-                for (int j = 0 ; j < vertices; j++) {
+                for (int j = 0; j < vertices; j++) {
                     System.out.print(states[j] + ": ");
                     String str = "";
 
@@ -81,7 +81,7 @@ public final class Solution {
                         str = str + states[s] + " ";
                     }
                     if (!str.equals("")) {
-                        System.out.println(str.substring(0, str.length() ));
+                        System.out.println(str.substring(0, str.length()));
 
                     }
 
@@ -126,7 +126,7 @@ class GraphList implements Graph {
     /**
      * BAg array.
      */
-    public Bag<Integer>[] adj;
+    public  Bag<Integer>[] adj;
     /**
      * Constructs the object.
      *
@@ -262,7 +262,7 @@ class Graphmatrix implements Graph {
      *
      * @return     { description_of_the_return_value }
      */
-    public int[] adj(int v) {
+    public int[] adj(final int v) {
         return matrix[v];
     }
     /**

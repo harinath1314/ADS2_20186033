@@ -1,17 +1,6 @@
 Starting audit...
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m1/1.1 Graph/Solution.java:17:5: Redundant 'public' modifier. [RedundantModifier]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m1/1.1 Graph/Solution.java:23:5: Redundant 'public' modifier. [RedundantModifier]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m1/1.1 Graph/Solution.java:30:5: Redundant 'public' modifier. [RedundantModifier]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m1/1.1 Graph/Solution.java:39:5: Redundant 'public' modifier. [RedundantModifier]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m1/1.1 Graph/Solution.java:66:22: Name 'v_e' must match pattern '^[a-z][a-zA-Z0-9]*$'. [LocalVariableName]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m1/1.1 Graph/Solution.java:76:31: ';' is preceded with whitespace. [NoWhitespaceBefore]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m1/1.1 Graph/Solution.java:84:73: ')' is preceded with whitespace. [ParenPad]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m1/1.1 Graph/Solution.java:129:27: Variable 'adj' must be private and have accessor methods. [VisibilityModifier]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m1/1.1 Graph/Solution.java:265:22: Parameter v should be final. [FinalParameters]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m1/1.1 Graph/Solution.java:129:28: Variable 'adj' must be private and have accessor methods. [VisibilityModifier]
 Audit done.
-Checkstyle ends with 9 errors.
+Checkstyle ends with 1 errors.
 Starting audit...
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m1/1.1 Graph/Bag.java:52: Expected @return tag. [JavadocMethod]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m1/1.1 Graph/Bag.java:59: Expected @return tag. [JavadocMethod]
 Audit done.
-Checkstyle ends with 2 errors.
