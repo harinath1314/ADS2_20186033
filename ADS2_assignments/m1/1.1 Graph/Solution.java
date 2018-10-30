@@ -36,40 +36,35 @@ public final class Solution {
 
 
         if (input.equals("List")) {
+            System.out.println("hvfg");
             for (int i = 0; i < edges; i++) {
                 String[] v_e = sc.nextLine().split(" ");
+                System.out.println(Arrays.toString(v_e));
                 gl.addEdge(Integer.parseInt(v_e[0]), Integer.parseInt(v_e[1]));
+                System.out.println("-----------------------------");
 
-                
-            }
+            for (int j = 0 ; j < vertices; j++) {
+                System.out.print(states[j] + " :");
+                    String str = "";
 
-            // for (int v :) {
-                // System.out.print(states[v]+" :");
-                // System.out.print(gl.adj[v].next());
-                
-            // }
-            for (int j = 0 ; j<edges; j++) {
-                // if(gl.adj[j] != null) {
-                    System.out.print(states[j] +" :");
-                    while(gl.adj[j].iterator().hasNext()){
-                        int h = gl.adj[j].iterator().next();
-                    System.out.print(states[j]);
-
-                    }
-                    System.out.println();
+                for (int s : gl.adj[j]) {
+                    str= str+states[s]+" ";
                     
-                // }
-                
+                }
+                if(!str.equals(""))
+                System.out.println(str.substring(0, str.length()-1));
+
+
+
             }
 
 
 
-
-        } else {
 
         }
 
-    } 
+    }
+}
 }
 
 /**
@@ -83,7 +78,7 @@ class GraphList implements Graph {
     GraphList(int v) {
         this.vertex = v;
         adj = (Bag<Integer>[]) new Bag[v];
-        for (int i = 0; i < v; v++) {
+        for (int i = 0; i < v; i++) {
             adj[i] = new Bag<Integer>();
         }
 
@@ -113,7 +108,9 @@ class GraphList implements Graph {
      */
     public void addEdge(int v, int w) {
         adj[v].add(w);
+        System.out.println("----------------");
         adj[w].add(v);
+        System.out.println("===============");
 
     }
     /**
@@ -136,7 +133,7 @@ class GraphList implements Graph {
      * @return     True if has edge, False otherwise.
      */
     public boolean hasEdge(int v, int w) {
-        return(adj[v].iterator().next() == w);
+        return (adj[v].iterator().next() == w);
 
     }
 
@@ -193,3 +190,4 @@ class GraphList implements Graph {
 
 //     }
 // }
+

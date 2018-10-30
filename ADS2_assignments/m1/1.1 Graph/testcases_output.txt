@@ -16,7 +16,7 @@ Gujarat: Delhi Haryana
 Haryana: Gujarat Delhi
 
 Your Output: 
-
+[Andaman and Nicobar, Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chandigarh, Chhattisgarh, Dadra and Nagar Haveli, Daman and Diu, Delhi, Goa, Gujarat, Haryana]
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -37,7 +37,2132 @@ Expected Output:
 0 0 0 0 0 0 0 0 0 1 0 1 0
 
 Your Output: 
-
+[Andaman and Nicobar, Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chandigarh, Chhattisgarh, Dadra and Nagar Haveli, Daman and Diu, Delhi, Goa, Gujarat, Haryana, Himachal Pradesh, Jammu and Kashmir, Jharkhand, Karnataka, Kerala, Lakshadweep, Madhya Pradesh, Maharashtra, Manipur, Meghalaya, Mizoram, Nagaland, Odisha, Puducherry, Punjab, Rajasthan, Sikkim, Tamil Nadu, Telangana, Tripura, Uttar Pradesh, Uttarakhand, West Bengal]
+hvfg
+[0, 5]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Chandigarh
+Andhra Pradesh :Arunachal Pradesh :Assam :Bihar :Chandigarh :Andaman and Nicobar
+Chhattisgarh :Dadra and Nagar Haveli :Daman and Diu :Delhi :Goa :Gujarat :Haryana :Himachal Pradesh :Jammu and Kashmir :Jharkhand :Karnataka :Kerala :Lakshadweep :Madhya Pradesh :Maharashtra :Manipur :Meghalaya :Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[4, 3]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Chandigarh
+Andhra Pradesh :Arunachal Pradesh :Assam :Bihar
+Bihar :Assam
+Chandigarh :Andaman and Nicobar
+Chhattisgarh :Dadra and Nagar Haveli :Daman and Diu :Delhi :Goa :Gujarat :Haryana :Himachal Pradesh :Jammu and Kashmir :Jharkhand :Karnataka :Kerala :Lakshadweep :Madhya Pradesh :Maharashtra :Manipur :Meghalaya :Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[0, 1]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Andhra Pradesh Chandigarh
+Andhra Pradesh :Andaman and Nicobar
+Arunachal Pradesh :Assam :Bihar
+Bihar :Assam
+Chandigarh :Andaman and Nicobar
+Chhattisgarh :Dadra and Nagar Haveli :Daman and Diu :Delhi :Goa :Gujarat :Haryana :Himachal Pradesh :Jammu and Kashmir :Jharkhand :Karnataka :Kerala :Lakshadweep :Madhya Pradesh :Maharashtra :Manipur :Meghalaya :Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[9, 12]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Andhra Pradesh Chandigarh
+Andhra Pradesh :Andaman and Nicobar
+Arunachal Pradesh :Assam :Bihar
+Bihar :Assam
+Chandigarh :Andaman and Nicobar
+Chhattisgarh :Dadra and Nagar Haveli :Daman and Diu :Delhi :Haryana
+Goa :Gujarat :Haryana :Delhi
+Himachal Pradesh :Jammu and Kashmir :Jharkhand :Karnataka :Kerala :Lakshadweep :Madhya Pradesh :Maharashtra :Manipur :Meghalaya :Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[6, 4]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Andhra Pradesh Chandigarh
+Andhra Pradesh :Andaman and Nicobar
+Arunachal Pradesh :Assam :Bihar
+Bihar :Chhattisgarh Assam
+Chandigarh :Andaman and Nicobar
+Chhattisgarh :Bihar
+Dadra and Nagar Haveli :Daman and Diu :Delhi :Haryana
+Goa :Gujarat :Haryana :Delhi
+Himachal Pradesh :Jammu and Kashmir :Jharkhand :Karnataka :Kerala :Lakshadweep :Madhya Pradesh :Maharashtra :Manipur :Meghalaya :Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[5, 4]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Andhra Pradesh Chandigarh
+Andhra Pradesh :Andaman and Nicobar
+Arunachal Pradesh :Assam :Bihar
+Bihar :Chandigarh Chhattisgarh Assam
+Chandigarh :Bihar Andaman and Nicobar
+Chhattisgarh :Bihar
+Dadra and Nagar Haveli :Daman and Diu :Delhi :Haryana
+Goa :Gujarat :Haryana :Delhi
+Himachal Pradesh :Jammu and Kashmir :Jharkhand :Karnataka :Kerala :Lakshadweep :Madhya Pradesh :Maharashtra :Manipur :Meghalaya :Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[0, 2]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Arunachal Pradesh Andhra Pradesh Chandigarh
+Andhra Pradesh :Andaman and Nicobar
+Arunachal Pradesh :Andaman and Nicobar
+Assam :Bihar
+Bihar :Chandigarh Chhattisgarh Assam
+Chandigarh :Bihar Andaman and Nicobar
+Chhattisgarh :Bihar
+Dadra and Nagar Haveli :Daman and Diu :Delhi :Haryana
+Goa :Gujarat :Haryana :Delhi
+Himachal Pradesh :Jammu and Kashmir :Jharkhand :Karnataka :Kerala :Lakshadweep :Madhya Pradesh :Maharashtra :Manipur :Meghalaya :Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[11, 12]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Arunachal Pradesh Andhra Pradesh Chandigarh
+Andhra Pradesh :Andaman and Nicobar
+Arunachal Pradesh :Andaman and Nicobar
+Assam :Bihar
+Bihar :Chandigarh Chhattisgarh Assam
+Chandigarh :Bihar Andaman and Nicobar
+Chhattisgarh :Bihar
+Dadra and Nagar Haveli :Daman and Diu :Delhi :Haryana
+Goa :Gujarat :Haryana
+Haryana :Gujarat Delhi
+Himachal Pradesh :Jammu and Kashmir :Jharkhand :Karnataka :Kerala :Lakshadweep :Madhya Pradesh :Maharashtra :Manipur :Meghalaya :Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[9, 10]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Arunachal Pradesh Andhra Pradesh Chandigarh
+Andhra Pradesh :Andaman and Nicobar
+Arunachal Pradesh :Andaman and Nicobar
+Assam :Bihar
+Bihar :Chandigarh Chhattisgarh Assam
+Chandigarh :Bihar Andaman and Nicobar
+Chhattisgarh :Bihar
+Dadra and Nagar Haveli :Daman and Diu :Delhi :Goa Haryana
+Goa :Delhi
+Gujarat :Haryana
+Haryana :Gujarat Delhi
+Himachal Pradesh :Jammu and Kashmir :Jharkhand :Karnataka :Kerala :Lakshadweep :Madhya Pradesh :Maharashtra :Manipur :Meghalaya :Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[0, 6]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
+Andhra Pradesh :Andaman and Nicobar
+Arunachal Pradesh :Andaman and Nicobar
+Assam :Bihar
+Bihar :Chandigarh Chhattisgarh Assam
+Chandigarh :Bihar Andaman and Nicobar
+Chhattisgarh :Andaman and Nicobar Bihar
+Dadra and Nagar Haveli :Daman and Diu :Delhi :Goa Haryana
+Goa :Delhi
+Gujarat :Haryana
+Haryana :Gujarat Delhi
+Himachal Pradesh :Jammu and Kashmir :Jharkhand :Karnataka :Kerala :Lakshadweep :Madhya Pradesh :Maharashtra :Manipur :Meghalaya :Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[7, 8]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
+Andhra Pradesh :Andaman and Nicobar
+Arunachal Pradesh :Andaman and Nicobar
+Assam :Bihar
+Bihar :Chandigarh Chhattisgarh Assam
+Chandigarh :Bihar Andaman and Nicobar
+Chhattisgarh :Andaman and Nicobar Bihar
+Dadra and Nagar Haveli :Daman and Diu
+Daman and Diu :Dadra and Nagar Haveli
+Delhi :Goa Haryana
+Goa :Delhi
+Gujarat :Haryana
+Haryana :Gujarat Delhi
+Himachal Pradesh :Jammu and Kashmir :Jharkhand :Karnataka :Kerala :Lakshadweep :Madhya Pradesh :Maharashtra :Manipur :Meghalaya :Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[9, 11]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
+Andhra Pradesh :Andaman and Nicobar
+Arunachal Pradesh :Andaman and Nicobar
+Assam :Bihar
+Bihar :Chandigarh Chhattisgarh Assam
+Chandigarh :Bihar Andaman and Nicobar
+Chhattisgarh :Andaman and Nicobar Bihar
+Dadra and Nagar Haveli :Daman and Diu
+Daman and Diu :Dadra and Nagar Haveli
+Delhi :Gujarat Goa Haryana
+Goa :Delhi
+Gujarat :Delhi Haryana
+Haryana :Gujarat Delhi
+Himachal Pradesh :Jammu and Kashmir :Jharkhand :Karnataka :Kerala :Lakshadweep :Madhya Pradesh :Maharashtra :Manipur :Meghalaya :Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[5, 3]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
+Andhra Pradesh :Andaman and Nicobar
+Arunachal Pradesh :Andaman and Nicobar
+Assam :Chandigarh Bihar
+Bihar :Chandigarh Chhattisgarh Assam
+Chandigarh :Assam Bihar Andaman and Nicobar
+Chhattisgarh :Andaman and Nicobar Bihar
+Dadra and Nagar Haveli :Daman and Diu
+Daman and Diu :Dadra and Nagar Haveli
+Delhi :Gujarat Goa Haryana
+Goa :Delhi
+Gujarat :Delhi Haryana
+Haryana :Gujarat Delhi
+Himachal Pradesh :Jammu and Kashmir :Jharkhand :Karnataka :Kerala :Lakshadweep :Madhya Pradesh :Maharashtra :Manipur :Meghalaya :Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[10, 5]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
+Andhra Pradesh :Andaman and Nicobar
+Arunachal Pradesh :Andaman and Nicobar
+Assam :Chandigarh Bihar
+Bihar :Chandigarh Chhattisgarh Assam
+Chandigarh :Goa Assam Bihar Andaman and Nicobar
+Chhattisgarh :Andaman and Nicobar Bihar
+Dadra and Nagar Haveli :Daman and Diu
+Daman and Diu :Dadra and Nagar Haveli
+Delhi :Gujarat Goa Haryana
+Goa :Chandigarh Delhi
+Gujarat :Delhi Haryana
+Haryana :Gujarat Delhi
+Himachal Pradesh :Jammu and Kashmir :Jharkhand :Karnataka :Kerala :Lakshadweep :Madhya Pradesh :Maharashtra :Manipur :Meghalaya :Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[14, 3]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
+Andhra Pradesh :Andaman and Nicobar
+Arunachal Pradesh :Andaman and Nicobar
+Assam :Jammu and Kashmir Chandigarh Bihar
+Bihar :Chandigarh Chhattisgarh Assam
+Chandigarh :Goa Assam Bihar Andaman and Nicobar
+Chhattisgarh :Andaman and Nicobar Bihar
+Dadra and Nagar Haveli :Daman and Diu
+Daman and Diu :Dadra and Nagar Haveli
+Delhi :Gujarat Goa Haryana
+Goa :Chandigarh Delhi
+Gujarat :Delhi Haryana
+Haryana :Gujarat Delhi
+Himachal Pradesh :Jammu and Kashmir :Assam
+Jharkhand :Karnataka :Kerala :Lakshadweep :Madhya Pradesh :Maharashtra :Manipur :Meghalaya :Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[10, 1]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
+Andhra Pradesh :Goa Andaman and Nicobar
+Arunachal Pradesh :Andaman and Nicobar
+Assam :Jammu and Kashmir Chandigarh Bihar
+Bihar :Chandigarh Chhattisgarh Assam
+Chandigarh :Goa Assam Bihar Andaman and Nicobar
+Chhattisgarh :Andaman and Nicobar Bihar
+Dadra and Nagar Haveli :Daman and Diu
+Daman and Diu :Dadra and Nagar Haveli
+Delhi :Gujarat Goa Haryana
+Goa :Andhra Pradesh Chandigarh Delhi
+Gujarat :Delhi Haryana
+Haryana :Gujarat Delhi
+Himachal Pradesh :Jammu and Kashmir :Assam
+Jharkhand :Karnataka :Kerala :Lakshadweep :Madhya Pradesh :Maharashtra :Manipur :Meghalaya :Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[19, 12]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
+Andhra Pradesh :Goa Andaman and Nicobar
+Arunachal Pradesh :Andaman and Nicobar
+Assam :Jammu and Kashmir Chandigarh Bihar
+Bihar :Chandigarh Chhattisgarh Assam
+Chandigarh :Goa Assam Bihar Andaman and Nicobar
+Chhattisgarh :Andaman and Nicobar Bihar
+Dadra and Nagar Haveli :Daman and Diu
+Daman and Diu :Dadra and Nagar Haveli
+Delhi :Gujarat Goa Haryana
+Goa :Andhra Pradesh Chandigarh Delhi
+Gujarat :Delhi Haryana
+Haryana :Madhya Pradesh Gujarat Delhi
+Himachal Pradesh :Jammu and Kashmir :Assam
+Jharkhand :Karnataka :Kerala :Lakshadweep :Madhya Pradesh :Haryana
+Maharashtra :Manipur :Meghalaya :Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[16, 4]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
+Andhra Pradesh :Goa Andaman and Nicobar
+Arunachal Pradesh :Andaman and Nicobar
+Assam :Jammu and Kashmir Chandigarh Bihar
+Bihar :Karnataka Chandigarh Chhattisgarh Assam
+Chandigarh :Goa Assam Bihar Andaman and Nicobar
+Chhattisgarh :Andaman and Nicobar Bihar
+Dadra and Nagar Haveli :Daman and Diu
+Daman and Diu :Dadra and Nagar Haveli
+Delhi :Gujarat Goa Haryana
+Goa :Andhra Pradesh Chandigarh Delhi
+Gujarat :Delhi Haryana
+Haryana :Madhya Pradesh Gujarat Delhi
+Himachal Pradesh :Jammu and Kashmir :Assam
+Jharkhand :Karnataka :Bihar
+Kerala :Lakshadweep :Madhya Pradesh :Haryana
+Maharashtra :Manipur :Meghalaya :Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[15, 4]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
+Andhra Pradesh :Goa Andaman and Nicobar
+Arunachal Pradesh :Andaman and Nicobar
+Assam :Jammu and Kashmir Chandigarh Bihar
+Bihar :Jharkhand Karnataka Chandigarh Chhattisgarh Assam
+Chandigarh :Goa Assam Bihar Andaman and Nicobar
+Chhattisgarh :Andaman and Nicobar Bihar
+Dadra and Nagar Haveli :Daman and Diu
+Daman and Diu :Dadra and Nagar Haveli
+Delhi :Gujarat Goa Haryana
+Goa :Andhra Pradesh Chandigarh Delhi
+Gujarat :Delhi Haryana
+Haryana :Madhya Pradesh Gujarat Delhi
+Himachal Pradesh :Jammu and Kashmir :Assam
+Jharkhand :Bihar
+Karnataka :Bihar
+Kerala :Lakshadweep :Madhya Pradesh :Haryana
+Maharashtra :Manipur :Meghalaya :Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[10, 2]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
+Andhra Pradesh :Goa Andaman and Nicobar
+Arunachal Pradesh :Goa Andaman and Nicobar
+Assam :Jammu and Kashmir Chandigarh Bihar
+Bihar :Jharkhand Karnataka Chandigarh Chhattisgarh Assam
+Chandigarh :Goa Assam Bihar Andaman and Nicobar
+Chhattisgarh :Andaman and Nicobar Bihar
+Dadra and Nagar Haveli :Daman and Diu
+Daman and Diu :Dadra and Nagar Haveli
+Delhi :Gujarat Goa Haryana
+Goa :Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Gujarat :Delhi Haryana
+Haryana :Madhya Pradesh Gujarat Delhi
+Himachal Pradesh :Jammu and Kashmir :Assam
+Jharkhand :Bihar
+Karnataka :Bihar
+Kerala :Lakshadweep :Madhya Pradesh :Haryana
+Maharashtra :Manipur :Meghalaya :Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[21, 12]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
+Andhra Pradesh :Goa Andaman and Nicobar
+Arunachal Pradesh :Goa Andaman and Nicobar
+Assam :Jammu and Kashmir Chandigarh Bihar
+Bihar :Jharkhand Karnataka Chandigarh Chhattisgarh Assam
+Chandigarh :Goa Assam Bihar Andaman and Nicobar
+Chhattisgarh :Andaman and Nicobar Bihar
+Dadra and Nagar Haveli :Daman and Diu
+Daman and Diu :Dadra and Nagar Haveli
+Delhi :Gujarat Goa Haryana
+Goa :Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Gujarat :Delhi Haryana
+Haryana :Manipur Madhya Pradesh Gujarat Delhi
+Himachal Pradesh :Jammu and Kashmir :Assam
+Jharkhand :Bihar
+Karnataka :Bihar
+Kerala :Lakshadweep :Madhya Pradesh :Haryana
+Maharashtra :Manipur :Haryana
+Meghalaya :Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[19, 10]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
+Andhra Pradesh :Goa Andaman and Nicobar
+Arunachal Pradesh :Goa Andaman and Nicobar
+Assam :Jammu and Kashmir Chandigarh Bihar
+Bihar :Jharkhand Karnataka Chandigarh Chhattisgarh Assam
+Chandigarh :Goa Assam Bihar Andaman and Nicobar
+Chhattisgarh :Andaman and Nicobar Bihar
+Dadra and Nagar Haveli :Daman and Diu
+Daman and Diu :Dadra and Nagar Haveli
+Delhi :Gujarat Goa Haryana
+Goa :Madhya Pradesh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Gujarat :Delhi Haryana
+Haryana :Manipur Madhya Pradesh Gujarat Delhi
+Himachal Pradesh :Jammu and Kashmir :Assam
+Jharkhand :Bihar
+Karnataka :Bihar
+Kerala :Lakshadweep :Madhya Pradesh :Goa Haryana
+Maharashtra :Manipur :Haryana
+Meghalaya :Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[10, 6]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
+Andhra Pradesh :Goa Andaman and Nicobar
+Arunachal Pradesh :Goa Andaman and Nicobar
+Assam :Jammu and Kashmir Chandigarh Bihar
+Bihar :Jharkhand Karnataka Chandigarh Chhattisgarh Assam
+Chandigarh :Goa Assam Bihar Andaman and Nicobar
+Chhattisgarh :Goa Andaman and Nicobar Bihar
+Dadra and Nagar Haveli :Daman and Diu
+Daman and Diu :Dadra and Nagar Haveli
+Delhi :Gujarat Goa Haryana
+Goa :Chhattisgarh Madhya Pradesh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Gujarat :Delhi Haryana
+Haryana :Manipur Madhya Pradesh Gujarat Delhi
+Himachal Pradesh :Jammu and Kashmir :Assam
+Jharkhand :Bihar
+Karnataka :Bihar
+Kerala :Lakshadweep :Madhya Pradesh :Goa Haryana
+Maharashtra :Manipur :Haryana
+Meghalaya :Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[17, 8]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
+Andhra Pradesh :Goa Andaman and Nicobar
+Arunachal Pradesh :Goa Andaman and Nicobar
+Assam :Jammu and Kashmir Chandigarh Bihar
+Bihar :Jharkhand Karnataka Chandigarh Chhattisgarh Assam
+Chandigarh :Goa Assam Bihar Andaman and Nicobar
+Chhattisgarh :Goa Andaman and Nicobar Bihar
+Dadra and Nagar Haveli :Daman and Diu
+Daman and Diu :Kerala Dadra and Nagar Haveli
+Delhi :Gujarat Goa Haryana
+Goa :Chhattisgarh Madhya Pradesh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Gujarat :Delhi Haryana
+Haryana :Manipur Madhya Pradesh Gujarat Delhi
+Himachal Pradesh :Jammu and Kashmir :Assam
+Jharkhand :Bihar
+Karnataka :Bihar
+Kerala :Daman and Diu
+Lakshadweep :Madhya Pradesh :Goa Haryana
+Maharashtra :Manipur :Haryana
+Meghalaya :Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[19, 11]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
+Andhra Pradesh :Goa Andaman and Nicobar
+Arunachal Pradesh :Goa Andaman and Nicobar
+Assam :Jammu and Kashmir Chandigarh Bihar
+Bihar :Jharkhand Karnataka Chandigarh Chhattisgarh Assam
+Chandigarh :Goa Assam Bihar Andaman and Nicobar
+Chhattisgarh :Goa Andaman and Nicobar Bihar
+Dadra and Nagar Haveli :Daman and Diu
+Daman and Diu :Kerala Dadra and Nagar Haveli
+Delhi :Gujarat Goa Haryana
+Goa :Chhattisgarh Madhya Pradesh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Gujarat :Madhya Pradesh Delhi Haryana
+Haryana :Manipur Madhya Pradesh Gujarat Delhi
+Himachal Pradesh :Jammu and Kashmir :Assam
+Jharkhand :Bihar
+Karnataka :Bihar
+Kerala :Daman and Diu
+Lakshadweep :Madhya Pradesh :Gujarat Goa Haryana
+Maharashtra :Manipur :Haryana
+Meghalaya :Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[15, 3]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
+Andhra Pradesh :Goa Andaman and Nicobar
+Arunachal Pradesh :Goa Andaman and Nicobar
+Assam :Jharkhand Jammu and Kashmir Chandigarh Bihar
+Bihar :Jharkhand Karnataka Chandigarh Chhattisgarh Assam
+Chandigarh :Goa Assam Bihar Andaman and Nicobar
+Chhattisgarh :Goa Andaman and Nicobar Bihar
+Dadra and Nagar Haveli :Daman and Diu
+Daman and Diu :Kerala Dadra and Nagar Haveli
+Delhi :Gujarat Goa Haryana
+Goa :Chhattisgarh Madhya Pradesh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Gujarat :Madhya Pradesh Delhi Haryana
+Haryana :Manipur Madhya Pradesh Gujarat Delhi
+Himachal Pradesh :Jammu and Kashmir :Assam
+Jharkhand :Assam Bihar
+Karnataka :Bihar
+Kerala :Daman and Diu
+Lakshadweep :Madhya Pradesh :Gujarat Goa Haryana
+Maharashtra :Manipur :Haryana
+Meghalaya :Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[0, 15]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
+Andhra Pradesh :Goa Andaman and Nicobar
+Arunachal Pradesh :Goa Andaman and Nicobar
+Assam :Jharkhand Jammu and Kashmir Chandigarh Bihar
+Bihar :Jharkhand Karnataka Chandigarh Chhattisgarh Assam
+Chandigarh :Goa Assam Bihar Andaman and Nicobar
+Chhattisgarh :Goa Andaman and Nicobar Bihar
+Dadra and Nagar Haveli :Daman and Diu
+Daman and Diu :Kerala Dadra and Nagar Haveli
+Delhi :Gujarat Goa Haryana
+Goa :Chhattisgarh Madhya Pradesh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Gujarat :Madhya Pradesh Delhi Haryana
+Haryana :Manipur Madhya Pradesh Gujarat Delhi
+Himachal Pradesh :Jammu and Kashmir :Assam
+Jharkhand :Andaman and Nicobar Assam Bihar
+Karnataka :Bihar
+Kerala :Daman and Diu
+Lakshadweep :Madhya Pradesh :Gujarat Goa Haryana
+Maharashtra :Manipur :Haryana
+Meghalaya :Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[4, 13]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
+Andhra Pradesh :Goa Andaman and Nicobar
+Arunachal Pradesh :Goa Andaman and Nicobar
+Assam :Jharkhand Jammu and Kashmir Chandigarh Bihar
+Bihar :Himachal Pradesh Jharkhand Karnataka Chandigarh Chhattisgarh Assam
+Chandigarh :Goa Assam Bihar Andaman and Nicobar
+Chhattisgarh :Goa Andaman and Nicobar Bihar
+Dadra and Nagar Haveli :Daman and Diu
+Daman and Diu :Kerala Dadra and Nagar Haveli
+Delhi :Gujarat Goa Haryana
+Goa :Chhattisgarh Madhya Pradesh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Gujarat :Madhya Pradesh Delhi Haryana
+Haryana :Manipur Madhya Pradesh Gujarat Delhi
+Himachal Pradesh :Bihar
+Jammu and Kashmir :Assam
+Jharkhand :Andaman and Nicobar Assam Bihar
+Karnataka :Bihar
+Kerala :Daman and Diu
+Lakshadweep :Madhya Pradesh :Gujarat Goa Haryana
+Maharashtra :Manipur :Haryana
+Meghalaya :Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[0, 11]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
+Andhra Pradesh :Goa Andaman and Nicobar
+Arunachal Pradesh :Goa Andaman and Nicobar
+Assam :Jharkhand Jammu and Kashmir Chandigarh Bihar
+Bihar :Himachal Pradesh Jharkhand Karnataka Chandigarh Chhattisgarh Assam
+Chandigarh :Goa Assam Bihar Andaman and Nicobar
+Chhattisgarh :Goa Andaman and Nicobar Bihar
+Dadra and Nagar Haveli :Daman and Diu
+Daman and Diu :Kerala Dadra and Nagar Haveli
+Delhi :Gujarat Goa Haryana
+Goa :Chhattisgarh Madhya Pradesh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Gujarat :Andaman and Nicobar Madhya Pradesh Delhi Haryana
+Haryana :Manipur Madhya Pradesh Gujarat Delhi
+Himachal Pradesh :Bihar
+Jammu and Kashmir :Assam
+Jharkhand :Andaman and Nicobar Assam Bihar
+Karnataka :Bihar
+Kerala :Daman and Diu
+Lakshadweep :Madhya Pradesh :Gujarat Goa Haryana
+Maharashtra :Manipur :Haryana
+Meghalaya :Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[9, 22]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
+Andhra Pradesh :Goa Andaman and Nicobar
+Arunachal Pradesh :Goa Andaman and Nicobar
+Assam :Jharkhand Jammu and Kashmir Chandigarh Bihar
+Bihar :Himachal Pradesh Jharkhand Karnataka Chandigarh Chhattisgarh Assam
+Chandigarh :Goa Assam Bihar Andaman and Nicobar
+Chhattisgarh :Goa Andaman and Nicobar Bihar
+Dadra and Nagar Haveli :Daman and Diu
+Daman and Diu :Kerala Dadra and Nagar Haveli
+Delhi :Meghalaya Gujarat Goa Haryana
+Goa :Chhattisgarh Madhya Pradesh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Gujarat :Andaman and Nicobar Madhya Pradesh Delhi Haryana
+Haryana :Manipur Madhya Pradesh Gujarat Delhi
+Himachal Pradesh :Bihar
+Jammu and Kashmir :Assam
+Jharkhand :Andaman and Nicobar Assam Bihar
+Karnataka :Bihar
+Kerala :Daman and Diu
+Lakshadweep :Madhya Pradesh :Gujarat Goa Haryana
+Maharashtra :Manipur :Haryana
+Meghalaya :Delhi
+Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[6, 14]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
+Andhra Pradesh :Goa Andaman and Nicobar
+Arunachal Pradesh :Goa Andaman and Nicobar
+Assam :Jharkhand Jammu and Kashmir Chandigarh Bihar
+Bihar :Himachal Pradesh Jharkhand Karnataka Chandigarh Chhattisgarh Assam
+Chandigarh :Goa Assam Bihar Andaman and Nicobar
+Chhattisgarh :Jammu and Kashmir Goa Andaman and Nicobar Bihar
+Dadra and Nagar Haveli :Daman and Diu
+Daman and Diu :Kerala Dadra and Nagar Haveli
+Delhi :Meghalaya Gujarat Goa Haryana
+Goa :Chhattisgarh Madhya Pradesh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Gujarat :Andaman and Nicobar Madhya Pradesh Delhi Haryana
+Haryana :Manipur Madhya Pradesh Gujarat Delhi
+Himachal Pradesh :Bihar
+Jammu and Kashmir :Chhattisgarh Assam
+Jharkhand :Andaman and Nicobar Assam Bihar
+Karnataka :Bihar
+Kerala :Daman and Diu
+Lakshadweep :Madhya Pradesh :Gujarat Goa Haryana
+Maharashtra :Manipur :Haryana
+Meghalaya :Delhi
+Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[5, 14]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
+Andhra Pradesh :Goa Andaman and Nicobar
+Arunachal Pradesh :Goa Andaman and Nicobar
+Assam :Jharkhand Jammu and Kashmir Chandigarh Bihar
+Bihar :Himachal Pradesh Jharkhand Karnataka Chandigarh Chhattisgarh Assam
+Chandigarh :Jammu and Kashmir Goa Assam Bihar Andaman and Nicobar
+Chhattisgarh :Jammu and Kashmir Goa Andaman and Nicobar Bihar
+Dadra and Nagar Haveli :Daman and Diu
+Daman and Diu :Kerala Dadra and Nagar Haveli
+Delhi :Meghalaya Gujarat Goa Haryana
+Goa :Chhattisgarh Madhya Pradesh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Gujarat :Andaman and Nicobar Madhya Pradesh Delhi Haryana
+Haryana :Manipur Madhya Pradesh Gujarat Delhi
+Himachal Pradesh :Bihar
+Jammu and Kashmir :Chandigarh Chhattisgarh Assam
+Jharkhand :Andaman and Nicobar Assam Bihar
+Karnataka :Bihar
+Kerala :Daman and Diu
+Lakshadweep :Madhya Pradesh :Gujarat Goa Haryana
+Maharashtra :Manipur :Haryana
+Meghalaya :Delhi
+Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[0, 12]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
+Andhra Pradesh :Goa Andaman and Nicobar
+Arunachal Pradesh :Goa Andaman and Nicobar
+Assam :Jharkhand Jammu and Kashmir Chandigarh Bihar
+Bihar :Himachal Pradesh Jharkhand Karnataka Chandigarh Chhattisgarh Assam
+Chandigarh :Jammu and Kashmir Goa Assam Bihar Andaman and Nicobar
+Chhattisgarh :Jammu and Kashmir Goa Andaman and Nicobar Bihar
+Dadra and Nagar Haveli :Daman and Diu
+Daman and Diu :Kerala Dadra and Nagar Haveli
+Delhi :Meghalaya Gujarat Goa Haryana
+Goa :Chhattisgarh Madhya Pradesh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Gujarat :Andaman and Nicobar Madhya Pradesh Delhi Haryana
+Haryana :Andaman and Nicobar Manipur Madhya Pradesh Gujarat Delhi
+Himachal Pradesh :Bihar
+Jammu and Kashmir :Chandigarh Chhattisgarh Assam
+Jharkhand :Andaman and Nicobar Assam Bihar
+Karnataka :Bihar
+Kerala :Daman and Diu
+Lakshadweep :Madhya Pradesh :Gujarat Goa Haryana
+Maharashtra :Manipur :Haryana
+Meghalaya :Delhi
+Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[11, 22]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
+Andhra Pradesh :Goa Andaman and Nicobar
+Arunachal Pradesh :Goa Andaman and Nicobar
+Assam :Jharkhand Jammu and Kashmir Chandigarh Bihar
+Bihar :Himachal Pradesh Jharkhand Karnataka Chandigarh Chhattisgarh Assam
+Chandigarh :Jammu and Kashmir Goa Assam Bihar Andaman and Nicobar
+Chhattisgarh :Jammu and Kashmir Goa Andaman and Nicobar Bihar
+Dadra and Nagar Haveli :Daman and Diu
+Daman and Diu :Kerala Dadra and Nagar Haveli
+Delhi :Meghalaya Gujarat Goa Haryana
+Goa :Chhattisgarh Madhya Pradesh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Gujarat :Meghalaya Andaman and Nicobar Madhya Pradesh Delhi Haryana
+Haryana :Andaman and Nicobar Manipur Madhya Pradesh Gujarat Delhi
+Himachal Pradesh :Bihar
+Jammu and Kashmir :Chandigarh Chhattisgarh Assam
+Jharkhand :Andaman and Nicobar Assam Bihar
+Karnataka :Bihar
+Kerala :Daman and Diu
+Lakshadweep :Madhya Pradesh :Gujarat Goa Haryana
+Maharashtra :Manipur :Haryana
+Meghalaya :Gujarat Delhi
+Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[9, 20]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
+Andhra Pradesh :Goa Andaman and Nicobar
+Arunachal Pradesh :Goa Andaman and Nicobar
+Assam :Jharkhand Jammu and Kashmir Chandigarh Bihar
+Bihar :Himachal Pradesh Jharkhand Karnataka Chandigarh Chhattisgarh Assam
+Chandigarh :Jammu and Kashmir Goa Assam Bihar Andaman and Nicobar
+Chhattisgarh :Jammu and Kashmir Goa Andaman and Nicobar Bihar
+Dadra and Nagar Haveli :Daman and Diu
+Daman and Diu :Kerala Dadra and Nagar Haveli
+Delhi :Maharashtra Meghalaya Gujarat Goa Haryana
+Goa :Chhattisgarh Madhya Pradesh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Gujarat :Meghalaya Andaman and Nicobar Madhya Pradesh Delhi Haryana
+Haryana :Andaman and Nicobar Manipur Madhya Pradesh Gujarat Delhi
+Himachal Pradesh :Bihar
+Jammu and Kashmir :Chandigarh Chhattisgarh Assam
+Jharkhand :Andaman and Nicobar Assam Bihar
+Karnataka :Bihar
+Kerala :Daman and Diu
+Lakshadweep :Madhya Pradesh :Gujarat Goa Haryana
+Maharashtra :Delhi
+Manipur :Haryana
+Meghalaya :Gujarat Delhi
+Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[0, 16]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
+Andhra Pradesh :Goa Andaman and Nicobar
+Arunachal Pradesh :Goa Andaman and Nicobar
+Assam :Jharkhand Jammu and Kashmir Chandigarh Bihar
+Bihar :Himachal Pradesh Jharkhand Karnataka Chandigarh Chhattisgarh Assam
+Chandigarh :Jammu and Kashmir Goa Assam Bihar Andaman and Nicobar
+Chhattisgarh :Jammu and Kashmir Goa Andaman and Nicobar Bihar
+Dadra and Nagar Haveli :Daman and Diu
+Daman and Diu :Kerala Dadra and Nagar Haveli
+Delhi :Maharashtra Meghalaya Gujarat Goa Haryana
+Goa :Chhattisgarh Madhya Pradesh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Gujarat :Meghalaya Andaman and Nicobar Madhya Pradesh Delhi Haryana
+Haryana :Andaman and Nicobar Manipur Madhya Pradesh Gujarat Delhi
+Himachal Pradesh :Bihar
+Jammu and Kashmir :Chandigarh Chhattisgarh Assam
+Jharkhand :Andaman and Nicobar Assam Bihar
+Karnataka :Andaman and Nicobar Bihar
+Kerala :Daman and Diu
+Lakshadweep :Madhya Pradesh :Gujarat Goa Haryana
+Maharashtra :Delhi
+Manipur :Haryana
+Meghalaya :Gujarat Delhi
+Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[7, 18]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
+Andhra Pradesh :Goa Andaman and Nicobar
+Arunachal Pradesh :Goa Andaman and Nicobar
+Assam :Jharkhand Jammu and Kashmir Chandigarh Bihar
+Bihar :Himachal Pradesh Jharkhand Karnataka Chandigarh Chhattisgarh Assam
+Chandigarh :Jammu and Kashmir Goa Assam Bihar Andaman and Nicobar
+Chhattisgarh :Jammu and Kashmir Goa Andaman and Nicobar Bihar
+Dadra and Nagar Haveli :Lakshadweep Daman and Diu
+Daman and Diu :Kerala Dadra and Nagar Haveli
+Delhi :Maharashtra Meghalaya Gujarat Goa Haryana
+Goa :Chhattisgarh Madhya Pradesh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Gujarat :Meghalaya Andaman and Nicobar Madhya Pradesh Delhi Haryana
+Haryana :Andaman and Nicobar Manipur Madhya Pradesh Gujarat Delhi
+Himachal Pradesh :Bihar
+Jammu and Kashmir :Chandigarh Chhattisgarh Assam
+Jharkhand :Andaman and Nicobar Assam Bihar
+Karnataka :Andaman and Nicobar Bihar
+Kerala :Daman and Diu
+Lakshadweep :Dadra and Nagar Haveli
+Madhya Pradesh :Gujarat Goa Haryana
+Maharashtra :Delhi
+Manipur :Haryana
+Meghalaya :Gujarat Delhi
+Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[9, 21]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
+Andhra Pradesh :Goa Andaman and Nicobar
+Arunachal Pradesh :Goa Andaman and Nicobar
+Assam :Jharkhand Jammu and Kashmir Chandigarh Bihar
+Bihar :Himachal Pradesh Jharkhand Karnataka Chandigarh Chhattisgarh Assam
+Chandigarh :Jammu and Kashmir Goa Assam Bihar Andaman and Nicobar
+Chhattisgarh :Jammu and Kashmir Goa Andaman and Nicobar Bihar
+Dadra and Nagar Haveli :Lakshadweep Daman and Diu
+Daman and Diu :Kerala Dadra and Nagar Haveli
+Delhi :Manipur Maharashtra Meghalaya Gujarat Goa Haryana
+Goa :Chhattisgarh Madhya Pradesh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Gujarat :Meghalaya Andaman and Nicobar Madhya Pradesh Delhi Haryana
+Haryana :Andaman and Nicobar Manipur Madhya Pradesh Gujarat Delhi
+Himachal Pradesh :Bihar
+Jammu and Kashmir :Chandigarh Chhattisgarh Assam
+Jharkhand :Andaman and Nicobar Assam Bihar
+Karnataka :Andaman and Nicobar Bihar
+Kerala :Daman and Diu
+Lakshadweep :Dadra and Nagar Haveli
+Madhya Pradesh :Gujarat Goa Haryana
+Maharashtra :Delhi
+Manipur :Delhi Haryana
+Meghalaya :Gujarat Delhi
+Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[5, 13]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
+Andhra Pradesh :Goa Andaman and Nicobar
+Arunachal Pradesh :Goa Andaman and Nicobar
+Assam :Jharkhand Jammu and Kashmir Chandigarh Bihar
+Bihar :Himachal Pradesh Jharkhand Karnataka Chandigarh Chhattisgarh Assam
+Chandigarh :Himachal Pradesh Jammu and Kashmir Goa Assam Bihar Andaman and Nicobar
+Chhattisgarh :Jammu and Kashmir Goa Andaman and Nicobar Bihar
+Dadra and Nagar Haveli :Lakshadweep Daman and Diu
+Daman and Diu :Kerala Dadra and Nagar Haveli
+Delhi :Manipur Maharashtra Meghalaya Gujarat Goa Haryana
+Goa :Chhattisgarh Madhya Pradesh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Gujarat :Meghalaya Andaman and Nicobar Madhya Pradesh Delhi Haryana
+Haryana :Andaman and Nicobar Manipur Madhya Pradesh Gujarat Delhi
+Himachal Pradesh :Chandigarh Bihar
+Jammu and Kashmir :Chandigarh Chhattisgarh Assam
+Jharkhand :Andaman and Nicobar Assam Bihar
+Karnataka :Andaman and Nicobar Bihar
+Kerala :Daman and Diu
+Lakshadweep :Dadra and Nagar Haveli
+Madhya Pradesh :Gujarat Goa Haryana
+Maharashtra :Delhi
+Manipur :Delhi Haryana
+Meghalaya :Gujarat Delhi
+Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[20, 5]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
+Andhra Pradesh :Goa Andaman and Nicobar
+Arunachal Pradesh :Goa Andaman and Nicobar
+Assam :Jharkhand Jammu and Kashmir Chandigarh Bihar
+Bihar :Himachal Pradesh Jharkhand Karnataka Chandigarh Chhattisgarh Assam
+Chandigarh :Maharashtra Himachal Pradesh Jammu and Kashmir Goa Assam Bihar Andaman and Nicobar
+Chhattisgarh :Jammu and Kashmir Goa Andaman and Nicobar Bihar
+Dadra and Nagar Haveli :Lakshadweep Daman and Diu
+Daman and Diu :Kerala Dadra and Nagar Haveli
+Delhi :Manipur Maharashtra Meghalaya Gujarat Goa Haryana
+Goa :Chhattisgarh Madhya Pradesh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Gujarat :Meghalaya Andaman and Nicobar Madhya Pradesh Delhi Haryana
+Haryana :Andaman and Nicobar Manipur Madhya Pradesh Gujarat Delhi
+Himachal Pradesh :Chandigarh Bihar
+Jammu and Kashmir :Chandigarh Chhattisgarh Assam
+Jharkhand :Andaman and Nicobar Assam Bihar
+Karnataka :Andaman and Nicobar Bihar
+Kerala :Daman and Diu
+Lakshadweep :Dadra and Nagar Haveli
+Madhya Pradesh :Gujarat Goa Haryana
+Maharashtra :Chandigarh Delhi
+Manipur :Delhi Haryana
+Meghalaya :Gujarat Delhi
+Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[24, 3]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
+Andhra Pradesh :Goa Andaman and Nicobar
+Arunachal Pradesh :Goa Andaman and Nicobar
+Assam :Nagaland Jharkhand Jammu and Kashmir Chandigarh Bihar
+Bihar :Himachal Pradesh Jharkhand Karnataka Chandigarh Chhattisgarh Assam
+Chandigarh :Maharashtra Himachal Pradesh Jammu and Kashmir Goa Assam Bihar Andaman and Nicobar
+Chhattisgarh :Jammu and Kashmir Goa Andaman and Nicobar Bihar
+Dadra and Nagar Haveli :Lakshadweep Daman and Diu
+Daman and Diu :Kerala Dadra and Nagar Haveli
+Delhi :Manipur Maharashtra Meghalaya Gujarat Goa Haryana
+Goa :Chhattisgarh Madhya Pradesh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Gujarat :Meghalaya Andaman and Nicobar Madhya Pradesh Delhi Haryana
+Haryana :Andaman and Nicobar Manipur Madhya Pradesh Gujarat Delhi
+Himachal Pradesh :Chandigarh Bihar
+Jammu and Kashmir :Chandigarh Chhattisgarh Assam
+Jharkhand :Andaman and Nicobar Assam Bihar
+Karnataka :Andaman and Nicobar Bihar
+Kerala :Daman and Diu
+Lakshadweep :Dadra and Nagar Haveli
+Madhya Pradesh :Gujarat Goa Haryana
+Maharashtra :Chandigarh Delhi
+Manipur :Delhi Haryana
+Meghalaya :Gujarat Delhi
+Mizoram :Nagaland :Assam
+Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[20, 1]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
+Andhra Pradesh :Maharashtra Goa Andaman and Nicobar
+Arunachal Pradesh :Goa Andaman and Nicobar
+Assam :Nagaland Jharkhand Jammu and Kashmir Chandigarh Bihar
+Bihar :Himachal Pradesh Jharkhand Karnataka Chandigarh Chhattisgarh Assam
+Chandigarh :Maharashtra Himachal Pradesh Jammu and Kashmir Goa Assam Bihar Andaman and Nicobar
+Chhattisgarh :Jammu and Kashmir Goa Andaman and Nicobar Bihar
+Dadra and Nagar Haveli :Lakshadweep Daman and Diu
+Daman and Diu :Kerala Dadra and Nagar Haveli
+Delhi :Manipur Maharashtra Meghalaya Gujarat Goa Haryana
+Goa :Chhattisgarh Madhya Pradesh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Gujarat :Meghalaya Andaman and Nicobar Madhya Pradesh Delhi Haryana
+Haryana :Andaman and Nicobar Manipur Madhya Pradesh Gujarat Delhi
+Himachal Pradesh :Chandigarh Bihar
+Jammu and Kashmir :Chandigarh Chhattisgarh Assam
+Jharkhand :Andaman and Nicobar Assam Bihar
+Karnataka :Andaman and Nicobar Bihar
+Kerala :Daman and Diu
+Lakshadweep :Dadra and Nagar Haveli
+Madhya Pradesh :Gujarat Goa Haryana
+Maharashtra :Andhra Pradesh Chandigarh Delhi
+Manipur :Delhi Haryana
+Meghalaya :Gujarat Delhi
+Mizoram :Nagaland :Assam
+Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[29, 12]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
+Andhra Pradesh :Maharashtra Goa Andaman and Nicobar
+Arunachal Pradesh :Goa Andaman and Nicobar
+Assam :Nagaland Jharkhand Jammu and Kashmir Chandigarh Bihar
+Bihar :Himachal Pradesh Jharkhand Karnataka Chandigarh Chhattisgarh Assam
+Chandigarh :Maharashtra Himachal Pradesh Jammu and Kashmir Goa Assam Bihar Andaman and Nicobar
+Chhattisgarh :Jammu and Kashmir Goa Andaman and Nicobar Bihar
+Dadra and Nagar Haveli :Lakshadweep Daman and Diu
+Daman and Diu :Kerala Dadra and Nagar Haveli
+Delhi :Manipur Maharashtra Meghalaya Gujarat Goa Haryana
+Goa :Chhattisgarh Madhya Pradesh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Gujarat :Meghalaya Andaman and Nicobar Madhya Pradesh Delhi Haryana
+Haryana :Sikkim Andaman and Nicobar Manipur Madhya Pradesh Gujarat Delhi
+Himachal Pradesh :Chandigarh Bihar
+Jammu and Kashmir :Chandigarh Chhattisgarh Assam
+Jharkhand :Andaman and Nicobar Assam Bihar
+Karnataka :Andaman and Nicobar Bihar
+Kerala :Daman and Diu
+Lakshadweep :Dadra and Nagar Haveli
+Madhya Pradesh :Gujarat Goa Haryana
+Maharashtra :Andhra Pradesh Chandigarh Delhi
+Manipur :Delhi Haryana
+Meghalaya :Gujarat Delhi
+Mizoram :Nagaland :Assam
+Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Haryana
+Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[26, 4]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
+Andhra Pradesh :Maharashtra Goa Andaman and Nicobar
+Arunachal Pradesh :Goa Andaman and Nicobar
+Assam :Nagaland Jharkhand Jammu and Kashmir Chandigarh Bihar
+Bihar :Puducherry Himachal Pradesh Jharkhand Karnataka Chandigarh Chhattisgarh Assam
+Chandigarh :Maharashtra Himachal Pradesh Jammu and Kashmir Goa Assam Bihar Andaman and Nicobar
+Chhattisgarh :Jammu and Kashmir Goa Andaman and Nicobar Bihar
+Dadra and Nagar Haveli :Lakshadweep Daman and Diu
+Daman and Diu :Kerala Dadra and Nagar Haveli
+Delhi :Manipur Maharashtra Meghalaya Gujarat Goa Haryana
+Goa :Chhattisgarh Madhya Pradesh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Gujarat :Meghalaya Andaman and Nicobar Madhya Pradesh Delhi Haryana
+Haryana :Sikkim Andaman and Nicobar Manipur Madhya Pradesh Gujarat Delhi
+Himachal Pradesh :Chandigarh Bihar
+Jammu and Kashmir :Chandigarh Chhattisgarh Assam
+Jharkhand :Andaman and Nicobar Assam Bihar
+Karnataka :Andaman and Nicobar Bihar
+Kerala :Daman and Diu
+Lakshadweep :Dadra and Nagar Haveli
+Madhya Pradesh :Gujarat Goa Haryana
+Maharashtra :Andhra Pradesh Chandigarh Delhi
+Manipur :Delhi Haryana
+Meghalaya :Gujarat Delhi
+Mizoram :Nagaland :Assam
+Odisha :Puducherry :Bihar
+Punjab :Rajasthan :Sikkim :Haryana
+Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[25, 4]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
+Andhra Pradesh :Maharashtra Goa Andaman and Nicobar
+Arunachal Pradesh :Goa Andaman and Nicobar
+Assam :Nagaland Jharkhand Jammu and Kashmir Chandigarh Bihar
+Bihar :Odisha Puducherry Himachal Pradesh Jharkhand Karnataka Chandigarh Chhattisgarh Assam
+Chandigarh :Maharashtra Himachal Pradesh Jammu and Kashmir Goa Assam Bihar Andaman and Nicobar
+Chhattisgarh :Jammu and Kashmir Goa Andaman and Nicobar Bihar
+Dadra and Nagar Haveli :Lakshadweep Daman and Diu
+Daman and Diu :Kerala Dadra and Nagar Haveli
+Delhi :Manipur Maharashtra Meghalaya Gujarat Goa Haryana
+Goa :Chhattisgarh Madhya Pradesh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Gujarat :Meghalaya Andaman and Nicobar Madhya Pradesh Delhi Haryana
+Haryana :Sikkim Andaman and Nicobar Manipur Madhya Pradesh Gujarat Delhi
+Himachal Pradesh :Chandigarh Bihar
+Jammu and Kashmir :Chandigarh Chhattisgarh Assam
+Jharkhand :Andaman and Nicobar Assam Bihar
+Karnataka :Andaman and Nicobar Bihar
+Kerala :Daman and Diu
+Lakshadweep :Dadra and Nagar Haveli
+Madhya Pradesh :Gujarat Goa Haryana
+Maharashtra :Andhra Pradesh Chandigarh Delhi
+Manipur :Delhi Haryana
+Meghalaya :Gujarat Delhi
+Mizoram :Nagaland :Assam
+Odisha :Bihar
+Puducherry :Bihar
+Punjab :Rajasthan :Sikkim :Haryana
+Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[20, 2]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
+Andhra Pradesh :Maharashtra Goa Andaman and Nicobar
+Arunachal Pradesh :Maharashtra Goa Andaman and Nicobar
+Assam :Nagaland Jharkhand Jammu and Kashmir Chandigarh Bihar
+Bihar :Odisha Puducherry Himachal Pradesh Jharkhand Karnataka Chandigarh Chhattisgarh Assam
+Chandigarh :Maharashtra Himachal Pradesh Jammu and Kashmir Goa Assam Bihar Andaman and Nicobar
+Chhattisgarh :Jammu and Kashmir Goa Andaman and Nicobar Bihar
+Dadra and Nagar Haveli :Lakshadweep Daman and Diu
+Daman and Diu :Kerala Dadra and Nagar Haveli
+Delhi :Manipur Maharashtra Meghalaya Gujarat Goa Haryana
+Goa :Chhattisgarh Madhya Pradesh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Gujarat :Meghalaya Andaman and Nicobar Madhya Pradesh Delhi Haryana
+Haryana :Sikkim Andaman and Nicobar Manipur Madhya Pradesh Gujarat Delhi
+Himachal Pradesh :Chandigarh Bihar
+Jammu and Kashmir :Chandigarh Chhattisgarh Assam
+Jharkhand :Andaman and Nicobar Assam Bihar
+Karnataka :Andaman and Nicobar Bihar
+Kerala :Daman and Diu
+Lakshadweep :Dadra and Nagar Haveli
+Madhya Pradesh :Gujarat Goa Haryana
+Maharashtra :Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Manipur :Delhi Haryana
+Meghalaya :Gujarat Delhi
+Mizoram :Nagaland :Assam
+Odisha :Bihar
+Puducherry :Bihar
+Punjab :Rajasthan :Sikkim :Haryana
+Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[31, 12]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
+Andhra Pradesh :Maharashtra Goa Andaman and Nicobar
+Arunachal Pradesh :Maharashtra Goa Andaman and Nicobar
+Assam :Nagaland Jharkhand Jammu and Kashmir Chandigarh Bihar
+Bihar :Odisha Puducherry Himachal Pradesh Jharkhand Karnataka Chandigarh Chhattisgarh Assam
+Chandigarh :Maharashtra Himachal Pradesh Jammu and Kashmir Goa Assam Bihar Andaman and Nicobar
+Chhattisgarh :Jammu and Kashmir Goa Andaman and Nicobar Bihar
+Dadra and Nagar Haveli :Lakshadweep Daman and Diu
+Daman and Diu :Kerala Dadra and Nagar Haveli
+Delhi :Manipur Maharashtra Meghalaya Gujarat Goa Haryana
+Goa :Chhattisgarh Madhya Pradesh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Gujarat :Meghalaya Andaman and Nicobar Madhya Pradesh Delhi Haryana
+Haryana :Telangana Sikkim Andaman and Nicobar Manipur Madhya Pradesh Gujarat Delhi
+Himachal Pradesh :Chandigarh Bihar
+Jammu and Kashmir :Chandigarh Chhattisgarh Assam
+Jharkhand :Andaman and Nicobar Assam Bihar
+Karnataka :Andaman and Nicobar Bihar
+Kerala :Daman and Diu
+Lakshadweep :Dadra and Nagar Haveli
+Madhya Pradesh :Gujarat Goa Haryana
+Maharashtra :Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Manipur :Delhi Haryana
+Meghalaya :Gujarat Delhi
+Mizoram :Nagaland :Assam
+Odisha :Bihar
+Puducherry :Bihar
+Punjab :Rajasthan :Sikkim :Haryana
+Tamil Nadu :Telangana :Haryana
+Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[29, 10]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
+Andhra Pradesh :Maharashtra Goa Andaman and Nicobar
+Arunachal Pradesh :Maharashtra Goa Andaman and Nicobar
+Assam :Nagaland Jharkhand Jammu and Kashmir Chandigarh Bihar
+Bihar :Odisha Puducherry Himachal Pradesh Jharkhand Karnataka Chandigarh Chhattisgarh Assam
+Chandigarh :Maharashtra Himachal Pradesh Jammu and Kashmir Goa Assam Bihar Andaman and Nicobar
+Chhattisgarh :Jammu and Kashmir Goa Andaman and Nicobar Bihar
+Dadra and Nagar Haveli :Lakshadweep Daman and Diu
+Daman and Diu :Kerala Dadra and Nagar Haveli
+Delhi :Manipur Maharashtra Meghalaya Gujarat Goa Haryana
+Goa :Sikkim Chhattisgarh Madhya Pradesh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Gujarat :Meghalaya Andaman and Nicobar Madhya Pradesh Delhi Haryana
+Haryana :Telangana Sikkim Andaman and Nicobar Manipur Madhya Pradesh Gujarat Delhi
+Himachal Pradesh :Chandigarh Bihar
+Jammu and Kashmir :Chandigarh Chhattisgarh Assam
+Jharkhand :Andaman and Nicobar Assam Bihar
+Karnataka :Andaman and Nicobar Bihar
+Kerala :Daman and Diu
+Lakshadweep :Dadra and Nagar Haveli
+Madhya Pradesh :Gujarat Goa Haryana
+Maharashtra :Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Manipur :Delhi Haryana
+Meghalaya :Gujarat Delhi
+Mizoram :Nagaland :Assam
+Odisha :Bihar
+Puducherry :Bihar
+Punjab :Rajasthan :Sikkim :Goa Haryana
+Tamil Nadu :Telangana :Haryana
+Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[20, 6]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
+Andhra Pradesh :Maharashtra Goa Andaman and Nicobar
+Arunachal Pradesh :Maharashtra Goa Andaman and Nicobar
+Assam :Nagaland Jharkhand Jammu and Kashmir Chandigarh Bihar
+Bihar :Odisha Puducherry Himachal Pradesh Jharkhand Karnataka Chandigarh Chhattisgarh Assam
+Chandigarh :Maharashtra Himachal Pradesh Jammu and Kashmir Goa Assam Bihar Andaman and Nicobar
+Chhattisgarh :Maharashtra Jammu and Kashmir Goa Andaman and Nicobar Bihar
+Dadra and Nagar Haveli :Lakshadweep Daman and Diu
+Daman and Diu :Kerala Dadra and Nagar Haveli
+Delhi :Manipur Maharashtra Meghalaya Gujarat Goa Haryana
+Goa :Sikkim Chhattisgarh Madhya Pradesh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Gujarat :Meghalaya Andaman and Nicobar Madhya Pradesh Delhi Haryana
+Haryana :Telangana Sikkim Andaman and Nicobar Manipur Madhya Pradesh Gujarat Delhi
+Himachal Pradesh :Chandigarh Bihar
+Jammu and Kashmir :Chandigarh Chhattisgarh Assam
+Jharkhand :Andaman and Nicobar Assam Bihar
+Karnataka :Andaman and Nicobar Bihar
+Kerala :Daman and Diu
+Lakshadweep :Dadra and Nagar Haveli
+Madhya Pradesh :Gujarat Goa Haryana
+Maharashtra :Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Manipur :Delhi Haryana
+Meghalaya :Gujarat Delhi
+Mizoram :Nagaland :Assam
+Odisha :Bihar
+Puducherry :Bihar
+Punjab :Rajasthan :Sikkim :Goa Haryana
+Tamil Nadu :Telangana :Haryana
+Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[27, 8]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
+Andhra Pradesh :Maharashtra Goa Andaman and Nicobar
+Arunachal Pradesh :Maharashtra Goa Andaman and Nicobar
+Assam :Nagaland Jharkhand Jammu and Kashmir Chandigarh Bihar
+Bihar :Odisha Puducherry Himachal Pradesh Jharkhand Karnataka Chandigarh Chhattisgarh Assam
+Chandigarh :Maharashtra Himachal Pradesh Jammu and Kashmir Goa Assam Bihar Andaman and Nicobar
+Chhattisgarh :Maharashtra Jammu and Kashmir Goa Andaman and Nicobar Bihar
+Dadra and Nagar Haveli :Lakshadweep Daman and Diu
+Daman and Diu :Punjab Kerala Dadra and Nagar Haveli
+Delhi :Manipur Maharashtra Meghalaya Gujarat Goa Haryana
+Goa :Sikkim Chhattisgarh Madhya Pradesh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Gujarat :Meghalaya Andaman and Nicobar Madhya Pradesh Delhi Haryana
+Haryana :Telangana Sikkim Andaman and Nicobar Manipur Madhya Pradesh Gujarat Delhi
+Himachal Pradesh :Chandigarh Bihar
+Jammu and Kashmir :Chandigarh Chhattisgarh Assam
+Jharkhand :Andaman and Nicobar Assam Bihar
+Karnataka :Andaman and Nicobar Bihar
+Kerala :Daman and Diu
+Lakshadweep :Dadra and Nagar Haveli
+Madhya Pradesh :Gujarat Goa Haryana
+Maharashtra :Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Manipur :Delhi Haryana
+Meghalaya :Gujarat Delhi
+Mizoram :Nagaland :Assam
+Odisha :Bihar
+Puducherry :Bihar
+Punjab :Daman and Diu
+Rajasthan :Sikkim :Goa Haryana
+Tamil Nadu :Telangana :Haryana
+Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[29, 11]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
+Andhra Pradesh :Maharashtra Goa Andaman and Nicobar
+Arunachal Pradesh :Maharashtra Goa Andaman and Nicobar
+Assam :Nagaland Jharkhand Jammu and Kashmir Chandigarh Bihar
+Bihar :Odisha Puducherry Himachal Pradesh Jharkhand Karnataka Chandigarh Chhattisgarh Assam
+Chandigarh :Maharashtra Himachal Pradesh Jammu and Kashmir Goa Assam Bihar Andaman and Nicobar
+Chhattisgarh :Maharashtra Jammu and Kashmir Goa Andaman and Nicobar Bihar
+Dadra and Nagar Haveli :Lakshadweep Daman and Diu
+Daman and Diu :Punjab Kerala Dadra and Nagar Haveli
+Delhi :Manipur Maharashtra Meghalaya Gujarat Goa Haryana
+Goa :Sikkim Chhattisgarh Madhya Pradesh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Gujarat :Sikkim Meghalaya Andaman and Nicobar Madhya Pradesh Delhi Haryana
+Haryana :Telangana Sikkim Andaman and Nicobar Manipur Madhya Pradesh Gujarat Delhi
+Himachal Pradesh :Chandigarh Bihar
+Jammu and Kashmir :Chandigarh Chhattisgarh Assam
+Jharkhand :Andaman and Nicobar Assam Bihar
+Karnataka :Andaman and Nicobar Bihar
+Kerala :Daman and Diu
+Lakshadweep :Dadra and Nagar Haveli
+Madhya Pradesh :Gujarat Goa Haryana
+Maharashtra :Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Manipur :Delhi Haryana
+Meghalaya :Gujarat Delhi
+Mizoram :Nagaland :Assam
+Odisha :Bihar
+Puducherry :Bihar
+Punjab :Daman and Diu
+Rajasthan :Sikkim :Gujarat Goa Haryana
+Tamil Nadu :Telangana :Haryana
+Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[25, 3]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
+Andhra Pradesh :Maharashtra Goa Andaman and Nicobar
+Arunachal Pradesh :Maharashtra Goa Andaman and Nicobar
+Assam :Odisha Nagaland Jharkhand Jammu and Kashmir Chandigarh Bihar
+Bihar :Odisha Puducherry Himachal Pradesh Jharkhand Karnataka Chandigarh Chhattisgarh Assam
+Chandigarh :Maharashtra Himachal Pradesh Jammu and Kashmir Goa Assam Bihar Andaman and Nicobar
+Chhattisgarh :Maharashtra Jammu and Kashmir Goa Andaman and Nicobar Bihar
+Dadra and Nagar Haveli :Lakshadweep Daman and Diu
+Daman and Diu :Punjab Kerala Dadra and Nagar Haveli
+Delhi :Manipur Maharashtra Meghalaya Gujarat Goa Haryana
+Goa :Sikkim Chhattisgarh Madhya Pradesh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Gujarat :Sikkim Meghalaya Andaman and Nicobar Madhya Pradesh Delhi Haryana
+Haryana :Telangana Sikkim Andaman and Nicobar Manipur Madhya Pradesh Gujarat Delhi
+Himachal Pradesh :Chandigarh Bihar
+Jammu and Kashmir :Chandigarh Chhattisgarh Assam
+Jharkhand :Andaman and Nicobar Assam Bihar
+Karnataka :Andaman and Nicobar Bihar
+Kerala :Daman and Diu
+Lakshadweep :Dadra and Nagar Haveli
+Madhya Pradesh :Gujarat Goa Haryana
+Maharashtra :Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Manipur :Delhi Haryana
+Meghalaya :Gujarat Delhi
+Mizoram :Nagaland :Assam
+Odisha :Assam Bihar
+Puducherry :Bihar
+Punjab :Daman and Diu
+Rajasthan :Sikkim :Gujarat Goa Haryana
+Tamil Nadu :Telangana :Haryana
+Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[0, 25]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Odisha Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
+Andhra Pradesh :Maharashtra Goa Andaman and Nicobar
+Arunachal Pradesh :Maharashtra Goa Andaman and Nicobar
+Assam :Odisha Nagaland Jharkhand Jammu and Kashmir Chandigarh Bihar
+Bihar :Odisha Puducherry Himachal Pradesh Jharkhand Karnataka Chandigarh Chhattisgarh Assam
+Chandigarh :Maharashtra Himachal Pradesh Jammu and Kashmir Goa Assam Bihar Andaman and Nicobar
+Chhattisgarh :Maharashtra Jammu and Kashmir Goa Andaman and Nicobar Bihar
+Dadra and Nagar Haveli :Lakshadweep Daman and Diu
+Daman and Diu :Punjab Kerala Dadra and Nagar Haveli
+Delhi :Manipur Maharashtra Meghalaya Gujarat Goa Haryana
+Goa :Sikkim Chhattisgarh Madhya Pradesh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Gujarat :Sikkim Meghalaya Andaman and Nicobar Madhya Pradesh Delhi Haryana
+Haryana :Telangana Sikkim Andaman and Nicobar Manipur Madhya Pradesh Gujarat Delhi
+Himachal Pradesh :Chandigarh Bihar
+Jammu and Kashmir :Chandigarh Chhattisgarh Assam
+Jharkhand :Andaman and Nicobar Assam Bihar
+Karnataka :Andaman and Nicobar Bihar
+Kerala :Daman and Diu
+Lakshadweep :Dadra and Nagar Haveli
+Madhya Pradesh :Gujarat Goa Haryana
+Maharashtra :Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Manipur :Delhi Haryana
+Meghalaya :Gujarat Delhi
+Mizoram :Nagaland :Assam
+Odisha :Andaman and Nicobar Assam Bihar
+Puducherry :Bihar
+Punjab :Daman and Diu
+Rajasthan :Sikkim :Gujarat Goa Haryana
+Tamil Nadu :Telangana :Haryana
+Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[4, 23]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Odisha Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
+Andhra Pradesh :Maharashtra Goa Andaman and Nicobar
+Arunachal Pradesh :Maharashtra Goa Andaman and Nicobar
+Assam :Odisha Nagaland Jharkhand Jammu and Kashmir Chandigarh Bihar
+Bihar :Mizoram Odisha Puducherry Himachal Pradesh Jharkhand Karnataka Chandigarh Chhattisgarh Assam
+Chandigarh :Maharashtra Himachal Pradesh Jammu and Kashmir Goa Assam Bihar Andaman and Nicobar
+Chhattisgarh :Maharashtra Jammu and Kashmir Goa Andaman and Nicobar Bihar
+Dadra and Nagar Haveli :Lakshadweep Daman and Diu
+Daman and Diu :Punjab Kerala Dadra and Nagar Haveli
+Delhi :Manipur Maharashtra Meghalaya Gujarat Goa Haryana
+Goa :Sikkim Chhattisgarh Madhya Pradesh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Gujarat :Sikkim Meghalaya Andaman and Nicobar Madhya Pradesh Delhi Haryana
+Haryana :Telangana Sikkim Andaman and Nicobar Manipur Madhya Pradesh Gujarat Delhi
+Himachal Pradesh :Chandigarh Bihar
+Jammu and Kashmir :Chandigarh Chhattisgarh Assam
+Jharkhand :Andaman and Nicobar Assam Bihar
+Karnataka :Andaman and Nicobar Bihar
+Kerala :Daman and Diu
+Lakshadweep :Dadra and Nagar Haveli
+Madhya Pradesh :Gujarat Goa Haryana
+Maharashtra :Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Manipur :Delhi Haryana
+Meghalaya :Gujarat Delhi
+Mizoram :Bihar
+Nagaland :Assam
+Odisha :Andaman and Nicobar Assam Bihar
+Puducherry :Bihar
+Punjab :Daman and Diu
+Rajasthan :Sikkim :Gujarat Goa Haryana
+Tamil Nadu :Telangana :Haryana
+Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[0, 21]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Manipur Odisha Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
+Andhra Pradesh :Maharashtra Goa Andaman and Nicobar
+Arunachal Pradesh :Maharashtra Goa Andaman and Nicobar
+Assam :Odisha Nagaland Jharkhand Jammu and Kashmir Chandigarh Bihar
+Bihar :Mizoram Odisha Puducherry Himachal Pradesh Jharkhand Karnataka Chandigarh Chhattisgarh Assam
+Chandigarh :Maharashtra Himachal Pradesh Jammu and Kashmir Goa Assam Bihar Andaman and Nicobar
+Chhattisgarh :Maharashtra Jammu and Kashmir Goa Andaman and Nicobar Bihar
+Dadra and Nagar Haveli :Lakshadweep Daman and Diu
+Daman and Diu :Punjab Kerala Dadra and Nagar Haveli
+Delhi :Manipur Maharashtra Meghalaya Gujarat Goa Haryana
+Goa :Sikkim Chhattisgarh Madhya Pradesh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Gujarat :Sikkim Meghalaya Andaman and Nicobar Madhya Pradesh Delhi Haryana
+Haryana :Telangana Sikkim Andaman and Nicobar Manipur Madhya Pradesh Gujarat Delhi
+Himachal Pradesh :Chandigarh Bihar
+Jammu and Kashmir :Chandigarh Chhattisgarh Assam
+Jharkhand :Andaman and Nicobar Assam Bihar
+Karnataka :Andaman and Nicobar Bihar
+Kerala :Daman and Diu
+Lakshadweep :Dadra and Nagar Haveli
+Madhya Pradesh :Gujarat Goa Haryana
+Maharashtra :Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Manipur :Andaman and Nicobar Delhi Haryana
+Meghalaya :Gujarat Delhi
+Mizoram :Bihar
+Nagaland :Assam
+Odisha :Andaman and Nicobar Assam Bihar
+Puducherry :Bihar
+Punjab :Daman and Diu
+Rajasthan :Sikkim :Gujarat Goa Haryana
+Tamil Nadu :Telangana :Haryana
+Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[9, 32]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Manipur Odisha Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
+Andhra Pradesh :Maharashtra Goa Andaman and Nicobar
+Arunachal Pradesh :Maharashtra Goa Andaman and Nicobar
+Assam :Odisha Nagaland Jharkhand Jammu and Kashmir Chandigarh Bihar
+Bihar :Mizoram Odisha Puducherry Himachal Pradesh Jharkhand Karnataka Chandigarh Chhattisgarh Assam
+Chandigarh :Maharashtra Himachal Pradesh Jammu and Kashmir Goa Assam Bihar Andaman and Nicobar
+Chhattisgarh :Maharashtra Jammu and Kashmir Goa Andaman and Nicobar Bihar
+Dadra and Nagar Haveli :Lakshadweep Daman and Diu
+Daman and Diu :Punjab Kerala Dadra and Nagar Haveli
+Delhi :Tripura Manipur Maharashtra Meghalaya Gujarat Goa Haryana
+Goa :Sikkim Chhattisgarh Madhya Pradesh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Gujarat :Sikkim Meghalaya Andaman and Nicobar Madhya Pradesh Delhi Haryana
+Haryana :Telangana Sikkim Andaman and Nicobar Manipur Madhya Pradesh Gujarat Delhi
+Himachal Pradesh :Chandigarh Bihar
+Jammu and Kashmir :Chandigarh Chhattisgarh Assam
+Jharkhand :Andaman and Nicobar Assam Bihar
+Karnataka :Andaman and Nicobar Bihar
+Kerala :Daman and Diu
+Lakshadweep :Dadra and Nagar Haveli
+Madhya Pradesh :Gujarat Goa Haryana
+Maharashtra :Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Manipur :Andaman and Nicobar Delhi Haryana
+Meghalaya :Gujarat Delhi
+Mizoram :Bihar
+Nagaland :Assam
+Odisha :Andaman and Nicobar Assam Bihar
+Puducherry :Bihar
+Punjab :Daman and Diu
+Rajasthan :Sikkim :Gujarat Goa Haryana
+Tamil Nadu :Telangana :Haryana
+Tripura :Delhi
+Uttar Pradesh :Uttarakhand :West Bengal :[6, 24]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Manipur Odisha Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
+Andhra Pradesh :Maharashtra Goa Andaman and Nicobar
+Arunachal Pradesh :Maharashtra Goa Andaman and Nicobar
+Assam :Odisha Nagaland Jharkhand Jammu and Kashmir Chandigarh Bihar
+Bihar :Mizoram Odisha Puducherry Himachal Pradesh Jharkhand Karnataka Chandigarh Chhattisgarh Assam
+Chandigarh :Maharashtra Himachal Pradesh Jammu and Kashmir Goa Assam Bihar Andaman and Nicobar
+Chhattisgarh :Nagaland Maharashtra Jammu and Kashmir Goa Andaman and Nicobar Bihar
+Dadra and Nagar Haveli :Lakshadweep Daman and Diu
+Daman and Diu :Punjab Kerala Dadra and Nagar Haveli
+Delhi :Tripura Manipur Maharashtra Meghalaya Gujarat Goa Haryana
+Goa :Sikkim Chhattisgarh Madhya Pradesh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Gujarat :Sikkim Meghalaya Andaman and Nicobar Madhya Pradesh Delhi Haryana
+Haryana :Telangana Sikkim Andaman and Nicobar Manipur Madhya Pradesh Gujarat Delhi
+Himachal Pradesh :Chandigarh Bihar
+Jammu and Kashmir :Chandigarh Chhattisgarh Assam
+Jharkhand :Andaman and Nicobar Assam Bihar
+Karnataka :Andaman and Nicobar Bihar
+Kerala :Daman and Diu
+Lakshadweep :Dadra and Nagar Haveli
+Madhya Pradesh :Gujarat Goa Haryana
+Maharashtra :Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Manipur :Andaman and Nicobar Delhi Haryana
+Meghalaya :Gujarat Delhi
+Mizoram :Bihar
+Nagaland :Chhattisgarh Assam
+Odisha :Andaman and Nicobar Assam Bihar
+Puducherry :Bihar
+Punjab :Daman and Diu
+Rajasthan :Sikkim :Gujarat Goa Haryana
+Tamil Nadu :Telangana :Haryana
+Tripura :Delhi
+Uttar Pradesh :Uttarakhand :West Bengal :[5, 24]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Manipur Odisha Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
+Andhra Pradesh :Maharashtra Goa Andaman and Nicobar
+Arunachal Pradesh :Maharashtra Goa Andaman and Nicobar
+Assam :Odisha Nagaland Jharkhand Jammu and Kashmir Chandigarh Bihar
+Bihar :Mizoram Odisha Puducherry Himachal Pradesh Jharkhand Karnataka Chandigarh Chhattisgarh Assam
+Chandigarh :Nagaland Maharashtra Himachal Pradesh Jammu and Kashmir Goa Assam Bihar Andaman and Nicobar
+Chhattisgarh :Nagaland Maharashtra Jammu and Kashmir Goa Andaman and Nicobar Bihar
+Dadra and Nagar Haveli :Lakshadweep Daman and Diu
+Daman and Diu :Punjab Kerala Dadra and Nagar Haveli
+Delhi :Tripura Manipur Maharashtra Meghalaya Gujarat Goa Haryana
+Goa :Sikkim Chhattisgarh Madhya Pradesh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Gujarat :Sikkim Meghalaya Andaman and Nicobar Madhya Pradesh Delhi Haryana
+Haryana :Telangana Sikkim Andaman and Nicobar Manipur Madhya Pradesh Gujarat Delhi
+Himachal Pradesh :Chandigarh Bihar
+Jammu and Kashmir :Chandigarh Chhattisgarh Assam
+Jharkhand :Andaman and Nicobar Assam Bihar
+Karnataka :Andaman and Nicobar Bihar
+Kerala :Daman and Diu
+Lakshadweep :Dadra and Nagar Haveli
+Madhya Pradesh :Gujarat Goa Haryana
+Maharashtra :Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Manipur :Andaman and Nicobar Delhi Haryana
+Meghalaya :Gujarat Delhi
+Mizoram :Bihar
+Nagaland :Chandigarh Chhattisgarh Assam
+Odisha :Andaman and Nicobar Assam Bihar
+Puducherry :Bihar
+Punjab :Daman and Diu
+Rajasthan :Sikkim :Gujarat Goa Haryana
+Tamil Nadu :Telangana :Haryana
+Tripura :Delhi
+Uttar Pradesh :Uttarakhand :West Bengal :[0, 22]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Meghalaya Manipur Odisha Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
+Andhra Pradesh :Maharashtra Goa Andaman and Nicobar
+Arunachal Pradesh :Maharashtra Goa Andaman and Nicobar
+Assam :Odisha Nagaland Jharkhand Jammu and Kashmir Chandigarh Bihar
+Bihar :Mizoram Odisha Puducherry Himachal Pradesh Jharkhand Karnataka Chandigarh Chhattisgarh Assam
+Chandigarh :Nagaland Maharashtra Himachal Pradesh Jammu and Kashmir Goa Assam Bihar Andaman and Nicobar
+Chhattisgarh :Nagaland Maharashtra Jammu and Kashmir Goa Andaman and Nicobar Bihar
+Dadra and Nagar Haveli :Lakshadweep Daman and Diu
+Daman and Diu :Punjab Kerala Dadra and Nagar Haveli
+Delhi :Tripura Manipur Maharashtra Meghalaya Gujarat Goa Haryana
+Goa :Sikkim Chhattisgarh Madhya Pradesh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Gujarat :Sikkim Meghalaya Andaman and Nicobar Madhya Pradesh Delhi Haryana
+Haryana :Telangana Sikkim Andaman and Nicobar Manipur Madhya Pradesh Gujarat Delhi
+Himachal Pradesh :Chandigarh Bihar
+Jammu and Kashmir :Chandigarh Chhattisgarh Assam
+Jharkhand :Andaman and Nicobar Assam Bihar
+Karnataka :Andaman and Nicobar Bihar
+Kerala :Daman and Diu
+Lakshadweep :Dadra and Nagar Haveli
+Madhya Pradesh :Gujarat Goa Haryana
+Maharashtra :Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Manipur :Andaman and Nicobar Delhi Haryana
+Meghalaya :Andaman and Nicobar Gujarat Delhi
+Mizoram :Bihar
+Nagaland :Chandigarh Chhattisgarh Assam
+Odisha :Andaman and Nicobar Assam Bihar
+Puducherry :Bihar
+Punjab :Daman and Diu
+Rajasthan :Sikkim :Gujarat Goa Haryana
+Tamil Nadu :Telangana :Haryana
+Tripura :Delhi
+Uttar Pradesh :Uttarakhand :West Bengal :[11, 32]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Meghalaya Manipur Odisha Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
+Andhra Pradesh :Maharashtra Goa Andaman and Nicobar
+Arunachal Pradesh :Maharashtra Goa Andaman and Nicobar
+Assam :Odisha Nagaland Jharkhand Jammu and Kashmir Chandigarh Bihar
+Bihar :Mizoram Odisha Puducherry Himachal Pradesh Jharkhand Karnataka Chandigarh Chhattisgarh Assam
+Chandigarh :Nagaland Maharashtra Himachal Pradesh Jammu and Kashmir Goa Assam Bihar Andaman and Nicobar
+Chhattisgarh :Nagaland Maharashtra Jammu and Kashmir Goa Andaman and Nicobar Bihar
+Dadra and Nagar Haveli :Lakshadweep Daman and Diu
+Daman and Diu :Punjab Kerala Dadra and Nagar Haveli
+Delhi :Tripura Manipur Maharashtra Meghalaya Gujarat Goa Haryana
+Goa :Sikkim Chhattisgarh Madhya Pradesh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Gujarat :Tripura Sikkim Meghalaya Andaman and Nicobar Madhya Pradesh Delhi Haryana
+Haryana :Telangana Sikkim Andaman and Nicobar Manipur Madhya Pradesh Gujarat Delhi
+Himachal Pradesh :Chandigarh Bihar
+Jammu and Kashmir :Chandigarh Chhattisgarh Assam
+Jharkhand :Andaman and Nicobar Assam Bihar
+Karnataka :Andaman and Nicobar Bihar
+Kerala :Daman and Diu
+Lakshadweep :Dadra and Nagar Haveli
+Madhya Pradesh :Gujarat Goa Haryana
+Maharashtra :Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Manipur :Andaman and Nicobar Delhi Haryana
+Meghalaya :Andaman and Nicobar Gujarat Delhi
+Mizoram :Bihar
+Nagaland :Chandigarh Chhattisgarh Assam
+Odisha :Andaman and Nicobar Assam Bihar
+Puducherry :Bihar
+Punjab :Daman and Diu
+Rajasthan :Sikkim :Gujarat Goa Haryana
+Tamil Nadu :Telangana :Haryana
+Tripura :Gujarat Delhi
+Uttar Pradesh :Uttarakhand :West Bengal :[9, 30]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Meghalaya Manipur Odisha Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
+Andhra Pradesh :Maharashtra Goa Andaman and Nicobar
+Arunachal Pradesh :Maharashtra Goa Andaman and Nicobar
+Assam :Odisha Nagaland Jharkhand Jammu and Kashmir Chandigarh Bihar
+Bihar :Mizoram Odisha Puducherry Himachal Pradesh Jharkhand Karnataka Chandigarh Chhattisgarh Assam
+Chandigarh :Nagaland Maharashtra Himachal Pradesh Jammu and Kashmir Goa Assam Bihar Andaman and Nicobar
+Chhattisgarh :Nagaland Maharashtra Jammu and Kashmir Goa Andaman and Nicobar Bihar
+Dadra and Nagar Haveli :Lakshadweep Daman and Diu
+Daman and Diu :Punjab Kerala Dadra and Nagar Haveli
+Delhi :Tamil Nadu Tripura Manipur Maharashtra Meghalaya Gujarat Goa Haryana
+Goa :Sikkim Chhattisgarh Madhya Pradesh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Gujarat :Tripura Sikkim Meghalaya Andaman and Nicobar Madhya Pradesh Delhi Haryana
+Haryana :Telangana Sikkim Andaman and Nicobar Manipur Madhya Pradesh Gujarat Delhi
+Himachal Pradesh :Chandigarh Bihar
+Jammu and Kashmir :Chandigarh Chhattisgarh Assam
+Jharkhand :Andaman and Nicobar Assam Bihar
+Karnataka :Andaman and Nicobar Bihar
+Kerala :Daman and Diu
+Lakshadweep :Dadra and Nagar Haveli
+Madhya Pradesh :Gujarat Goa Haryana
+Maharashtra :Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Manipur :Andaman and Nicobar Delhi Haryana
+Meghalaya :Andaman and Nicobar Gujarat Delhi
+Mizoram :Bihar
+Nagaland :Chandigarh Chhattisgarh Assam
+Odisha :Andaman and Nicobar Assam Bihar
+Puducherry :Bihar
+Punjab :Daman and Diu
+Rajasthan :Sikkim :Gujarat Goa Haryana
+Tamil Nadu :Delhi
+Telangana :Haryana
+Tripura :Gujarat Delhi
+Uttar Pradesh :Uttarakhand :West Bengal :[0, 26]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Puducherry Meghalaya Manipur Odisha Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
+Andhra Pradesh :Maharashtra Goa Andaman and Nicobar
+Arunachal Pradesh :Maharashtra Goa Andaman and Nicobar
+Assam :Odisha Nagaland Jharkhand Jammu and Kashmir Chandigarh Bihar
+Bihar :Mizoram Odisha Puducherry Himachal Pradesh Jharkhand Karnataka Chandigarh Chhattisgarh Assam
+Chandigarh :Nagaland Maharashtra Himachal Pradesh Jammu and Kashmir Goa Assam Bihar Andaman and Nicobar
+Chhattisgarh :Nagaland Maharashtra Jammu and Kashmir Goa Andaman and Nicobar Bihar
+Dadra and Nagar Haveli :Lakshadweep Daman and Diu
+Daman and Diu :Punjab Kerala Dadra and Nagar Haveli
+Delhi :Tamil Nadu Tripura Manipur Maharashtra Meghalaya Gujarat Goa Haryana
+Goa :Sikkim Chhattisgarh Madhya Pradesh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Gujarat :Tripura Sikkim Meghalaya Andaman and Nicobar Madhya Pradesh Delhi Haryana
+Haryana :Telangana Sikkim Andaman and Nicobar Manipur Madhya Pradesh Gujarat Delhi
+Himachal Pradesh :Chandigarh Bihar
+Jammu and Kashmir :Chandigarh Chhattisgarh Assam
+Jharkhand :Andaman and Nicobar Assam Bihar
+Karnataka :Andaman and Nicobar Bihar
+Kerala :Daman and Diu
+Lakshadweep :Dadra and Nagar Haveli
+Madhya Pradesh :Gujarat Goa Haryana
+Maharashtra :Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Manipur :Andaman and Nicobar Delhi Haryana
+Meghalaya :Andaman and Nicobar Gujarat Delhi
+Mizoram :Bihar
+Nagaland :Chandigarh Chhattisgarh Assam
+Odisha :Andaman and Nicobar Assam Bihar
+Puducherry :Andaman and Nicobar Bihar
+Punjab :Daman and Diu
+Rajasthan :Sikkim :Gujarat Goa Haryana
+Tamil Nadu :Delhi
+Telangana :Haryana
+Tripura :Gujarat Delhi
+Uttar Pradesh :Uttarakhand :West Bengal :[7, 28]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Puducherry Meghalaya Manipur Odisha Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
+Andhra Pradesh :Maharashtra Goa Andaman and Nicobar
+Arunachal Pradesh :Maharashtra Goa Andaman and Nicobar
+Assam :Odisha Nagaland Jharkhand Jammu and Kashmir Chandigarh Bihar
+Bihar :Mizoram Odisha Puducherry Himachal Pradesh Jharkhand Karnataka Chandigarh Chhattisgarh Assam
+Chandigarh :Nagaland Maharashtra Himachal Pradesh Jammu and Kashmir Goa Assam Bihar Andaman and Nicobar
+Chhattisgarh :Nagaland Maharashtra Jammu and Kashmir Goa Andaman and Nicobar Bihar
+Dadra and Nagar Haveli :Rajasthan Lakshadweep Daman and Diu
+Daman and Diu :Punjab Kerala Dadra and Nagar Haveli
+Delhi :Tamil Nadu Tripura Manipur Maharashtra Meghalaya Gujarat Goa Haryana
+Goa :Sikkim Chhattisgarh Madhya Pradesh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Gujarat :Tripura Sikkim Meghalaya Andaman and Nicobar Madhya Pradesh Delhi Haryana
+Haryana :Telangana Sikkim Andaman and Nicobar Manipur Madhya Pradesh Gujarat Delhi
+Himachal Pradesh :Chandigarh Bihar
+Jammu and Kashmir :Chandigarh Chhattisgarh Assam
+Jharkhand :Andaman and Nicobar Assam Bihar
+Karnataka :Andaman and Nicobar Bihar
+Kerala :Daman and Diu
+Lakshadweep :Dadra and Nagar Haveli
+Madhya Pradesh :Gujarat Goa Haryana
+Maharashtra :Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Manipur :Andaman and Nicobar Delhi Haryana
+Meghalaya :Andaman and Nicobar Gujarat Delhi
+Mizoram :Bihar
+Nagaland :Chandigarh Chhattisgarh Assam
+Odisha :Andaman and Nicobar Assam Bihar
+Puducherry :Andaman and Nicobar Bihar
+Punjab :Daman and Diu
+Rajasthan :Dadra and Nagar Haveli
+Sikkim :Gujarat Goa Haryana
+Tamil Nadu :Delhi
+Telangana :Haryana
+Tripura :Gujarat Delhi
+Uttar Pradesh :Uttarakhand :West Bengal :[9, 31]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Puducherry Meghalaya Manipur Odisha Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
+Andhra Pradesh :Maharashtra Goa Andaman and Nicobar
+Arunachal Pradesh :Maharashtra Goa Andaman and Nicobar
+Assam :Odisha Nagaland Jharkhand Jammu and Kashmir Chandigarh Bihar
+Bihar :Mizoram Odisha Puducherry Himachal Pradesh Jharkhand Karnataka Chandigarh Chhattisgarh Assam
+Chandigarh :Nagaland Maharashtra Himachal Pradesh Jammu and Kashmir Goa Assam Bihar Andaman and Nicobar
+Chhattisgarh :Nagaland Maharashtra Jammu and Kashmir Goa Andaman and Nicobar Bihar
+Dadra and Nagar Haveli :Rajasthan Lakshadweep Daman and Diu
+Daman and Diu :Punjab Kerala Dadra and Nagar Haveli
+Delhi :Telangana Tamil Nadu Tripura Manipur Maharashtra Meghalaya Gujarat Goa Haryana
+Goa :Sikkim Chhattisgarh Madhya Pradesh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Gujarat :Tripura Sikkim Meghalaya Andaman and Nicobar Madhya Pradesh Delhi Haryana
+Haryana :Telangana Sikkim Andaman and Nicobar Manipur Madhya Pradesh Gujarat Delhi
+Himachal Pradesh :Chandigarh Bihar
+Jammu and Kashmir :Chandigarh Chhattisgarh Assam
+Jharkhand :Andaman and Nicobar Assam Bihar
+Karnataka :Andaman and Nicobar Bihar
+Kerala :Daman and Diu
+Lakshadweep :Dadra and Nagar Haveli
+Madhya Pradesh :Gujarat Goa Haryana
+Maharashtra :Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Manipur :Andaman and Nicobar Delhi Haryana
+Meghalaya :Andaman and Nicobar Gujarat Delhi
+Mizoram :Bihar
+Nagaland :Chandigarh Chhattisgarh Assam
+Odisha :Andaman and Nicobar Assam Bihar
+Puducherry :Andaman and Nicobar Bihar
+Punjab :Daman and Diu
+Rajasthan :Dadra and Nagar Haveli
+Sikkim :Gujarat Goa Haryana
+Tamil Nadu :Delhi
+Telangana :Delhi Haryana
+Tripura :Gujarat Delhi
+Uttar Pradesh :Uttarakhand :West Bengal :[5, 23]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Puducherry Meghalaya Manipur Odisha Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
+Andhra Pradesh :Maharashtra Goa Andaman and Nicobar
+Arunachal Pradesh :Maharashtra Goa Andaman and Nicobar
+Assam :Odisha Nagaland Jharkhand Jammu and Kashmir Chandigarh Bihar
+Bihar :Mizoram Odisha Puducherry Himachal Pradesh Jharkhand Karnataka Chandigarh Chhattisgarh Assam
+Chandigarh :Mizoram Nagaland Maharashtra Himachal Pradesh Jammu and Kashmir Goa Assam Bihar Andaman and Nicobar
+Chhattisgarh :Nagaland Maharashtra Jammu and Kashmir Goa Andaman and Nicobar Bihar
+Dadra and Nagar Haveli :Rajasthan Lakshadweep Daman and Diu
+Daman and Diu :Punjab Kerala Dadra and Nagar Haveli
+Delhi :Telangana Tamil Nadu Tripura Manipur Maharashtra Meghalaya Gujarat Goa Haryana
+Goa :Sikkim Chhattisgarh Madhya Pradesh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Gujarat :Tripura Sikkim Meghalaya Andaman and Nicobar Madhya Pradesh Delhi Haryana
+Haryana :Telangana Sikkim Andaman and Nicobar Manipur Madhya Pradesh Gujarat Delhi
+Himachal Pradesh :Chandigarh Bihar
+Jammu and Kashmir :Chandigarh Chhattisgarh Assam
+Jharkhand :Andaman and Nicobar Assam Bihar
+Karnataka :Andaman and Nicobar Bihar
+Kerala :Daman and Diu
+Lakshadweep :Dadra and Nagar Haveli
+Madhya Pradesh :Gujarat Goa Haryana
+Maharashtra :Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Manipur :Andaman and Nicobar Delhi Haryana
+Meghalaya :Andaman and Nicobar Gujarat Delhi
+Mizoram :Chandigarh Bihar
+Nagaland :Chandigarh Chhattisgarh Assam
+Odisha :Andaman and Nicobar Assam Bihar
+Puducherry :Andaman and Nicobar Bihar
+Punjab :Daman and Diu
+Rajasthan :Dadra and Nagar Haveli
+Sikkim :Gujarat Goa Haryana
+Tamil Nadu :Delhi
+Telangana :Delhi Haryana
+Tripura :Gujarat Delhi
+Uttar Pradesh :Uttarakhand :West Bengal :[30, 5]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Puducherry Meghalaya Manipur Odisha Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
+Andhra Pradesh :Maharashtra Goa Andaman and Nicobar
+Arunachal Pradesh :Maharashtra Goa Andaman and Nicobar
+Assam :Odisha Nagaland Jharkhand Jammu and Kashmir Chandigarh Bihar
+Bihar :Mizoram Odisha Puducherry Himachal Pradesh Jharkhand Karnataka Chandigarh Chhattisgarh Assam
+Chandigarh :Tamil Nadu Mizoram Nagaland Maharashtra Himachal Pradesh Jammu and Kashmir Goa Assam Bihar Andaman and Nicobar
+Chhattisgarh :Nagaland Maharashtra Jammu and Kashmir Goa Andaman and Nicobar Bihar
+Dadra and Nagar Haveli :Rajasthan Lakshadweep Daman and Diu
+Daman and Diu :Punjab Kerala Dadra and Nagar Haveli
+Delhi :Telangana Tamil Nadu Tripura Manipur Maharashtra Meghalaya Gujarat Goa Haryana
+Goa :Sikkim Chhattisgarh Madhya Pradesh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Gujarat :Tripura Sikkim Meghalaya Andaman and Nicobar Madhya Pradesh Delhi Haryana
+Haryana :Telangana Sikkim Andaman and Nicobar Manipur Madhya Pradesh Gujarat Delhi
+Himachal Pradesh :Chandigarh Bihar
+Jammu and Kashmir :Chandigarh Chhattisgarh Assam
+Jharkhand :Andaman and Nicobar Assam Bihar
+Karnataka :Andaman and Nicobar Bihar
+Kerala :Daman and Diu
+Lakshadweep :Dadra and Nagar Haveli
+Madhya Pradesh :Gujarat Goa Haryana
+Maharashtra :Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Manipur :Andaman and Nicobar Delhi Haryana
+Meghalaya :Andaman and Nicobar Gujarat Delhi
+Mizoram :Chandigarh Bihar
+Nagaland :Chandigarh Chhattisgarh Assam
+Odisha :Andaman and Nicobar Assam Bihar
+Puducherry :Andaman and Nicobar Bihar
+Punjab :Daman and Diu
+Rajasthan :Dadra and Nagar Haveli
+Sikkim :Gujarat Goa Haryana
+Tamil Nadu :Chandigarh Delhi
+Telangana :Delhi Haryana
+Tripura :Gujarat Delhi
+Uttar Pradesh :Uttarakhand :West Bengal :[34, 3]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Puducherry Meghalaya Manipur Odisha Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
+Andhra Pradesh :Maharashtra Goa Andaman and Nicobar
+Arunachal Pradesh :Maharashtra Goa Andaman and Nicobar
+Assam :Uttarakhand Odisha Nagaland Jharkhand Jammu and Kashmir Chandigarh Bihar
+Bihar :Mizoram Odisha Puducherry Himachal Pradesh Jharkhand Karnataka Chandigarh Chhattisgarh Assam
+Chandigarh :Tamil Nadu Mizoram Nagaland Maharashtra Himachal Pradesh Jammu and Kashmir Goa Assam Bihar Andaman and Nicobar
+Chhattisgarh :Nagaland Maharashtra Jammu and Kashmir Goa Andaman and Nicobar Bihar
+Dadra and Nagar Haveli :Rajasthan Lakshadweep Daman and Diu
+Daman and Diu :Punjab Kerala Dadra and Nagar Haveli
+Delhi :Telangana Tamil Nadu Tripura Manipur Maharashtra Meghalaya Gujarat Goa Haryana
+Goa :Sikkim Chhattisgarh Madhya Pradesh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Gujarat :Tripura Sikkim Meghalaya Andaman and Nicobar Madhya Pradesh Delhi Haryana
+Haryana :Telangana Sikkim Andaman and Nicobar Manipur Madhya Pradesh Gujarat Delhi
+Himachal Pradesh :Chandigarh Bihar
+Jammu and Kashmir :Chandigarh Chhattisgarh Assam
+Jharkhand :Andaman and Nicobar Assam Bihar
+Karnataka :Andaman and Nicobar Bihar
+Kerala :Daman and Diu
+Lakshadweep :Dadra and Nagar Haveli
+Madhya Pradesh :Gujarat Goa Haryana
+Maharashtra :Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Manipur :Andaman and Nicobar Delhi Haryana
+Meghalaya :Andaman and Nicobar Gujarat Delhi
+Mizoram :Chandigarh Bihar
+Nagaland :Chandigarh Chhattisgarh Assam
+Odisha :Andaman and Nicobar Assam Bihar
+Puducherry :Andaman and Nicobar Bihar
+Punjab :Daman and Diu
+Rajasthan :Dadra and Nagar Haveli
+Sikkim :Gujarat Goa Haryana
+Tamil Nadu :Chandigarh Delhi
+Telangana :Delhi Haryana
+Tripura :Gujarat Delhi
+Uttar Pradesh :Uttarakhand :Assam
+West Bengal :[30, 1]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Puducherry Meghalaya Manipur Odisha Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
+Andhra Pradesh :Tamil Nadu Maharashtra Goa Andaman and Nicobar
+Arunachal Pradesh :Maharashtra Goa Andaman and Nicobar
+Assam :Uttarakhand Odisha Nagaland Jharkhand Jammu and Kashmir Chandigarh Bihar
+Bihar :Mizoram Odisha Puducherry Himachal Pradesh Jharkhand Karnataka Chandigarh Chhattisgarh Assam
+Chandigarh :Tamil Nadu Mizoram Nagaland Maharashtra Himachal Pradesh Jammu and Kashmir Goa Assam Bihar Andaman and Nicobar
+Chhattisgarh :Nagaland Maharashtra Jammu and Kashmir Goa Andaman and Nicobar Bihar
+Dadra and Nagar Haveli :Rajasthan Lakshadweep Daman and Diu
+Daman and Diu :Punjab Kerala Dadra and Nagar Haveli
+Delhi :Telangana Tamil Nadu Tripura Manipur Maharashtra Meghalaya Gujarat Goa Haryana
+Goa :Sikkim Chhattisgarh Madhya Pradesh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Gujarat :Tripura Sikkim Meghalaya Andaman and Nicobar Madhya Pradesh Delhi Haryana
+Haryana :Telangana Sikkim Andaman and Nicobar Manipur Madhya Pradesh Gujarat Delhi
+Himachal Pradesh :Chandigarh Bihar
+Jammu and Kashmir :Chandigarh Chhattisgarh Assam
+Jharkhand :Andaman and Nicobar Assam Bihar
+Karnataka :Andaman and Nicobar Bihar
+Kerala :Daman and Diu
+Lakshadweep :Dadra and Nagar Haveli
+Madhya Pradesh :Gujarat Goa Haryana
+Maharashtra :Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Manipur :Andaman and Nicobar Delhi Haryana
+Meghalaya :Andaman and Nicobar Gujarat Delhi
+Mizoram :Chandigarh Bihar
+Nagaland :Chandigarh Chhattisgarh Assam
+Odisha :Andaman and Nicobar Assam Bihar
+Puducherry :Andaman and Nicobar Bihar
+Punjab :Daman and Diu
+Rajasthan :Dadra and Nagar Haveli
+Sikkim :Gujarat Goa Haryana
+Tamil Nadu :Andhra Pradesh Chandigarh Delhi
+Telangana :Delhi Haryana
+Tripura :Gujarat Delhi
+Uttar Pradesh :Uttarakhand :Assam
+West Bengal :[29, 12]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Puducherry Meghalaya Manipur Odisha Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
+Andhra Pradesh :Tamil Nadu Maharashtra Goa Andaman and Nicobar
+Arunachal Pradesh :Maharashtra Goa Andaman and Nicobar
+Assam :Uttarakhand Odisha Nagaland Jharkhand Jammu and Kashmir Chandigarh Bihar
+Bihar :Mizoram Odisha Puducherry Himachal Pradesh Jharkhand Karnataka Chandigarh Chhattisgarh Assam
+Chandigarh :Tamil Nadu Mizoram Nagaland Maharashtra Himachal Pradesh Jammu and Kashmir Goa Assam Bihar Andaman and Nicobar
+Chhattisgarh :Nagaland Maharashtra Jammu and Kashmir Goa Andaman and Nicobar Bihar
+Dadra and Nagar Haveli :Rajasthan Lakshadweep Daman and Diu
+Daman and Diu :Punjab Kerala Dadra and Nagar Haveli
+Delhi :Telangana Tamil Nadu Tripura Manipur Maharashtra Meghalaya Gujarat Goa Haryana
+Goa :Sikkim Chhattisgarh Madhya Pradesh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Gujarat :Tripura Sikkim Meghalaya Andaman and Nicobar Madhya Pradesh Delhi Haryana
+Haryana :Sikkim Telangana Sikkim Andaman and Nicobar Manipur Madhya Pradesh Gujarat Delhi
+Himachal Pradesh :Chandigarh Bihar
+Jammu and Kashmir :Chandigarh Chhattisgarh Assam
+Jharkhand :Andaman and Nicobar Assam Bihar
+Karnataka :Andaman and Nicobar Bihar
+Kerala :Daman and Diu
+Lakshadweep :Dadra and Nagar Haveli
+Madhya Pradesh :Gujarat Goa Haryana
+Maharashtra :Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Manipur :Andaman and Nicobar Delhi Haryana
+Meghalaya :Andaman and Nicobar Gujarat Delhi
+Mizoram :Chandigarh Bihar
+Nagaland :Chandigarh Chhattisgarh Assam
+Odisha :Andaman and Nicobar Assam Bihar
+Puducherry :Andaman and Nicobar Bihar
+Punjab :Daman and Diu
+Rajasthan :Dadra and Nagar Haveli
+Sikkim :Haryana Gujarat Goa Haryana
+Tamil Nadu :Andhra Pradesh Chandigarh Delhi
+Telangana :Delhi Haryana
+Tripura :Gujarat Delhi
+Uttar Pradesh :Uttarakhand :Assam
+West Bengal :[26, 4]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Puducherry Meghalaya Manipur Odisha Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
+Andhra Pradesh :Tamil Nadu Maharashtra Goa Andaman and Nicobar
+Arunachal Pradesh :Maharashtra Goa Andaman and Nicobar
+Assam :Uttarakhand Odisha Nagaland Jharkhand Jammu and Kashmir Chandigarh Bihar
+Bihar :Puducherry Mizoram Odisha Puducherry Himachal Pradesh Jharkhand Karnataka Chandigarh Chhattisgarh Assam
+Chandigarh :Tamil Nadu Mizoram Nagaland Maharashtra Himachal Pradesh Jammu and Kashmir Goa Assam Bihar Andaman and Nicobar
+Chhattisgarh :Nagaland Maharashtra Jammu and Kashmir Goa Andaman and Nicobar Bihar
+Dadra and Nagar Haveli :Rajasthan Lakshadweep Daman and Diu
+Daman and Diu :Punjab Kerala Dadra and Nagar Haveli
+Delhi :Telangana Tamil Nadu Tripura Manipur Maharashtra Meghalaya Gujarat Goa Haryana
+Goa :Sikkim Chhattisgarh Madhya Pradesh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Gujarat :Tripura Sikkim Meghalaya Andaman and Nicobar Madhya Pradesh Delhi Haryana
+Haryana :Sikkim Telangana Sikkim Andaman and Nicobar Manipur Madhya Pradesh Gujarat Delhi
+Himachal Pradesh :Chandigarh Bihar
+Jammu and Kashmir :Chandigarh Chhattisgarh Assam
+Jharkhand :Andaman and Nicobar Assam Bihar
+Karnataka :Andaman and Nicobar Bihar
+Kerala :Daman and Diu
+Lakshadweep :Dadra and Nagar Haveli
+Madhya Pradesh :Gujarat Goa Haryana
+Maharashtra :Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Manipur :Andaman and Nicobar Delhi Haryana
+Meghalaya :Andaman and Nicobar Gujarat Delhi
+Mizoram :Chandigarh Bihar
+Nagaland :Chandigarh Chhattisgarh Assam
+Odisha :Andaman and Nicobar Assam Bihar
+Puducherry :Bihar Andaman and Nicobar Bihar
+Punjab :Daman and Diu
+Rajasthan :Dadra and Nagar Haveli
+Sikkim :Haryana Gujarat Goa Haryana
+Tamil Nadu :Andhra Pradesh Chandigarh Delhi
+Telangana :Delhi Haryana
+Tripura :Gujarat Delhi
+Uttar Pradesh :Uttarakhand :Assam
+West Bengal :[35, 4]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Puducherry Meghalaya Manipur Odisha Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
+Andhra Pradesh :Tamil Nadu Maharashtra Goa Andaman and Nicobar
+Arunachal Pradesh :Maharashtra Goa Andaman and Nicobar
+Assam :Uttarakhand Odisha Nagaland Jharkhand Jammu and Kashmir Chandigarh Bihar
+Bihar :West Bengal Puducherry Mizoram Odisha Puducherry Himachal Pradesh Jharkhand Karnataka Chandigarh Chhattisgarh Assam
+Chandigarh :Tamil Nadu Mizoram Nagaland Maharashtra Himachal Pradesh Jammu and Kashmir Goa Assam Bihar Andaman and Nicobar
+Chhattisgarh :Nagaland Maharashtra Jammu and Kashmir Goa Andaman and Nicobar Bihar
+Dadra and Nagar Haveli :Rajasthan Lakshadweep Daman and Diu
+Daman and Diu :Punjab Kerala Dadra and Nagar Haveli
+Delhi :Telangana Tamil Nadu Tripura Manipur Maharashtra Meghalaya Gujarat Goa Haryana
+Goa :Sikkim Chhattisgarh Madhya Pradesh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Gujarat :Tripura Sikkim Meghalaya Andaman and Nicobar Madhya Pradesh Delhi Haryana
+Haryana :Sikkim Telangana Sikkim Andaman and Nicobar Manipur Madhya Pradesh Gujarat Delhi
+Himachal Pradesh :Chandigarh Bihar
+Jammu and Kashmir :Chandigarh Chhattisgarh Assam
+Jharkhand :Andaman and Nicobar Assam Bihar
+Karnataka :Andaman and Nicobar Bihar
+Kerala :Daman and Diu
+Lakshadweep :Dadra and Nagar Haveli
+Madhya Pradesh :Gujarat Goa Haryana
+Maharashtra :Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Manipur :Andaman and Nicobar Delhi Haryana
+Meghalaya :Andaman and Nicobar Gujarat Delhi
+Mizoram :Chandigarh Bihar
+Nagaland :Chandigarh Chhattisgarh Assam
+Odisha :Andaman and Nicobar Assam Bihar
+Puducherry :Bihar Andaman and Nicobar Bihar
+Punjab :Daman and Diu
+Rajasthan :Dadra and Nagar Haveli
+Sikkim :Haryana Gujarat Goa Haryana
+Tamil Nadu :Andhra Pradesh Chandigarh Delhi
+Telangana :Delhi Haryana
+Tripura :Gujarat Delhi
+Uttar Pradesh :Uttarakhand :Assam
+West Bengal :Bihar
+[30, 2]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Puducherry Meghalaya Manipur Odisha Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
+Andhra Pradesh :Tamil Nadu Maharashtra Goa Andaman and Nicobar
+Arunachal Pradesh :Tamil Nadu Maharashtra Goa Andaman and Nicobar
+Assam :Uttarakhand Odisha Nagaland Jharkhand Jammu and Kashmir Chandigarh Bihar
+Bihar :West Bengal Puducherry Mizoram Odisha Puducherry Himachal Pradesh Jharkhand Karnataka Chandigarh Chhattisgarh Assam
+Chandigarh :Tamil Nadu Mizoram Nagaland Maharashtra Himachal Pradesh Jammu and Kashmir Goa Assam Bihar Andaman and Nicobar
+Chhattisgarh :Nagaland Maharashtra Jammu and Kashmir Goa Andaman and Nicobar Bihar
+Dadra and Nagar Haveli :Rajasthan Lakshadweep Daman and Diu
+Daman and Diu :Punjab Kerala Dadra and Nagar Haveli
+Delhi :Telangana Tamil Nadu Tripura Manipur Maharashtra Meghalaya Gujarat Goa Haryana
+Goa :Sikkim Chhattisgarh Madhya Pradesh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Gujarat :Tripura Sikkim Meghalaya Andaman and Nicobar Madhya Pradesh Delhi Haryana
+Haryana :Sikkim Telangana Sikkim Andaman and Nicobar Manipur Madhya Pradesh Gujarat Delhi
+Himachal Pradesh :Chandigarh Bihar
+Jammu and Kashmir :Chandigarh Chhattisgarh Assam
+Jharkhand :Andaman and Nicobar Assam Bihar
+Karnataka :Andaman and Nicobar Bihar
+Kerala :Daman and Diu
+Lakshadweep :Dadra and Nagar Haveli
+Madhya Pradesh :Gujarat Goa Haryana
+Maharashtra :Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Manipur :Andaman and Nicobar Delhi Haryana
+Meghalaya :Andaman and Nicobar Gujarat Delhi
+Mizoram :Chandigarh Bihar
+Nagaland :Chandigarh Chhattisgarh Assam
+Odisha :Andaman and Nicobar Assam Bihar
+Puducherry :Bihar Andaman and Nicobar Bihar
+Punjab :Daman and Diu
+Rajasthan :Dadra and Nagar Haveli
+Sikkim :Haryana Gujarat Goa Haryana
+Tamil Nadu :Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Telangana :Delhi Haryana
+Tripura :Gujarat Delhi
+Uttar Pradesh :Uttarakhand :Assam
+West Bengal :Bihar
+[31, 12]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Puducherry Meghalaya Manipur Odisha Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
+Andhra Pradesh :Tamil Nadu Maharashtra Goa Andaman and Nicobar
+Arunachal Pradesh :Tamil Nadu Maharashtra Goa Andaman and Nicobar
+Assam :Uttarakhand Odisha Nagaland Jharkhand Jammu and Kashmir Chandigarh Bihar
+Bihar :West Bengal Puducherry Mizoram Odisha Puducherry Himachal Pradesh Jharkhand Karnataka Chandigarh Chhattisgarh Assam
+Chandigarh :Tamil Nadu Mizoram Nagaland Maharashtra Himachal Pradesh Jammu and Kashmir Goa Assam Bihar Andaman and Nicobar
+Chhattisgarh :Nagaland Maharashtra Jammu and Kashmir Goa Andaman and Nicobar Bihar
+Dadra and Nagar Haveli :Rajasthan Lakshadweep Daman and Diu
+Daman and Diu :Punjab Kerala Dadra and Nagar Haveli
+Delhi :Telangana Tamil Nadu Tripura Manipur Maharashtra Meghalaya Gujarat Goa Haryana
+Goa :Sikkim Chhattisgarh Madhya Pradesh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Gujarat :Tripura Sikkim Meghalaya Andaman and Nicobar Madhya Pradesh Delhi Haryana
+Haryana :Telangana Sikkim Telangana Sikkim Andaman and Nicobar Manipur Madhya Pradesh Gujarat Delhi
+Himachal Pradesh :Chandigarh Bihar
+Jammu and Kashmir :Chandigarh Chhattisgarh Assam
+Jharkhand :Andaman and Nicobar Assam Bihar
+Karnataka :Andaman and Nicobar Bihar
+Kerala :Daman and Diu
+Lakshadweep :Dadra and Nagar Haveli
+Madhya Pradesh :Gujarat Goa Haryana
+Maharashtra :Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Manipur :Andaman and Nicobar Delhi Haryana
+Meghalaya :Andaman and Nicobar Gujarat Delhi
+Mizoram :Chandigarh Bihar
+Nagaland :Chandigarh Chhattisgarh Assam
+Odisha :Andaman and Nicobar Assam Bihar
+Puducherry :Bihar Andaman and Nicobar Bihar
+Punjab :Daman and Diu
+Rajasthan :Dadra and Nagar Haveli
+Sikkim :Haryana Gujarat Goa Haryana
+Tamil Nadu :Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Telangana :Haryana Delhi Haryana
+Tripura :Gujarat Delhi
+Uttar Pradesh :Uttarakhand :Assam
+West Bengal :Bihar
+[29, 10]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Puducherry Meghalaya Manipur Odisha Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
+Andhra Pradesh :Tamil Nadu Maharashtra Goa Andaman and Nicobar
+Arunachal Pradesh :Tamil Nadu Maharashtra Goa Andaman and Nicobar
+Assam :Uttarakhand Odisha Nagaland Jharkhand Jammu and Kashmir Chandigarh Bihar
+Bihar :West Bengal Puducherry Mizoram Odisha Puducherry Himachal Pradesh Jharkhand Karnataka Chandigarh Chhattisgarh Assam
+Chandigarh :Tamil Nadu Mizoram Nagaland Maharashtra Himachal Pradesh Jammu and Kashmir Goa Assam Bihar Andaman and Nicobar
+Chhattisgarh :Nagaland Maharashtra Jammu and Kashmir Goa Andaman and Nicobar Bihar
+Dadra and Nagar Haveli :Rajasthan Lakshadweep Daman and Diu
+Daman and Diu :Punjab Kerala Dadra and Nagar Haveli
+Delhi :Telangana Tamil Nadu Tripura Manipur Maharashtra Meghalaya Gujarat Goa Haryana
+Goa :Sikkim Sikkim Chhattisgarh Madhya Pradesh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Gujarat :Tripura Sikkim Meghalaya Andaman and Nicobar Madhya Pradesh Delhi Haryana
+Haryana :Telangana Sikkim Telangana Sikkim Andaman and Nicobar Manipur Madhya Pradesh Gujarat Delhi
+Himachal Pradesh :Chandigarh Bihar
+Jammu and Kashmir :Chandigarh Chhattisgarh Assam
+Jharkhand :Andaman and Nicobar Assam Bihar
+Karnataka :Andaman and Nicobar Bihar
+Kerala :Daman and Diu
+Lakshadweep :Dadra and Nagar Haveli
+Madhya Pradesh :Gujarat Goa Haryana
+Maharashtra :Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Manipur :Andaman and Nicobar Delhi Haryana
+Meghalaya :Andaman and Nicobar Gujarat Delhi
+Mizoram :Chandigarh Bihar
+Nagaland :Chandigarh Chhattisgarh Assam
+Odisha :Andaman and Nicobar Assam Bihar
+Puducherry :Bihar Andaman and Nicobar Bihar
+Punjab :Daman and Diu
+Rajasthan :Dadra and Nagar Haveli
+Sikkim :Goa Haryana Gujarat Goa Haryana
+Tamil Nadu :Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Telangana :Haryana Delhi Haryana
+Tripura :Gujarat Delhi
+Uttar Pradesh :Uttarakhand :Assam
+West Bengal :Bihar
+[30, 6]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Puducherry Meghalaya Manipur Odisha Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
+Andhra Pradesh :Tamil Nadu Maharashtra Goa Andaman and Nicobar
+Arunachal Pradesh :Tamil Nadu Maharashtra Goa Andaman and Nicobar
+Assam :Uttarakhand Odisha Nagaland Jharkhand Jammu and Kashmir Chandigarh Bihar
+Bihar :West Bengal Puducherry Mizoram Odisha Puducherry Himachal Pradesh Jharkhand Karnataka Chandigarh Chhattisgarh Assam
+Chandigarh :Tamil Nadu Mizoram Nagaland Maharashtra Himachal Pradesh Jammu and Kashmir Goa Assam Bihar Andaman and Nicobar
+Chhattisgarh :Tamil Nadu Nagaland Maharashtra Jammu and Kashmir Goa Andaman and Nicobar Bihar
+Dadra and Nagar Haveli :Rajasthan Lakshadweep Daman and Diu
+Daman and Diu :Punjab Kerala Dadra and Nagar Haveli
+Delhi :Telangana Tamil Nadu Tripura Manipur Maharashtra Meghalaya Gujarat Goa Haryana
+Goa :Sikkim Sikkim Chhattisgarh Madhya Pradesh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Gujarat :Tripura Sikkim Meghalaya Andaman and Nicobar Madhya Pradesh Delhi Haryana
+Haryana :Telangana Sikkim Telangana Sikkim Andaman and Nicobar Manipur Madhya Pradesh Gujarat Delhi
+Himachal Pradesh :Chandigarh Bihar
+Jammu and Kashmir :Chandigarh Chhattisgarh Assam
+Jharkhand :Andaman and Nicobar Assam Bihar
+Karnataka :Andaman and Nicobar Bihar
+Kerala :Daman and Diu
+Lakshadweep :Dadra and Nagar Haveli
+Madhya Pradesh :Gujarat Goa Haryana
+Maharashtra :Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Manipur :Andaman and Nicobar Delhi Haryana
+Meghalaya :Andaman and Nicobar Gujarat Delhi
+Mizoram :Chandigarh Bihar
+Nagaland :Chandigarh Chhattisgarh Assam
+Odisha :Andaman and Nicobar Assam Bihar
+Puducherry :Bihar Andaman and Nicobar Bihar
+Punjab :Daman and Diu
+Rajasthan :Dadra and Nagar Haveli
+Sikkim :Goa Haryana Gujarat Goa Haryana
+Tamil Nadu :Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Telangana :Haryana Delhi Haryana
+Tripura :Gujarat Delhi
+Uttar Pradesh :Uttarakhand :Assam
+West Bengal :Bihar
+[27, 8]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Puducherry Meghalaya Manipur Odisha Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
+Andhra Pradesh :Tamil Nadu Maharashtra Goa Andaman and Nicobar
+Arunachal Pradesh :Tamil Nadu Maharashtra Goa Andaman and Nicobar
+Assam :Uttarakhand Odisha Nagaland Jharkhand Jammu and Kashmir Chandigarh Bihar
+Bihar :West Bengal Puducherry Mizoram Odisha Puducherry Himachal Pradesh Jharkhand Karnataka Chandigarh Chhattisgarh Assam
+Chandigarh :Tamil Nadu Mizoram Nagaland Maharashtra Himachal Pradesh Jammu and Kashmir Goa Assam Bihar Andaman and Nicobar
+Chhattisgarh :Tamil Nadu Nagaland Maharashtra Jammu and Kashmir Goa Andaman and Nicobar Bihar
+Dadra and Nagar Haveli :Rajasthan Lakshadweep Daman and Diu
+Daman and Diu :Punjab Punjab Kerala Dadra and Nagar Haveli
+Delhi :Telangana Tamil Nadu Tripura Manipur Maharashtra Meghalaya Gujarat Goa Haryana
+Goa :Sikkim Sikkim Chhattisgarh Madhya Pradesh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Gujarat :Tripura Sikkim Meghalaya Andaman and Nicobar Madhya Pradesh Delhi Haryana
+Haryana :Telangana Sikkim Telangana Sikkim Andaman and Nicobar Manipur Madhya Pradesh Gujarat Delhi
+Himachal Pradesh :Chandigarh Bihar
+Jammu and Kashmir :Chandigarh Chhattisgarh Assam
+Jharkhand :Andaman and Nicobar Assam Bihar
+Karnataka :Andaman and Nicobar Bihar
+Kerala :Daman and Diu
+Lakshadweep :Dadra and Nagar Haveli
+Madhya Pradesh :Gujarat Goa Haryana
+Maharashtra :Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Manipur :Andaman and Nicobar Delhi Haryana
+Meghalaya :Andaman and Nicobar Gujarat Delhi
+Mizoram :Chandigarh Bihar
+Nagaland :Chandigarh Chhattisgarh Assam
+Odisha :Andaman and Nicobar Assam Bihar
+Puducherry :Bihar Andaman and Nicobar Bihar
+Punjab :Daman and Diu Daman and Diu
+Rajasthan :Dadra and Nagar Haveli
+Sikkim :Goa Haryana Gujarat Goa Haryana
+Tamil Nadu :Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Telangana :Haryana Delhi Haryana
+Tripura :Gujarat Delhi
+Uttar Pradesh :Uttarakhand :Assam
+West Bengal :Bihar
+[29, 11]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Puducherry Meghalaya Manipur Odisha Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
+Andhra Pradesh :Tamil Nadu Maharashtra Goa Andaman and Nicobar
+Arunachal Pradesh :Tamil Nadu Maharashtra Goa Andaman and Nicobar
+Assam :Uttarakhand Odisha Nagaland Jharkhand Jammu and Kashmir Chandigarh Bihar
+Bihar :West Bengal Puducherry Mizoram Odisha Puducherry Himachal Pradesh Jharkhand Karnataka Chandigarh Chhattisgarh Assam
+Chandigarh :Tamil Nadu Mizoram Nagaland Maharashtra Himachal Pradesh Jammu and Kashmir Goa Assam Bihar Andaman and Nicobar
+Chhattisgarh :Tamil Nadu Nagaland Maharashtra Jammu and Kashmir Goa Andaman and Nicobar Bihar
+Dadra and Nagar Haveli :Rajasthan Lakshadweep Daman and Diu
+Daman and Diu :Punjab Punjab Kerala Dadra and Nagar Haveli
+Delhi :Telangana Tamil Nadu Tripura Manipur Maharashtra Meghalaya Gujarat Goa Haryana
+Goa :Sikkim Sikkim Chhattisgarh Madhya Pradesh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Gujarat :Sikkim Tripura Sikkim Meghalaya Andaman and Nicobar Madhya Pradesh Delhi Haryana
+Haryana :Telangana Sikkim Telangana Sikkim Andaman and Nicobar Manipur Madhya Pradesh Gujarat Delhi
+Himachal Pradesh :Chandigarh Bihar
+Jammu and Kashmir :Chandigarh Chhattisgarh Assam
+Jharkhand :Andaman and Nicobar Assam Bihar
+Karnataka :Andaman and Nicobar Bihar
+Kerala :Daman and Diu
+Lakshadweep :Dadra and Nagar Haveli
+Madhya Pradesh :Gujarat Goa Haryana
+Maharashtra :Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Manipur :Andaman and Nicobar Delhi Haryana
+Meghalaya :Andaman and Nicobar Gujarat Delhi
+Mizoram :Chandigarh Bihar
+Nagaland :Chandigarh Chhattisgarh Assam
+Odisha :Andaman and Nicobar Assam Bihar
+Puducherry :Bihar Andaman and Nicobar Bihar
+Punjab :Daman and Diu Daman and Diu
+Rajasthan :Dadra and Nagar Haveli
+Sikkim :Gujarat Goa Haryana Gujarat Goa Haryana
+Tamil Nadu :Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Telangana :Haryana Delhi Haryana
+Tripura :Gujarat Delhi
+Uttar Pradesh :Uttarakhand :Assam
+West Bengal :Bihar
+[35, 33]
+----------------
+===============
+-----------------------------
+Andaman and Nicobar :Puducherry Meghalaya Manipur Odisha Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
+Andhra Pradesh :Tamil Nadu Maharashtra Goa Andaman and Nicobar
+Arunachal Pradesh :Tamil Nadu Maharashtra Goa Andaman and Nicobar
+Assam :Uttarakhand Odisha Nagaland Jharkhand Jammu and Kashmir Chandigarh Bihar
+Bihar :West Bengal Puducherry Mizoram Odisha Puducherry Himachal Pradesh Jharkhand Karnataka Chandigarh Chhattisgarh Assam
+Chandigarh :Tamil Nadu Mizoram Nagaland Maharashtra Himachal Pradesh Jammu and Kashmir Goa Assam Bihar Andaman and Nicobar
+Chhattisgarh :Tamil Nadu Nagaland Maharashtra Jammu and Kashmir Goa Andaman and Nicobar Bihar
+Dadra and Nagar Haveli :Rajasthan Lakshadweep Daman and Diu
+Daman and Diu :Punjab Punjab Kerala Dadra and Nagar Haveli
+Delhi :Telangana Tamil Nadu Tripura Manipur Maharashtra Meghalaya Gujarat Goa Haryana
+Goa :Sikkim Sikkim Chhattisgarh Madhya Pradesh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Gujarat :Sikkim Tripura Sikkim Meghalaya Andaman and Nicobar Madhya Pradesh Delhi Haryana
+Haryana :Telangana Sikkim Telangana Sikkim Andaman and Nicobar Manipur Madhya Pradesh Gujarat Delhi
+Himachal Pradesh :Chandigarh Bihar
+Jammu and Kashmir :Chandigarh Chhattisgarh Assam
+Jharkhand :Andaman and Nicobar Assam Bihar
+Karnataka :Andaman and Nicobar Bihar
+Kerala :Daman and Diu
+Lakshadweep :Dadra and Nagar Haveli
+Madhya Pradesh :Gujarat Goa Haryana
+Maharashtra :Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Manipur :Andaman and Nicobar Delhi Haryana
+Meghalaya :Andaman and Nicobar Gujarat Delhi
+Mizoram :Chandigarh Bihar
+Nagaland :Chandigarh Chhattisgarh Assam
+Odisha :Andaman and Nicobar Assam Bihar
+Puducherry :Bihar Andaman and Nicobar Bihar
+Punjab :Daman and Diu Daman and Diu
+Rajasthan :Dadra and Nagar Haveli
+Sikkim :Gujarat Goa Haryana Gujarat Goa Haryana
+Tamil Nadu :Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh Delhi
+Telangana :Haryana Delhi Haryana
+Tripura :Gujarat Delhi
+Uttar Pradesh :West Bengal
+Uttarakhand :Assam
+West Bengal :Uttar Pradesh Bihar
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -81,7 +2206,7 @@ Uttarakhand: Assam
 West Bengal: Uttar Pradesh Bihar
 
 Your Output: 
-
+[Andaman and Nicobar, Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chandigarh, Chhattisgarh, Dadra and Nagar Haveli, Daman and Diu, Delhi, Goa, Gujarat, Haryana, Himachal Pradesh, Jammu and Kashmir, Jharkhand, Karnataka, Kerala, Lakshadweep, Madhya Pradesh, Maharashtra, Manipur, Meghalaya, Mizoram, Nagaland, Odisha, Puducherry, Punjab, Rajasthan, Sikkim, Tamil Nadu, Telangana, Tripura, Uttar Pradesh, Uttarakhand, West Bengal]
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -125,7 +2250,13 @@ Expected Output:
 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0
 
 Your Output: 
-
+[Hyderabad]
+hvfg
+[0, 0]
+----------------
+===============
+-----------------------------
+Hyderabad :Hyderabad Hyderabad
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -134,7 +2265,7 @@ Expected Output:
 No edges
 
 Your Output: 
-
+[Hyderabad]
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -153,5 +2284,6 @@ No edges
 
 Your Output: 
 []
+hvfg
 ----------------------------------------
 
