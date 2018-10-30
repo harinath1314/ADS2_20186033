@@ -39,8 +39,9 @@ public final class Solution {
             // System.out.println("hvfg");
             for (int i = 0; i < edges; i++) {
                 String[] v_e = sc.nextLine().split(" ");
-                System.out.println(Arrays.toString(v_e));
+                // System.out.println(Arrays.toString(v_e));
                 gl.addEdge(Integer.parseInt(v_e[0]), Integer.parseInt(v_e[1]));
+            }
                 // System.out.println("-----------------------------");
 
             for (int j = 0 ; j < vertices; j++) {
@@ -54,7 +55,7 @@ public final class Solution {
                 if(!str.equals(""))
                 {
                 System.out.println(str.substring(0, str.length()-1));
-                    
+
                 }
 
 
@@ -67,7 +68,7 @@ public final class Solution {
         }
 
     }
-}
+
 }
 
 /**
