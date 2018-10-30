@@ -57,11 +57,12 @@ public final class Solution {
         Scanner sc = new Scanner(System.in);
         String input = sc.nextLine();
         int vertices = Integer.parseInt(sc.nextLine());
-        GraphList gl = new GraphList(vertices);
+        String[] stat = sc.nextLine().split(",");
+
+        GraphList gl = new GraphList(vertices, stat);
 
         int edges = Integer.parseInt(sc.nextLine());
-        String[] states = sc.nextLine().split(",");
-        Graphmatrix m = new Graphmatrix(vertices, edges, states);
+        Graphmatrix m = new Graphmatrix(vertices, edges, stat);
         for (int i = 0; i < edges; i++) {
             String[] ve = sc.nextLine().split(" ");
             gl.addEdge(Integer.parseInt(ve[0]), Integer.parseInt(ve[1]));
@@ -73,21 +74,8 @@ public final class Solution {
 
             System.out.println(vertices + " vertices, " + gl.e() + " edges");
             if (gl.e() != 0) {
-                for (int j = 0; j < vertices; j++) {
-                    System.out.print(states[j] + ": ");
-                    String str = "";
+                gl.printlist();
 
-                    for (int s : gl.adj[j]) {
-                        str = str + states[s] + " ";
-                    }
-                    if (!str.equals("")) {
-                        System.out.println(str.substring(0, str.length()));
-
-                    }
-
-
-
-                }
 
 
             } else {
@@ -116,6 +104,10 @@ public final class Solution {
  */
 class GraphList implements Graph {
     /**
+     * states array.
+     */
+    private String[] states;
+    /**
      * int vertex.
      */
     private int vertex;
@@ -132,8 +124,9 @@ class GraphList implements Graph {
      *
      * @param      v     { parameter_description }
      */
-    GraphList(final int v) {
+    GraphList(final int v, final String[] state) {
         this.vertex = v;
+        this.states = state;
         adj = (Bag<Integer>[]) new Bag[v];
         for (int i = 0; i < v; i++) {
             adj[i] = new Bag<Integer>();
@@ -181,6 +174,27 @@ class GraphList implements Graph {
      */
     public Iterable<Integer> adj(final int v) {
         return adj[v];
+
+    }
+    /**
+     * print sthe list.
+     */
+    void printlist() {
+        for (int j = 0; j < vertex; j++) {
+            System.out.print(states[j] + ": ");
+            String str = "";
+
+            for (int s : adj[j]) {
+                str = str + states[s] + " ";
+            }
+            if (!str.equals("")) {
+                System.out.println(str.substring(0, str.length()));
+
+            }
+
+
+
+        }
 
     }
     /**
@@ -292,6 +306,7 @@ class Graphmatrix implements Graph {
     public boolean hasEdge(final int v, final int w) {
         return matrix[v][w] == 1;
     }
+
 
     /**
      * prints.

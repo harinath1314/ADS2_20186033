@@ -1,6 +1,7 @@
 Starting audit...
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m1/1.1 Graph/Solution.java:129:28: Variable 'adj' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m1/1.1 Graph/Solution.java:121:28: Variable 'adj' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m1/1.1 Graph/Solution.java:127:43: Expected @param tag for 'state'. [JavadocMethod]
 Audit done.
-Checkstyle ends with 1 errors.
+Checkstyle ends with 2 errors.
 Starting audit...
 Audit done.
