@@ -57,11 +57,12 @@ public final class Solution {
         Scanner sc = new Scanner(System.in);
         String input = sc.nextLine();
         int vertices = Integer.parseInt(sc.nextLine());
+        int edges = Integer.parseInt(sc.nextLine());
+
         String[] stat = sc.nextLine().split(",");
 
         GraphList gl = new GraphList(vertices, stat);
 
-        int edges = Integer.parseInt(sc.nextLine());
         Graphmatrix m = new Graphmatrix(vertices, edges, stat);
         for (int i = 0; i < edges; i++) {
             String[] ve = sc.nextLine().split(" ");
@@ -118,11 +119,12 @@ class GraphList implements Graph {
     /**
      * BAg array.
      */
-    public  Bag<Integer>[] adj;
+    private  Bag<Integer>[] adj;
     /**
      * Constructs the object.
      *
-     * @param      v     { parameter_description }
+     * @param      v      { parameter_description }
+     * @param      state  The state
      */
     GraphList(final int v, final String[] state) {
         this.vertex = v;
