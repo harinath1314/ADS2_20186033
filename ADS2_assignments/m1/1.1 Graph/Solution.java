@@ -43,7 +43,7 @@ public final class Solution {
             System.out.println(vertices + " vertices, " + gl.E() + " edges");
 
             for (int j = 0 ; j < vertices; j++) {
-                System.out.print(states[j] + " :");
+                System.out.print(states[j] + ": ");
                 String str = "";
 
                 for (int s : gl.adj[j]) {
