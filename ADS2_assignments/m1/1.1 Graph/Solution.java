@@ -36,7 +36,7 @@ public final class Solution {
 
 
         if (input.equals("List")) {
-            for (int i = 0; i < edges-1; i++) {
+            for (int i = 0; i < edges; i++) {
                 String[] v_e = sc.nextLine().split(" ");
                 gl.addEdge(Integer.parseInt(v_e[0]), Integer.parseInt(v_e[1]));
 
@@ -49,7 +49,7 @@ public final class Solution {
                 
             // }
             for (int j = 0 ; j<edges; j++) {
-                if(gl.adj[j] != null) {
+                // if(gl.adj[j] != null) {
                     System.out.print(states[j] +" :");
                     while(gl.adj[j].iterator().hasNext()){
                         int h = gl.adj[j].iterator().next();
@@ -58,7 +58,7 @@ public final class Solution {
                     }
                     System.out.println();
                     
-                }
+                // }
                 
             }
 
