@@ -10,16 +10,45 @@ import java.util.Arrays;
  * Interface for graph.
  */
 interface Graph {
+    /**
+     * V() function gives the number of bvertices.
+     *
+     * @return     { int type. }
+     */
     public int V();
+    /**
+     * E() gives the number of edges connected.
+     *
+     * @return     { int type. }
+     */
     public int E();
+    /**
+     * Adds an edge.
+     *
+     * @param      v     { int tpyoe }
+     * @param      w     { int type }
+     */
     public void addEdge(int v, int w);
-    // public Iterable<Integer> adj(int v);
+    /**
+     * Determines if it has edge.
+     *
+     * @param      v     { int type. }
+     * @param      w     { int type. }
+     *
+     * @return     True if has edge, False otherwise.
+     */
     public boolean hasEdge(int v, int w);
 }
 /**
  * Solution class.
  */
 public final class Solution {
+    /**
+     * Constructs the object for check style.
+     */
+    private Solution() {
+
+    }
     /**
      * main method starts here.
      *
@@ -34,8 +63,6 @@ public final class Solution {
         int edges = Integer.parseInt(sc.nextLine());
         String[] states = sc.nextLine().split(",");
         Graphmatrix m = new Graphmatrix(vertices, edges, states);
-
-        // if (input.equals("List")) {
         for (int i = 0; i < edges; i++) {
             String[] v_e = sc.nextLine().split(" ");
             gl.addEdge(Integer.parseInt(v_e[0]), Integer.parseInt(v_e[1]));
@@ -71,12 +98,6 @@ public final class Solution {
 
             break;
         case"Matrix":
-
-            // for (int k = 0; k < edges; k++) {
-            //     String[] tokens = sc.nextLine().split(" ");
-            // m.addEdge(Integer.parseInt(tokens[0]),
-            //           Integer.parseInt(tokens[1]));
-            // }
             System.out.println(m.V()
                                + " vertices, " + m.E() + " edges");
             m.print();
@@ -87,11 +108,6 @@ public final class Solution {
         }
 
 
-
-
-
-        // }
-
     }
 
 }
@@ -100,11 +116,24 @@ public final class Solution {
  * Class for graphity.
  */
 class GraphList implements Graph {
+    /**
+     * int vertex.
+     */
     private int vertex;
+    /**
+     * int edges.
+     */
     private int edges;
+    /**
+     * BAg array.
+     */
     public Bag<Integer>[] adj;
-
-    GraphList(int v) {
+    /**
+     * Constructs the object.
+     *
+     * @param      v     { parameter_description }
+     */
+    GraphList(final int v) {
         this.vertex = v;
         adj = (Bag<Integer>[]) new Bag[v];
         for (int i = 0; i < v; i++) {
@@ -135,7 +164,7 @@ class GraphList implements Graph {
      * @param      v    vertices.
      * @param      w    verties.
      */
-    public void addEdge(int v, int w) {
+    public void addEdge(final int v, final int w) {
         if (v == w || hasEdge(v, w)) {
             return;
         }
@@ -151,7 +180,7 @@ class GraphList implements Graph {
      *
      * @return     { description_of_the_return_value }
      */
-    public Iterable<Integer> adj(int v) {
+    public Iterable<Integer> adj(final int v) {
         return adj[v];
 
     }
@@ -163,7 +192,7 @@ class GraphList implements Graph {
      *
      * @return     True if has edge, False otherwise.
      */
-    public boolean hasEdge(int v, int w) {
+    public boolean hasEdge(final int v, final int w) {
         for (int each : adj[v]) {
             if (each == w) {
                 return true;
@@ -287,4 +316,3 @@ class Graphmatrix implements Graph {
         }
     }
 }
-
