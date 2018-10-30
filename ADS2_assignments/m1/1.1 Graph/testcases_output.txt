@@ -16,7 +16,7 @@ Gujarat: Delhi Haryana
 Haryana: Gujarat Delhi
 
 Your Output: 
-[Andaman and Nicobar, Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chandigarh, Chhattisgarh, Dadra and Nagar Haveli, Daman and Diu, Delhi, Goa, Gujarat, Haryana]
+
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -37,35 +37,21 @@ Expected Output:
 0 0 0 0 0 0 0 0 0 1 0 1 0
 
 Your Output: 
-[Andaman and Nicobar, Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chandigarh, Chhattisgarh, Dadra and Nagar Haveli, Daman and Diu, Delhi, Goa, Gujarat, Haryana, Himachal Pradesh, Jammu and Kashmir, Jharkhand, Karnataka, Kerala, Lakshadweep, Madhya Pradesh, Maharashtra, Manipur, Meghalaya, Mizoram, Nagaland, Odisha, Puducherry, Punjab, Rajasthan, Sikkim, Tamil Nadu, Telangana, Tripura, Uttar Pradesh, Uttarakhand, West Bengal]
-hvfg
 [0, 5]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Chandigarh
 Andhra Pradesh :Arunachal Pradesh :Assam :Bihar :Chandigarh :Andaman and Nicobar
 Chhattisgarh :Dadra and Nagar Haveli :Daman and Diu :Delhi :Goa :Gujarat :Haryana :Himachal Pradesh :Jammu and Kashmir :Jharkhand :Karnataka :Kerala :Lakshadweep :Madhya Pradesh :Maharashtra :Manipur :Meghalaya :Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[4, 3]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Chandigarh
 Andhra Pradesh :Arunachal Pradesh :Assam :Bihar
 Bihar :Assam
 Chandigarh :Andaman and Nicobar
 Chhattisgarh :Dadra and Nagar Haveli :Daman and Diu :Delhi :Goa :Gujarat :Haryana :Himachal Pradesh :Jammu and Kashmir :Jharkhand :Karnataka :Kerala :Lakshadweep :Madhya Pradesh :Maharashtra :Manipur :Meghalaya :Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[0, 1]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Andhra Pradesh Chandigarh
 Andhra Pradesh :Andaman and Nicobar
 Arunachal Pradesh :Assam :Bihar
 Bihar :Assam
 Chandigarh :Andaman and Nicobar
 Chhattisgarh :Dadra and Nagar Haveli :Daman and Diu :Delhi :Goa :Gujarat :Haryana :Himachal Pradesh :Jammu and Kashmir :Jharkhand :Karnataka :Kerala :Lakshadweep :Madhya Pradesh :Maharashtra :Manipur :Meghalaya :Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[9, 12]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Andhra Pradesh Chandigarh
 Andhra Pradesh :Andaman and Nicobar
 Arunachal Pradesh :Assam :Bihar
@@ -74,9 +60,6 @@ Chandigarh :Andaman and Nicobar
 Chhattisgarh :Dadra and Nagar Haveli :Daman and Diu :Delhi :Haryana
 Goa :Gujarat :Haryana :Delhi
 Himachal Pradesh :Jammu and Kashmir :Jharkhand :Karnataka :Kerala :Lakshadweep :Madhya Pradesh :Maharashtra :Manipur :Meghalaya :Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[6, 4]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Andhra Pradesh Chandigarh
 Andhra Pradesh :Andaman and Nicobar
 Arunachal Pradesh :Assam :Bihar
@@ -86,9 +69,6 @@ Chhattisgarh :Bihar
 Dadra and Nagar Haveli :Daman and Diu :Delhi :Haryana
 Goa :Gujarat :Haryana :Delhi
 Himachal Pradesh :Jammu and Kashmir :Jharkhand :Karnataka :Kerala :Lakshadweep :Madhya Pradesh :Maharashtra :Manipur :Meghalaya :Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[5, 4]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Andhra Pradesh Chandigarh
 Andhra Pradesh :Andaman and Nicobar
 Arunachal Pradesh :Assam :Bihar
@@ -98,9 +78,6 @@ Chhattisgarh :Bihar
 Dadra and Nagar Haveli :Daman and Diu :Delhi :Haryana
 Goa :Gujarat :Haryana :Delhi
 Himachal Pradesh :Jammu and Kashmir :Jharkhand :Karnataka :Kerala :Lakshadweep :Madhya Pradesh :Maharashtra :Manipur :Meghalaya :Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[0, 2]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Arunachal Pradesh Andhra Pradesh Chandigarh
 Andhra Pradesh :Andaman and Nicobar
 Arunachal Pradesh :Andaman and Nicobar
@@ -111,9 +88,6 @@ Chhattisgarh :Bihar
 Dadra and Nagar Haveli :Daman and Diu :Delhi :Haryana
 Goa :Gujarat :Haryana :Delhi
 Himachal Pradesh :Jammu and Kashmir :Jharkhand :Karnataka :Kerala :Lakshadweep :Madhya Pradesh :Maharashtra :Manipur :Meghalaya :Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[11, 12]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Arunachal Pradesh Andhra Pradesh Chandigarh
 Andhra Pradesh :Andaman and Nicobar
 Arunachal Pradesh :Andaman and Nicobar
@@ -125,9 +99,6 @@ Dadra and Nagar Haveli :Daman and Diu :Delhi :Haryana
 Goa :Gujarat :Haryana
 Haryana :Gujarat Delhi
 Himachal Pradesh :Jammu and Kashmir :Jharkhand :Karnataka :Kerala :Lakshadweep :Madhya Pradesh :Maharashtra :Manipur :Meghalaya :Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[9, 10]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Arunachal Pradesh Andhra Pradesh Chandigarh
 Andhra Pradesh :Andaman and Nicobar
 Arunachal Pradesh :Andaman and Nicobar
@@ -140,9 +111,6 @@ Goa :Delhi
 Gujarat :Haryana
 Haryana :Gujarat Delhi
 Himachal Pradesh :Jammu and Kashmir :Jharkhand :Karnataka :Kerala :Lakshadweep :Madhya Pradesh :Maharashtra :Manipur :Meghalaya :Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[0, 6]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
 Andhra Pradesh :Andaman and Nicobar
 Arunachal Pradesh :Andaman and Nicobar
@@ -155,9 +123,6 @@ Goa :Delhi
 Gujarat :Haryana
 Haryana :Gujarat Delhi
 Himachal Pradesh :Jammu and Kashmir :Jharkhand :Karnataka :Kerala :Lakshadweep :Madhya Pradesh :Maharashtra :Manipur :Meghalaya :Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[7, 8]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
 Andhra Pradesh :Andaman and Nicobar
 Arunachal Pradesh :Andaman and Nicobar
@@ -172,9 +137,6 @@ Goa :Delhi
 Gujarat :Haryana
 Haryana :Gujarat Delhi
 Himachal Pradesh :Jammu and Kashmir :Jharkhand :Karnataka :Kerala :Lakshadweep :Madhya Pradesh :Maharashtra :Manipur :Meghalaya :Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[9, 11]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
 Andhra Pradesh :Andaman and Nicobar
 Arunachal Pradesh :Andaman and Nicobar
@@ -189,9 +151,6 @@ Goa :Delhi
 Gujarat :Delhi Haryana
 Haryana :Gujarat Delhi
 Himachal Pradesh :Jammu and Kashmir :Jharkhand :Karnataka :Kerala :Lakshadweep :Madhya Pradesh :Maharashtra :Manipur :Meghalaya :Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[5, 3]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
 Andhra Pradesh :Andaman and Nicobar
 Arunachal Pradesh :Andaman and Nicobar
@@ -206,9 +165,6 @@ Goa :Delhi
 Gujarat :Delhi Haryana
 Haryana :Gujarat Delhi
 Himachal Pradesh :Jammu and Kashmir :Jharkhand :Karnataka :Kerala :Lakshadweep :Madhya Pradesh :Maharashtra :Manipur :Meghalaya :Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[10, 5]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
 Andhra Pradesh :Andaman and Nicobar
 Arunachal Pradesh :Andaman and Nicobar
@@ -223,9 +179,6 @@ Goa :Chandigarh Delhi
 Gujarat :Delhi Haryana
 Haryana :Gujarat Delhi
 Himachal Pradesh :Jammu and Kashmir :Jharkhand :Karnataka :Kerala :Lakshadweep :Madhya Pradesh :Maharashtra :Manipur :Meghalaya :Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[14, 3]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
 Andhra Pradesh :Andaman and Nicobar
 Arunachal Pradesh :Andaman and Nicobar
@@ -241,9 +194,6 @@ Gujarat :Delhi Haryana
 Haryana :Gujarat Delhi
 Himachal Pradesh :Jammu and Kashmir :Assam
 Jharkhand :Karnataka :Kerala :Lakshadweep :Madhya Pradesh :Maharashtra :Manipur :Meghalaya :Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[10, 1]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
 Andhra Pradesh :Goa Andaman and Nicobar
 Arunachal Pradesh :Andaman and Nicobar
@@ -259,9 +209,6 @@ Gujarat :Delhi Haryana
 Haryana :Gujarat Delhi
 Himachal Pradesh :Jammu and Kashmir :Assam
 Jharkhand :Karnataka :Kerala :Lakshadweep :Madhya Pradesh :Maharashtra :Manipur :Meghalaya :Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[19, 12]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
 Andhra Pradesh :Goa Andaman and Nicobar
 Arunachal Pradesh :Andaman and Nicobar
@@ -278,9 +225,6 @@ Haryana :Madhya Pradesh Gujarat Delhi
 Himachal Pradesh :Jammu and Kashmir :Assam
 Jharkhand :Karnataka :Kerala :Lakshadweep :Madhya Pradesh :Haryana
 Maharashtra :Manipur :Meghalaya :Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[16, 4]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
 Andhra Pradesh :Goa Andaman and Nicobar
 Arunachal Pradesh :Andaman and Nicobar
@@ -298,9 +242,6 @@ Himachal Pradesh :Jammu and Kashmir :Assam
 Jharkhand :Karnataka :Bihar
 Kerala :Lakshadweep :Madhya Pradesh :Haryana
 Maharashtra :Manipur :Meghalaya :Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[15, 4]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
 Andhra Pradesh :Goa Andaman and Nicobar
 Arunachal Pradesh :Andaman and Nicobar
@@ -319,9 +260,6 @@ Jharkhand :Bihar
 Karnataka :Bihar
 Kerala :Lakshadweep :Madhya Pradesh :Haryana
 Maharashtra :Manipur :Meghalaya :Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[10, 2]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
 Andhra Pradesh :Goa Andaman and Nicobar
 Arunachal Pradesh :Goa Andaman and Nicobar
@@ -340,9 +278,6 @@ Jharkhand :Bihar
 Karnataka :Bihar
 Kerala :Lakshadweep :Madhya Pradesh :Haryana
 Maharashtra :Manipur :Meghalaya :Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[21, 12]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
 Andhra Pradesh :Goa Andaman and Nicobar
 Arunachal Pradesh :Goa Andaman and Nicobar
@@ -362,9 +297,6 @@ Karnataka :Bihar
 Kerala :Lakshadweep :Madhya Pradesh :Haryana
 Maharashtra :Manipur :Haryana
 Meghalaya :Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[19, 10]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
 Andhra Pradesh :Goa Andaman and Nicobar
 Arunachal Pradesh :Goa Andaman and Nicobar
@@ -384,9 +316,6 @@ Karnataka :Bihar
 Kerala :Lakshadweep :Madhya Pradesh :Goa Haryana
 Maharashtra :Manipur :Haryana
 Meghalaya :Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[10, 6]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
 Andhra Pradesh :Goa Andaman and Nicobar
 Arunachal Pradesh :Goa Andaman and Nicobar
@@ -406,9 +335,6 @@ Karnataka :Bihar
 Kerala :Lakshadweep :Madhya Pradesh :Goa Haryana
 Maharashtra :Manipur :Haryana
 Meghalaya :Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[17, 8]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
 Andhra Pradesh :Goa Andaman and Nicobar
 Arunachal Pradesh :Goa Andaman and Nicobar
@@ -429,9 +355,6 @@ Kerala :Daman and Diu
 Lakshadweep :Madhya Pradesh :Goa Haryana
 Maharashtra :Manipur :Haryana
 Meghalaya :Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[19, 11]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
 Andhra Pradesh :Goa Andaman and Nicobar
 Arunachal Pradesh :Goa Andaman and Nicobar
@@ -452,9 +375,6 @@ Kerala :Daman and Diu
 Lakshadweep :Madhya Pradesh :Gujarat Goa Haryana
 Maharashtra :Manipur :Haryana
 Meghalaya :Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[15, 3]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
 Andhra Pradesh :Goa Andaman and Nicobar
 Arunachal Pradesh :Goa Andaman and Nicobar
@@ -475,9 +395,6 @@ Kerala :Daman and Diu
 Lakshadweep :Madhya Pradesh :Gujarat Goa Haryana
 Maharashtra :Manipur :Haryana
 Meghalaya :Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[0, 15]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
 Andhra Pradesh :Goa Andaman and Nicobar
 Arunachal Pradesh :Goa Andaman and Nicobar
@@ -498,9 +415,6 @@ Kerala :Daman and Diu
 Lakshadweep :Madhya Pradesh :Gujarat Goa Haryana
 Maharashtra :Manipur :Haryana
 Meghalaya :Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[4, 13]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
 Andhra Pradesh :Goa Andaman and Nicobar
 Arunachal Pradesh :Goa Andaman and Nicobar
@@ -522,9 +436,6 @@ Kerala :Daman and Diu
 Lakshadweep :Madhya Pradesh :Gujarat Goa Haryana
 Maharashtra :Manipur :Haryana
 Meghalaya :Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[0, 11]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
 Andhra Pradesh :Goa Andaman and Nicobar
 Arunachal Pradesh :Goa Andaman and Nicobar
@@ -546,9 +457,6 @@ Kerala :Daman and Diu
 Lakshadweep :Madhya Pradesh :Gujarat Goa Haryana
 Maharashtra :Manipur :Haryana
 Meghalaya :Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[9, 22]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
 Andhra Pradesh :Goa Andaman and Nicobar
 Arunachal Pradesh :Goa Andaman and Nicobar
@@ -571,9 +479,6 @@ Lakshadweep :Madhya Pradesh :Gujarat Goa Haryana
 Maharashtra :Manipur :Haryana
 Meghalaya :Delhi
 Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[6, 14]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
 Andhra Pradesh :Goa Andaman and Nicobar
 Arunachal Pradesh :Goa Andaman and Nicobar
@@ -596,9 +501,6 @@ Lakshadweep :Madhya Pradesh :Gujarat Goa Haryana
 Maharashtra :Manipur :Haryana
 Meghalaya :Delhi
 Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[5, 14]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
 Andhra Pradesh :Goa Andaman and Nicobar
 Arunachal Pradesh :Goa Andaman and Nicobar
@@ -621,9 +523,6 @@ Lakshadweep :Madhya Pradesh :Gujarat Goa Haryana
 Maharashtra :Manipur :Haryana
 Meghalaya :Delhi
 Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[0, 12]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
 Andhra Pradesh :Goa Andaman and Nicobar
 Arunachal Pradesh :Goa Andaman and Nicobar
@@ -646,9 +545,6 @@ Lakshadweep :Madhya Pradesh :Gujarat Goa Haryana
 Maharashtra :Manipur :Haryana
 Meghalaya :Delhi
 Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[11, 22]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
 Andhra Pradesh :Goa Andaman and Nicobar
 Arunachal Pradesh :Goa Andaman and Nicobar
@@ -671,9 +567,6 @@ Lakshadweep :Madhya Pradesh :Gujarat Goa Haryana
 Maharashtra :Manipur :Haryana
 Meghalaya :Gujarat Delhi
 Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[9, 20]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
 Andhra Pradesh :Goa Andaman and Nicobar
 Arunachal Pradesh :Goa Andaman and Nicobar
@@ -697,9 +590,6 @@ Maharashtra :Delhi
 Manipur :Haryana
 Meghalaya :Gujarat Delhi
 Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[0, 16]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
 Andhra Pradesh :Goa Andaman and Nicobar
 Arunachal Pradesh :Goa Andaman and Nicobar
@@ -723,9 +613,6 @@ Maharashtra :Delhi
 Manipur :Haryana
 Meghalaya :Gujarat Delhi
 Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[7, 18]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
 Andhra Pradesh :Goa Andaman and Nicobar
 Arunachal Pradesh :Goa Andaman and Nicobar
@@ -750,9 +637,6 @@ Maharashtra :Delhi
 Manipur :Haryana
 Meghalaya :Gujarat Delhi
 Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[9, 21]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
 Andhra Pradesh :Goa Andaman and Nicobar
 Arunachal Pradesh :Goa Andaman and Nicobar
@@ -777,9 +661,6 @@ Maharashtra :Delhi
 Manipur :Delhi Haryana
 Meghalaya :Gujarat Delhi
 Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[5, 13]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
 Andhra Pradesh :Goa Andaman and Nicobar
 Arunachal Pradesh :Goa Andaman and Nicobar
@@ -804,9 +685,6 @@ Maharashtra :Delhi
 Manipur :Delhi Haryana
 Meghalaya :Gujarat Delhi
 Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[20, 5]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
 Andhra Pradesh :Goa Andaman and Nicobar
 Arunachal Pradesh :Goa Andaman and Nicobar
@@ -831,9 +709,6 @@ Maharashtra :Chandigarh Delhi
 Manipur :Delhi Haryana
 Meghalaya :Gujarat Delhi
 Mizoram :Nagaland :Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[24, 3]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
 Andhra Pradesh :Goa Andaman and Nicobar
 Arunachal Pradesh :Goa Andaman and Nicobar
@@ -859,9 +734,6 @@ Manipur :Delhi Haryana
 Meghalaya :Gujarat Delhi
 Mizoram :Nagaland :Assam
 Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[20, 1]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
 Andhra Pradesh :Maharashtra Goa Andaman and Nicobar
 Arunachal Pradesh :Goa Andaman and Nicobar
@@ -887,9 +759,6 @@ Manipur :Delhi Haryana
 Meghalaya :Gujarat Delhi
 Mizoram :Nagaland :Assam
 Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[29, 12]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
 Andhra Pradesh :Maharashtra Goa Andaman and Nicobar
 Arunachal Pradesh :Goa Andaman and Nicobar
@@ -916,9 +785,6 @@ Meghalaya :Gujarat Delhi
 Mizoram :Nagaland :Assam
 Odisha :Puducherry :Punjab :Rajasthan :Sikkim :Haryana
 Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[26, 4]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
 Andhra Pradesh :Maharashtra Goa Andaman and Nicobar
 Arunachal Pradesh :Goa Andaman and Nicobar
@@ -946,9 +812,6 @@ Mizoram :Nagaland :Assam
 Odisha :Puducherry :Bihar
 Punjab :Rajasthan :Sikkim :Haryana
 Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[25, 4]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
 Andhra Pradesh :Maharashtra Goa Andaman and Nicobar
 Arunachal Pradesh :Goa Andaman and Nicobar
@@ -977,9 +840,6 @@ Odisha :Bihar
 Puducherry :Bihar
 Punjab :Rajasthan :Sikkim :Haryana
 Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[20, 2]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
 Andhra Pradesh :Maharashtra Goa Andaman and Nicobar
 Arunachal Pradesh :Maharashtra Goa Andaman and Nicobar
@@ -1008,9 +868,6 @@ Odisha :Bihar
 Puducherry :Bihar
 Punjab :Rajasthan :Sikkim :Haryana
 Tamil Nadu :Telangana :Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[31, 12]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
 Andhra Pradesh :Maharashtra Goa Andaman and Nicobar
 Arunachal Pradesh :Maharashtra Goa Andaman and Nicobar
@@ -1040,9 +897,6 @@ Puducherry :Bihar
 Punjab :Rajasthan :Sikkim :Haryana
 Tamil Nadu :Telangana :Haryana
 Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[29, 10]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
 Andhra Pradesh :Maharashtra Goa Andaman and Nicobar
 Arunachal Pradesh :Maharashtra Goa Andaman and Nicobar
@@ -1072,9 +926,6 @@ Puducherry :Bihar
 Punjab :Rajasthan :Sikkim :Goa Haryana
 Tamil Nadu :Telangana :Haryana
 Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[20, 6]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
 Andhra Pradesh :Maharashtra Goa Andaman and Nicobar
 Arunachal Pradesh :Maharashtra Goa Andaman and Nicobar
@@ -1104,9 +955,6 @@ Puducherry :Bihar
 Punjab :Rajasthan :Sikkim :Goa Haryana
 Tamil Nadu :Telangana :Haryana
 Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[27, 8]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
 Andhra Pradesh :Maharashtra Goa Andaman and Nicobar
 Arunachal Pradesh :Maharashtra Goa Andaman and Nicobar
@@ -1137,9 +985,6 @@ Punjab :Daman and Diu
 Rajasthan :Sikkim :Goa Haryana
 Tamil Nadu :Telangana :Haryana
 Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[29, 11]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
 Andhra Pradesh :Maharashtra Goa Andaman and Nicobar
 Arunachal Pradesh :Maharashtra Goa Andaman and Nicobar
@@ -1170,9 +1015,6 @@ Punjab :Daman and Diu
 Rajasthan :Sikkim :Gujarat Goa Haryana
 Tamil Nadu :Telangana :Haryana
 Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[25, 3]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
 Andhra Pradesh :Maharashtra Goa Andaman and Nicobar
 Arunachal Pradesh :Maharashtra Goa Andaman and Nicobar
@@ -1203,9 +1045,6 @@ Punjab :Daman and Diu
 Rajasthan :Sikkim :Gujarat Goa Haryana
 Tamil Nadu :Telangana :Haryana
 Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[0, 25]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Odisha Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
 Andhra Pradesh :Maharashtra Goa Andaman and Nicobar
 Arunachal Pradesh :Maharashtra Goa Andaman and Nicobar
@@ -1236,9 +1075,6 @@ Punjab :Daman and Diu
 Rajasthan :Sikkim :Gujarat Goa Haryana
 Tamil Nadu :Telangana :Haryana
 Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[4, 23]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Odisha Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
 Andhra Pradesh :Maharashtra Goa Andaman and Nicobar
 Arunachal Pradesh :Maharashtra Goa Andaman and Nicobar
@@ -1270,9 +1106,6 @@ Punjab :Daman and Diu
 Rajasthan :Sikkim :Gujarat Goa Haryana
 Tamil Nadu :Telangana :Haryana
 Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[0, 21]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Manipur Odisha Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
 Andhra Pradesh :Maharashtra Goa Andaman and Nicobar
 Arunachal Pradesh :Maharashtra Goa Andaman and Nicobar
@@ -1304,9 +1137,6 @@ Punjab :Daman and Diu
 Rajasthan :Sikkim :Gujarat Goa Haryana
 Tamil Nadu :Telangana :Haryana
 Tripura :Uttar Pradesh :Uttarakhand :West Bengal :[9, 32]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Manipur Odisha Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
 Andhra Pradesh :Maharashtra Goa Andaman and Nicobar
 Arunachal Pradesh :Maharashtra Goa Andaman and Nicobar
@@ -1339,9 +1169,6 @@ Rajasthan :Sikkim :Gujarat Goa Haryana
 Tamil Nadu :Telangana :Haryana
 Tripura :Delhi
 Uttar Pradesh :Uttarakhand :West Bengal :[6, 24]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Manipur Odisha Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
 Andhra Pradesh :Maharashtra Goa Andaman and Nicobar
 Arunachal Pradesh :Maharashtra Goa Andaman and Nicobar
@@ -1374,9 +1201,6 @@ Rajasthan :Sikkim :Gujarat Goa Haryana
 Tamil Nadu :Telangana :Haryana
 Tripura :Delhi
 Uttar Pradesh :Uttarakhand :West Bengal :[5, 24]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Manipur Odisha Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
 Andhra Pradesh :Maharashtra Goa Andaman and Nicobar
 Arunachal Pradesh :Maharashtra Goa Andaman and Nicobar
@@ -1409,9 +1233,6 @@ Rajasthan :Sikkim :Gujarat Goa Haryana
 Tamil Nadu :Telangana :Haryana
 Tripura :Delhi
 Uttar Pradesh :Uttarakhand :West Bengal :[0, 22]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Meghalaya Manipur Odisha Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
 Andhra Pradesh :Maharashtra Goa Andaman and Nicobar
 Arunachal Pradesh :Maharashtra Goa Andaman and Nicobar
@@ -1444,9 +1265,6 @@ Rajasthan :Sikkim :Gujarat Goa Haryana
 Tamil Nadu :Telangana :Haryana
 Tripura :Delhi
 Uttar Pradesh :Uttarakhand :West Bengal :[11, 32]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Meghalaya Manipur Odisha Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
 Andhra Pradesh :Maharashtra Goa Andaman and Nicobar
 Arunachal Pradesh :Maharashtra Goa Andaman and Nicobar
@@ -1479,9 +1297,6 @@ Rajasthan :Sikkim :Gujarat Goa Haryana
 Tamil Nadu :Telangana :Haryana
 Tripura :Gujarat Delhi
 Uttar Pradesh :Uttarakhand :West Bengal :[9, 30]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Meghalaya Manipur Odisha Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
 Andhra Pradesh :Maharashtra Goa Andaman and Nicobar
 Arunachal Pradesh :Maharashtra Goa Andaman and Nicobar
@@ -1515,9 +1330,6 @@ Tamil Nadu :Delhi
 Telangana :Haryana
 Tripura :Gujarat Delhi
 Uttar Pradesh :Uttarakhand :West Bengal :[0, 26]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Puducherry Meghalaya Manipur Odisha Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
 Andhra Pradesh :Maharashtra Goa Andaman and Nicobar
 Arunachal Pradesh :Maharashtra Goa Andaman and Nicobar
@@ -1551,9 +1363,6 @@ Tamil Nadu :Delhi
 Telangana :Haryana
 Tripura :Gujarat Delhi
 Uttar Pradesh :Uttarakhand :West Bengal :[7, 28]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Puducherry Meghalaya Manipur Odisha Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
 Andhra Pradesh :Maharashtra Goa Andaman and Nicobar
 Arunachal Pradesh :Maharashtra Goa Andaman and Nicobar
@@ -1588,9 +1397,6 @@ Tamil Nadu :Delhi
 Telangana :Haryana
 Tripura :Gujarat Delhi
 Uttar Pradesh :Uttarakhand :West Bengal :[9, 31]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Puducherry Meghalaya Manipur Odisha Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
 Andhra Pradesh :Maharashtra Goa Andaman and Nicobar
 Arunachal Pradesh :Maharashtra Goa Andaman and Nicobar
@@ -1625,9 +1431,6 @@ Tamil Nadu :Delhi
 Telangana :Delhi Haryana
 Tripura :Gujarat Delhi
 Uttar Pradesh :Uttarakhand :West Bengal :[5, 23]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Puducherry Meghalaya Manipur Odisha Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
 Andhra Pradesh :Maharashtra Goa Andaman and Nicobar
 Arunachal Pradesh :Maharashtra Goa Andaman and Nicobar
@@ -1662,9 +1465,6 @@ Tamil Nadu :Delhi
 Telangana :Delhi Haryana
 Tripura :Gujarat Delhi
 Uttar Pradesh :Uttarakhand :West Bengal :[30, 5]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Puducherry Meghalaya Manipur Odisha Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
 Andhra Pradesh :Maharashtra Goa Andaman and Nicobar
 Arunachal Pradesh :Maharashtra Goa Andaman and Nicobar
@@ -1699,9 +1499,6 @@ Tamil Nadu :Chandigarh Delhi
 Telangana :Delhi Haryana
 Tripura :Gujarat Delhi
 Uttar Pradesh :Uttarakhand :West Bengal :[34, 3]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Puducherry Meghalaya Manipur Odisha Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
 Andhra Pradesh :Maharashtra Goa Andaman and Nicobar
 Arunachal Pradesh :Maharashtra Goa Andaman and Nicobar
@@ -1737,9 +1534,6 @@ Telangana :Delhi Haryana
 Tripura :Gujarat Delhi
 Uttar Pradesh :Uttarakhand :Assam
 West Bengal :[30, 1]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Puducherry Meghalaya Manipur Odisha Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
 Andhra Pradesh :Tamil Nadu Maharashtra Goa Andaman and Nicobar
 Arunachal Pradesh :Maharashtra Goa Andaman and Nicobar
@@ -1775,9 +1569,6 @@ Telangana :Delhi Haryana
 Tripura :Gujarat Delhi
 Uttar Pradesh :Uttarakhand :Assam
 West Bengal :[29, 12]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Puducherry Meghalaya Manipur Odisha Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
 Andhra Pradesh :Tamil Nadu Maharashtra Goa Andaman and Nicobar
 Arunachal Pradesh :Maharashtra Goa Andaman and Nicobar
@@ -1813,9 +1604,6 @@ Telangana :Delhi Haryana
 Tripura :Gujarat Delhi
 Uttar Pradesh :Uttarakhand :Assam
 West Bengal :[26, 4]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Puducherry Meghalaya Manipur Odisha Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
 Andhra Pradesh :Tamil Nadu Maharashtra Goa Andaman and Nicobar
 Arunachal Pradesh :Maharashtra Goa Andaman and Nicobar
@@ -1851,9 +1639,6 @@ Telangana :Delhi Haryana
 Tripura :Gujarat Delhi
 Uttar Pradesh :Uttarakhand :Assam
 West Bengal :[35, 4]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Puducherry Meghalaya Manipur Odisha Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
 Andhra Pradesh :Tamil Nadu Maharashtra Goa Andaman and Nicobar
 Arunachal Pradesh :Maharashtra Goa Andaman and Nicobar
@@ -1890,9 +1675,6 @@ Tripura :Gujarat Delhi
 Uttar Pradesh :Uttarakhand :Assam
 West Bengal :Bihar
 [30, 2]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Puducherry Meghalaya Manipur Odisha Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
 Andhra Pradesh :Tamil Nadu Maharashtra Goa Andaman and Nicobar
 Arunachal Pradesh :Tamil Nadu Maharashtra Goa Andaman and Nicobar
@@ -1929,9 +1711,6 @@ Tripura :Gujarat Delhi
 Uttar Pradesh :Uttarakhand :Assam
 West Bengal :Bihar
 [31, 12]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Puducherry Meghalaya Manipur Odisha Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
 Andhra Pradesh :Tamil Nadu Maharashtra Goa Andaman and Nicobar
 Arunachal Pradesh :Tamil Nadu Maharashtra Goa Andaman and Nicobar
@@ -1968,9 +1747,6 @@ Tripura :Gujarat Delhi
 Uttar Pradesh :Uttarakhand :Assam
 West Bengal :Bihar
 [29, 10]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Puducherry Meghalaya Manipur Odisha Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
 Andhra Pradesh :Tamil Nadu Maharashtra Goa Andaman and Nicobar
 Arunachal Pradesh :Tamil Nadu Maharashtra Goa Andaman and Nicobar
@@ -2007,9 +1783,6 @@ Tripura :Gujarat Delhi
 Uttar Pradesh :Uttarakhand :Assam
 West Bengal :Bihar
 [30, 6]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Puducherry Meghalaya Manipur Odisha Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
 Andhra Pradesh :Tamil Nadu Maharashtra Goa Andaman and Nicobar
 Arunachal Pradesh :Tamil Nadu Maharashtra Goa Andaman and Nicobar
@@ -2046,9 +1819,6 @@ Tripura :Gujarat Delhi
 Uttar Pradesh :Uttarakhand :Assam
 West Bengal :Bihar
 [27, 8]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Puducherry Meghalaya Manipur Odisha Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
 Andhra Pradesh :Tamil Nadu Maharashtra Goa Andaman and Nicobar
 Arunachal Pradesh :Tamil Nadu Maharashtra Goa Andaman and Nicobar
@@ -2085,9 +1855,6 @@ Tripura :Gujarat Delhi
 Uttar Pradesh :Uttarakhand :Assam
 West Bengal :Bihar
 [29, 11]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Puducherry Meghalaya Manipur Odisha Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
 Andhra Pradesh :Tamil Nadu Maharashtra Goa Andaman and Nicobar
 Arunachal Pradesh :Tamil Nadu Maharashtra Goa Andaman and Nicobar
@@ -2124,9 +1891,6 @@ Tripura :Gujarat Delhi
 Uttar Pradesh :Uttarakhand :Assam
 West Bengal :Bihar
 [35, 33]
-----------------
-===============
------------------------------
 Andaman and Nicobar :Puducherry Meghalaya Manipur Odisha Karnataka Haryana Gujarat Jharkhand Chhattisgarh Arunachal Pradesh Andhra Pradesh Chandigarh
 Andhra Pradesh :Tamil Nadu Maharashtra Goa Andaman and Nicobar
 Arunachal Pradesh :Tamil Nadu Maharashtra Goa Andaman and Nicobar
@@ -2206,7 +1970,7 @@ Uttarakhand: Assam
 West Bengal: Uttar Pradesh Bihar
 
 Your Output: 
-[Andaman and Nicobar, Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chandigarh, Chhattisgarh, Dadra and Nagar Haveli, Daman and Diu, Delhi, Goa, Gujarat, Haryana, Himachal Pradesh, Jammu and Kashmir, Jharkhand, Karnataka, Kerala, Lakshadweep, Madhya Pradesh, Maharashtra, Manipur, Meghalaya, Mizoram, Nagaland, Odisha, Puducherry, Punjab, Rajasthan, Sikkim, Tamil Nadu, Telangana, Tripura, Uttar Pradesh, Uttarakhand, West Bengal]
+
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -2250,12 +2014,7 @@ Expected Output:
 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0
 
 Your Output: 
-[Hyderabad]
-hvfg
 [0, 0]
-----------------
-===============
------------------------------
 Hyderabad :Hyderabad Hyderabad
 ----------------------------------------
 
@@ -2265,7 +2024,7 @@ Expected Output:
 No edges
 
 Your Output: 
-[Hyderabad]
+
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -2274,7 +2033,7 @@ Expected Output:
 No edges
 
 Your Output: 
-[]
+
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
@@ -2283,7 +2042,6 @@ Expected Output:
 No edges
 
 Your Output: 
-[]
-hvfg
+
 ----------------------------------------
 

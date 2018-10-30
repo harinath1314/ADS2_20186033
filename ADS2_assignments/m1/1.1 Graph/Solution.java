@@ -32,16 +32,16 @@ public final class Solution {
         GraphList gl = new GraphList(vertices);
         int edges = Integer.parseInt(sc.nextLine());
         String[] states = sc.nextLine().split(",");
-        System.out.println(Arrays.toString(states));
+        // System.out.println(Arrays.toString(states));
 
 
         if (input.equals("List")) {
-            System.out.println("hvfg");
+            // System.out.println("hvfg");
             for (int i = 0; i < edges; i++) {
                 String[] v_e = sc.nextLine().split(" ");
                 System.out.println(Arrays.toString(v_e));
                 gl.addEdge(Integer.parseInt(v_e[0]), Integer.parseInt(v_e[1]));
-                System.out.println("-----------------------------");
+                // System.out.println("-----------------------------");
 
             for (int j = 0 ; j < vertices; j++) {
                 System.out.print(states[j] + " :");
@@ -52,7 +52,10 @@ public final class Solution {
                     
                 }
                 if(!str.equals(""))
+                {
                 System.out.println(str.substring(0, str.length()-1));
+                    
+                }
 
 
 
@@ -108,9 +111,9 @@ class GraphList implements Graph {
      */
     public void addEdge(int v, int w) {
         adj[v].add(w);
-        System.out.println("----------------");
+        // System.out.println("----------------");
         adj[w].add(v);
-        System.out.println("===============");
+        // System.out.println("===============");
 
     }
     /**
