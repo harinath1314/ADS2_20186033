@@ -41,8 +41,8 @@ public final class Solution {
         case"List":
             
             System.out.println(vertices + " vertices, " + gl.E() + " edges");
-
-            for (int j = 0 ; j < vertices; j++) {
+            if (gl.E() != 0) {
+                for (int j = 0 ; j < vertices; j++) {
                 System.out.print(states[j] + ": ");
                 String str = "";
 
@@ -57,6 +57,13 @@ public final class Solution {
 
 
             }
+
+                
+            } else {
+                System.out.println("No edges");
+            }
+
+            
             break;
         default:
             break;
