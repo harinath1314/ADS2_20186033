@@ -1,23 +1,8 @@
 Starting audit...
 Audit done.
 Starting audit...
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m2/2.1 CC_Percolation/Graph.java:32:8: Unused @param tag for 'v'. [JavadocMethod]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m2/2.1 CC_Percolation/Graph.java:35:28: Expected @param tag for 'ver'. [JavadocMethod]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m2/2.1 CC_Percolation/Graph.java:42:18: 'v' hides a field. [HiddenField]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m2/2.1 CC_Percolation/Graph.java:52:16: Name 'V' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MethodName]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m2/2.1 CC_Percolation/Graph.java:61:16: Name 'E' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MethodName]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m2/2.1 CC_Percolation/Graph.java:68:8: Unused @param tag for 'v'. [JavadocMethod]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m2/2.1 CC_Percolation/Graph.java:70:43: Expected @param tag for 'ver'. [JavadocMethod]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m2/2.1 CC_Percolation/Graph.java:84:35: 'v' hides a field. [HiddenField]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m2/2.1 CC_Percolation/Graph.java:100:38: 'v' hides a field. [HiddenField]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m2/2.1 CC_Percolation/Graph.java:116:44: 'v' hides a field. [HiddenField]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m2/2.1 CC_Percolation/Graph.java:128:33: 'v' hides a field. [HiddenField]
 Audit done.
-Checkstyle ends with 11 errors.
 Starting audit...
 Audit done.
 Starting audit...
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m2/2.1 CC_Percolation/CC.java:29:15: Parameter g should be final. [FinalParameters]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m2/2.1 CC_Percolation/CC.java:137: Line is longer than 80 characters (found 90). [LineLength]
 Audit done.
-Checkstyle ends with 2 errors.

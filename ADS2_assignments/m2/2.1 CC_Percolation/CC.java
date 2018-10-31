@@ -26,7 +26,7 @@ public class CC {
      *
      * @param g the undirected graph
      */
-    public CC(Graph g) {
+    public CC(final Graph g) {
         marked = new boolean[g.V()];
         id = new int[g.V()];
         size = new int[g.V()];
@@ -134,7 +134,7 @@ public class CC {
         int mv = marked.length;
         if (v < 0 || v >= mv) {
             throw new IllegalArgumentException("vertex "
-                                               + v + " is not between 0 and " + (mv - 1));
+            + v + " is not between 0 and " + (mv - 1));
         }
     }
 }

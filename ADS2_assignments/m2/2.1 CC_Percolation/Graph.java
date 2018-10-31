@@ -29,7 +29,7 @@ public class Graph {
      * Initializes an empty graph with {@code V} vertices and 0 edges.
      * param V the number of vertices
      *
-     * @param  v number of vertices
+     * @param  ver number of vertices
      * @throws IllegalArgumentException if {@code V < 0}
      */
     public Graph(final int ver) {
@@ -39,8 +39,8 @@ public class Graph {
         this.v = ver;
         this.e = 0;
         adj = (Bag<Integer>[]) new Bag[v];
-        for (int v = 0; v < ver; v++) {
-            adj[v] = new Bag<Integer>();
+        for (int i = 0; i < ver; i++) {
+            adj[i] = new Bag<Integer>();
         }
     }
 
@@ -49,7 +49,7 @@ public class Graph {
      *
      * @return the number of vertices in this graph
      */
-    public int V() {
+    public int v() {
         return v;
     }
 
@@ -58,14 +58,14 @@ public class Graph {
      *
      * @return the number of edges in this graph
      */
-    public int E() {
+    public int e() {
         return e;
     }
 
     /**
      * validate vertex function.
      *
-     * @param      v     { parameter_description }
+     * @param      ver     { parameter_description }
      */
     private void validateVertex(final int ver) {
         if (ver < 0 || ver >= v) {
@@ -78,28 +78,28 @@ public class Graph {
     /**
      * Adds an edge.
      *
-     * @param      v     { int type. }
+     * @param      vert     { int type. }
      * @param      w     { int type. }
      */
-    public void addEdge(final int v, final int w) {
-        validateVertex(v);
+    public void addEdge(final int vert, final int w) {
+        validateVertex(vert);
         validateVertex(w);
         e++;
-        adj[v].add(w);
-        adj[w].add(v);
+        adj[vert].add(w);
+        adj[w].add(vert);
     }
 
     /**
      * Determines if it has edge.
      *
-     * @param      v     { parameter_description }
+     * @param      vert     { parameter_description }
      * @param      w     { parameter_description }
      *
      * @return     True if has edge, False otherwise.
      */
-    public boolean hasEdge(final int v, final int w) {
+    public boolean hasEdge(final int vert, final int w) {
         for (int each : adj[w]) {
-            if (each == v) {
+            if (each == vert) {
                 return true;
             }
         }
@@ -109,25 +109,25 @@ public class Graph {
     /**
      * Returns the vertices adjacent to vertex {@code v}.
      *
-     * @param  v the vertex
+     * @param  vert the vertex
      * @return the vertices adjacent to vertex {@code v}, as an iterable
      * @throws IllegalArgumentException unless {@code 0 <= v < V}
      */
-    public Iterable<Integer> adj(final int v) {
-        validateVertex(v);
-        return adj[v];
+    public Iterable<Integer> adj(final int vert) {
+        validateVertex(vert);
+        return adj[vert];
     }
 
     /**
      * Returns the degree of vertex {@code v}.
      *
-     * @param  v the vertex
+     * @param  vert the vertex
      * @return the degree of vertex {@code v}
      * @throws IllegalArgumentException unless {@code 0 <= v < V}
      */
-    public int degree(final int v) {
-        validateVertex(v);
-        return adj[v].size();
+    public int degree(final int vert) {
+        validateVertex(vert);
+        return adj[vert].size();
     }
 
 
