@@ -19,7 +19,7 @@ public class Solution {
         Graphmatrix gm = new Graphmatrix(dimension);
         while (sc.hasNextLine()) {
             String[] order = sc.nextLine().split(" ");
-            gm.addEdge(Integer.parseInt(order[0]), Integer.parseInt(order[1]));
+            gm.addEdge(Integer.parseInt(order[0])-1, Integer.parseInt(order[1])-1);
         }
         CC end = new CC(gm);
         System.out.println(end.ispercolate(gm));
