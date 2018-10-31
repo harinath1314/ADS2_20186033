@@ -4,9 +4,9 @@ false
 
 Your Output: 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 25
-	at Graphmatrix.adj(Solution.java:88)
-	at CC.dfs(Solution.java:164)
-	at CC.<init>(Solution.java:136)
+	at Graphmatrix.adj(Solution.java:89)
+	at CC.dfs(Solution.java:165)
+	at CC.<init>(Solution.java:137)
 	at Solution.main(Solution.java:24)
 ----------------------------------------
 
@@ -16,9 +16,9 @@ false
 
 Your Output: 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 13
-	at Graphmatrix.adj(Solution.java:88)
-	at CC.dfs(Solution.java:164)
-	at CC.<init>(Solution.java:136)
+	at Graphmatrix.adj(Solution.java:89)
+	at CC.dfs(Solution.java:165)
+	at CC.<init>(Solution.java:137)
 	at Solution.main(Solution.java:24)
 ----------------------------------------
 
@@ -28,17 +28,17 @@ true
 
 Your Output: 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 1
-	at CC.dfs(Solution.java:165)
-	at CC.<init>(Solution.java:136)
+	at CC.dfs(Solution.java:166)
+	at CC.<init>(Solution.java:137)
 	at Solution.main(Solution.java:24)
 ----------------------------------------
 
-########## Testcase 3: Failed ##########
+########## Testcase 3: Passed ##########
 Expected Output: 
 false
 
 Your Output: 
-true
+false
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -47,9 +47,9 @@ true
 
 Your Output: 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 2
-	at Graphmatrix.adj(Solution.java:88)
-	at CC.dfs(Solution.java:164)
-	at CC.<init>(Solution.java:136)
+	at Graphmatrix.adj(Solution.java:89)
+	at CC.dfs(Solution.java:165)
+	at CC.<init>(Solution.java:137)
 	at Solution.main(Solution.java:24)
 ----------------------------------------
 
@@ -59,9 +59,9 @@ false
 
 Your Output: 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 2
-	at Graphmatrix.adj(Solution.java:88)
-	at CC.dfs(Solution.java:164)
-	at CC.<init>(Solution.java:136)
+	at Graphmatrix.adj(Solution.java:89)
+	at CC.dfs(Solution.java:165)
+	at CC.<init>(Solution.java:137)
 	at Solution.main(Solution.java:24)
 ----------------------------------------
 
@@ -71,9 +71,9 @@ true
 
 Your Output: 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 3
-	at Graphmatrix.adj(Solution.java:88)
-	at CC.dfs(Solution.java:164)
-	at CC.<init>(Solution.java:136)
+	at Graphmatrix.adj(Solution.java:89)
+	at CC.dfs(Solution.java:165)
+	at CC.<init>(Solution.java:137)
 	at Solution.main(Solution.java:24)
 ----------------------------------------
 
@@ -83,9 +83,9 @@ true
 
 Your Output: 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 4
-	at Graphmatrix.adj(Solution.java:88)
-	at CC.dfs(Solution.java:164)
-	at CC.<init>(Solution.java:136)
+	at Graphmatrix.adj(Solution.java:89)
+	at CC.dfs(Solution.java:165)
+	at CC.<init>(Solution.java:137)
 	at Solution.main(Solution.java:24)
 ----------------------------------------
 
@@ -95,9 +95,9 @@ true
 
 Your Output: 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 5
-	at Graphmatrix.adj(Solution.java:88)
-	at CC.dfs(Solution.java:164)
-	at CC.<init>(Solution.java:136)
+	at Graphmatrix.adj(Solution.java:89)
+	at CC.dfs(Solution.java:165)
+	at CC.<init>(Solution.java:137)
 	at Solution.main(Solution.java:24)
 ----------------------------------------
 
@@ -107,9 +107,9 @@ true
 
 Your Output: 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 6
-	at Graphmatrix.adj(Solution.java:88)
-	at CC.dfs(Solution.java:164)
-	at CC.<init>(Solution.java:136)
+	at Graphmatrix.adj(Solution.java:89)
+	at CC.dfs(Solution.java:165)
+	at CC.<init>(Solution.java:137)
 	at Solution.main(Solution.java:24)
 ----------------------------------------
 
@@ -119,9 +119,9 @@ true
 
 Your Output: 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 7
-	at Graphmatrix.adj(Solution.java:88)
-	at CC.dfs(Solution.java:164)
-	at CC.<init>(Solution.java:136)
+	at Graphmatrix.adj(Solution.java:89)
+	at CC.dfs(Solution.java:165)
+	at CC.<init>(Solution.java:137)
 	at Solution.main(Solution.java:24)
 ----------------------------------------
 
@@ -131,9 +131,9 @@ true
 
 Your Output: 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 8
-	at Graphmatrix.adj(Solution.java:88)
-	at CC.dfs(Solution.java:164)
-	at CC.<init>(Solution.java:136)
+	at Graphmatrix.adj(Solution.java:89)
+	at CC.dfs(Solution.java:165)
+	at CC.<init>(Solution.java:137)
 	at Solution.main(Solution.java:24)
 ----------------------------------------
 
@@ -143,9 +143,9 @@ true
 
 Your Output: 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 8
-	at Graphmatrix.adj(Solution.java:88)
-	at CC.dfs(Solution.java:164)
-	at CC.<init>(Solution.java:136)
+	at Graphmatrix.adj(Solution.java:89)
+	at CC.dfs(Solution.java:165)
+	at CC.<init>(Solution.java:137)
 	at Solution.main(Solution.java:24)
 ----------------------------------------
 
@@ -155,9 +155,9 @@ false
 
 Your Output: 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 13
-	at Graphmatrix.adj(Solution.java:88)
-	at CC.dfs(Solution.java:164)
-	at CC.<init>(Solution.java:136)
+	at Graphmatrix.adj(Solution.java:89)
+	at CC.dfs(Solution.java:165)
+	at CC.<init>(Solution.java:137)
 	at Solution.main(Solution.java:24)
 ----------------------------------------
 
@@ -167,9 +167,9 @@ true
 
 Your Output: 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 10
-	at Graphmatrix.adj(Solution.java:88)
-	at CC.dfs(Solution.java:164)
-	at CC.<init>(Solution.java:136)
+	at Graphmatrix.adj(Solution.java:89)
+	at CC.dfs(Solution.java:165)
+	at CC.<init>(Solution.java:137)
 	at Solution.main(Solution.java:24)
 ----------------------------------------
 
@@ -179,9 +179,9 @@ false
 
 Your Output: 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 50
-	at Graphmatrix.adj(Solution.java:88)
-	at CC.dfs(Solution.java:164)
-	at CC.<init>(Solution.java:136)
+	at Graphmatrix.adj(Solution.java:89)
+	at CC.dfs(Solution.java:165)
+	at CC.<init>(Solution.java:137)
 	at Solution.main(Solution.java:24)
 ----------------------------------------
 
@@ -191,9 +191,9 @@ true
 
 Your Output: 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 20
-	at Graphmatrix.adj(Solution.java:88)
-	at CC.dfs(Solution.java:164)
-	at CC.<init>(Solution.java:136)
+	at Graphmatrix.adj(Solution.java:89)
+	at CC.dfs(Solution.java:165)
+	at CC.<init>(Solution.java:137)
 	at Solution.main(Solution.java:24)
 ----------------------------------------
 
@@ -203,9 +203,9 @@ true
 
 Your Output: 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 50
-	at Graphmatrix.adj(Solution.java:88)
-	at CC.dfs(Solution.java:164)
-	at CC.<init>(Solution.java:136)
+	at Graphmatrix.adj(Solution.java:89)
+	at CC.dfs(Solution.java:165)
+	at CC.<init>(Solution.java:137)
 	at Solution.main(Solution.java:24)
 ----------------------------------------
 
@@ -215,9 +215,9 @@ true
 
 Your Output: 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 60
-	at Graphmatrix.adj(Solution.java:88)
-	at CC.dfs(Solution.java:164)
-	at CC.<init>(Solution.java:136)
+	at Graphmatrix.adj(Solution.java:89)
+	at CC.dfs(Solution.java:165)
+	at CC.<init>(Solution.java:137)
 	at Solution.main(Solution.java:24)
 ----------------------------------------
 
@@ -227,9 +227,9 @@ true
 
 Your Output: 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 47
-	at Graphmatrix.adj(Solution.java:88)
-	at CC.dfs(Solution.java:164)
-	at CC.<init>(Solution.java:136)
+	at Graphmatrix.adj(Solution.java:89)
+	at CC.dfs(Solution.java:165)
+	at CC.<init>(Solution.java:137)
 	at Solution.main(Solution.java:24)
 ----------------------------------------
 
@@ -239,9 +239,9 @@ true
 
 Your Output: 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 60
-	at Graphmatrix.adj(Solution.java:88)
-	at CC.dfs(Solution.java:164)
-	at CC.<init>(Solution.java:136)
+	at Graphmatrix.adj(Solution.java:89)
+	at CC.dfs(Solution.java:165)
+	at CC.<init>(Solution.java:137)
 	at Solution.main(Solution.java:24)
 ----------------------------------------
 
@@ -251,9 +251,9 @@ true
 
 Your Output: 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 13
-	at Graphmatrix.adj(Solution.java:88)
-	at CC.dfs(Solution.java:164)
-	at CC.<init>(Solution.java:136)
+	at Graphmatrix.adj(Solution.java:89)
+	at CC.dfs(Solution.java:165)
+	at CC.<init>(Solution.java:137)
 	at Solution.main(Solution.java:24)
 ----------------------------------------
 
@@ -263,9 +263,9 @@ true
 
 Your Output: 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 101
-	at Graphmatrix.adj(Solution.java:88)
-	at CC.dfs(Solution.java:164)
-	at CC.<init>(Solution.java:136)
+	at Graphmatrix.adj(Solution.java:89)
+	at CC.dfs(Solution.java:165)
+	at CC.<init>(Solution.java:137)
 	at Solution.main(Solution.java:24)
 ----------------------------------------
 
@@ -275,9 +275,9 @@ true
 
 Your Output: 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 98
-	at Graphmatrix.adj(Solution.java:88)
-	at CC.dfs(Solution.java:164)
-	at CC.<init>(Solution.java:136)
+	at Graphmatrix.adj(Solution.java:89)
+	at CC.dfs(Solution.java:165)
+	at CC.<init>(Solution.java:137)
 	at Solution.main(Solution.java:24)
 ----------------------------------------
 

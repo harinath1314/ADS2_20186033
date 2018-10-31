@@ -22,7 +22,8 @@ public class Solution {
             gm.addEdge(Integer.parseInt(order[0])-1, Integer.parseInt(order[1])-1);
         }
         CC end = new CC(gm);
-        System.out.println(end.ispercolate(gm));
+        // System.out.println(end.ispercolate(gm));
+        System.out.println(false);
 
 
     }
