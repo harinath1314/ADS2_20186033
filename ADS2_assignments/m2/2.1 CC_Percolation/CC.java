@@ -7,24 +7,24 @@ public class CC {
     /**
      * marked array.
      */
-    private boolean[] marked; 
+    private boolean[] marked;
     /**
      * // id[v] = id of connected componet containing.
      */
-    private int[] id;  
+    private int[] id;
     /**
      * // size[id] = number of vertices.
      */
-    private int[] size; 
+    private int[] size;
     /**
      * // number of connected components.
      */
-    private int count;          
+    private int count;
 
     /**
      * Computes the connected components of the undirected graph {@code G}.
      *
-     * @param G the undirected graph
+     * @param g the undirected graph
      */
     public CC(Graph g) {
         marked = new boolean[g.V()];
@@ -125,11 +125,16 @@ public class CC {
         return id(v) == id(w);
     }
 
-    // throw an IllegalArgumentException unless {@code 0 <= v < V}
+    /**
+     * validate vertex.
+     *
+     * @param      v     { int }
+     */
     private void validateVertex(final int v) {
-        int V = marked.length;
-        if (v < 0 || v >= V)
+        int mv = marked.length;
+        if (v < 0 || v >= mv) {
             throw new IllegalArgumentException("vertex "
-                + v + " is not between 0 and " + (V - 1));
+                                               + v + " is not between 0 and " + (mv - 1));
+        }
     }
 }

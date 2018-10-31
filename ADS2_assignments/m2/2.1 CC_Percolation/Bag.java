@@ -15,8 +15,8 @@ public class Bag<Item> implements Iterable<Item> {
      * Begginning of the Bag.
      */
     private Node<Item> first;
-    /**
-     * // number of elements in bag
+    /**.
+     * // number of elements in bag.
      */
     private int n;
 

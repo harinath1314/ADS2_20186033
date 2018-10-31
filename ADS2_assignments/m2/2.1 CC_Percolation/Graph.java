@@ -3,7 +3,7 @@
  * Author harinatha reddy.
  * date 30-10-18.
  */
-import java.util.NoSuchElementException;
+
 /**
  * Class for graph.
  */
@@ -15,11 +15,11 @@ public class Graph {
     /**
      * v num of vertices.
      */
-    private final int V;
+    private final int v;
     /**
      * edges.
      */
-    private int E;
+    private int e;
     /**
      * Bag object.
      */
@@ -29,17 +29,17 @@ public class Graph {
      * Initializes an empty graph with {@code V} vertices and 0 edges.
      * param V the number of vertices
      *
-     * @param  V number of vertices
+     * @param  v number of vertices
      * @throws IllegalArgumentException if {@code V < 0}
      */
-    public Graph(final int V) {
-        if (V < 0) {
+    public Graph(final int ver) {
+        if (ver < 0) {
             throw new IllegalArgumentException("Num of vertices nonnegative");
         }
-        this.V = V;
-        this.E = 0;
-        adj = (Bag<Integer>[]) new Bag[V];
-        for (int v = 0; v < V; v++) {
+        this.v = ver;
+        this.e = 0;
+        adj = (Bag<Integer>[]) new Bag[v];
+        for (int v = 0; v < ver; v++) {
             adj[v] = new Bag<Integer>();
         }
     }
@@ -50,7 +50,7 @@ public class Graph {
      * @return the number of vertices in this graph
      */
     public int V() {
-        return V;
+        return v;
     }
 
     /**
@@ -59,14 +59,20 @@ public class Graph {
      * @return the number of edges in this graph
      */
     public int E() {
-        return E;
+        return e;
     }
 
-    // throw an IllegalArgumentException unless {@code 0 <= v < V}
-    private void validateVertex(final int v) {
-        if (v < 0 || v >= V)
+    /**
+     * validate vertex function.
+     *
+     * @param      v     { parameter_description }
+     */
+    private void validateVertex(final int ver) {
+        if (ver < 0 || ver >= v) {
             throw new IllegalArgumentException("vertex "
-            + v + " is not between 0 and " + (V - 1));
+             + v + " is not between 0 and " + (v - 1));
+        }
+
     }
 
     /**
@@ -78,7 +84,7 @@ public class Graph {
     public void addEdge(final int v, final int w) {
         validateVertex(v);
         validateVertex(w);
-        E++;
+        e++;
         adj[v].add(w);
         adj[w].add(v);
     }
@@ -132,10 +138,10 @@ public class Graph {
      */
     public String toString() {
         StringBuilder s = new StringBuilder();
-        s.append(V + " vertices, " + E + " edges " + NEWLINE);
-        for (int v = 0; v < V; v++) {
-            s.append(v + ": ");
-            for (int w : adj[v]) {
+        s.append(v + " vertices, " + e + " edges " + NEWLINE);
+        for (int ver = 0; ver < v; ver++) {
+            s.append(ver + ": ");
+            for (int w : adj[ver]) {
                 s.append(w + " ");
             }
             s.append(NEWLINE);
