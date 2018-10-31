@@ -49,7 +49,7 @@ public class Graph {
      *
      * @return the number of vertices in this graph
      */
-    public int v() {
+    public int V() {
         return v;
     }
 
@@ -58,7 +58,7 @@ public class Graph {
      *
      * @return the number of edges in this graph
      */
-    public int e() {
+    public int E() {
         return e;
     }
 
