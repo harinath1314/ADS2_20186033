@@ -1,6 +1,10 @@
 Starting audit...
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m2/2.1 CC_Percolation/Solution.java:10:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m2/2.1 CC_Percolation/Solution.java:22: Line is longer than 80 characters (found 86). [LineLength]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m2/2.1 CC_Percolation/Solution.java:22: Line is longer than 80 characters (found 83). [LineLength]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m2/2.1 CC_Percolation/Solution.java:22:50: '-' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m2/2.1 CC_Percolation/Solution.java:22:51: '-' is not followed by whitespace. [WhitespaceAround]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m2/2.1 CC_Percolation/Solution.java:22:80: '-' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m2/2.1 CC_Percolation/Solution.java:22:81: '-' is not followed by whitespace. [WhitespaceAround]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m2/2.1 CC_Percolation/Solution.java:39:21: Variable 'matrix' must be private and have accessor methods. [VisibilityModifier]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m2/2.1 CC_Percolation/Solution.java:43:17: Variable 'vertex' must be private and have accessor methods. [VisibilityModifier]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m2/2.1 CC_Percolation/Solution.java:47:17: Variable 'check' must be private and have accessor methods. [VisibilityModifier]
@@ -49,4 +53,4 @@ Starting audit...
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m2/2.1 CC_Percolation/Solution.java:280: 'if' construct must use '{}'s. [NeedBraces]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m2/2.1 CC_Percolation/Solution.java:281: Line is longer than 80 characters (found 99). [LineLength]
 Audit done.
-Checkstyle ends with 49 errors.
+Checkstyle ends with 53 errors.
