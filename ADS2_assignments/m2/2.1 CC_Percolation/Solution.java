@@ -21,26 +21,12 @@ public class Solution {
             String[] order = sc.nextLine().split(" ");
             gm.addEdge(Integer.parseInt(order[0]), Integer.parseInt(order[1]));
         }
-        // System.out.println(gm.percolates());
-        /**
-        * { function_description }
-        *
-        * @param      C     { parameter_description }
-        *
-        * @return     { description_of_the_return_value }
-        */
-        CC con = new CC(gm);
-                    for (int i = 0; i < gm.v(); i++) {
-                for (int j = 0; j < gm.v(); j++) {
-                    if (con.isconnected(i, j)) {
-                         System.out.println("true");
-                         break;
-                    }
-                }
-            }
-            System.out.println("false"); 
+        CC end = new CC(gm);
+        System.out.println(end.ispercolate(gm));
+
 
     }
+
 }
 /**
 * Class for graphmatrix.
@@ -49,15 +35,16 @@ class Graphmatrix {
     /**
      * matix.
      */
-    private int[][] matrix;
+    public  int[][] matrix;
     /**
      * no of vertices.
      */
-    private int vertex;
+    public  int vertex;
     /**
      * edges count.
      */
-    private int edge;
+    public  int check;
+    public  int edge;
     /**
      * Constructs the object.
      *
@@ -66,7 +53,8 @@ class Graphmatrix {
      * @param      c     { parameter_description }
      */
     Graphmatrix(final int v) {
-        this.vertex = v;
+        this.vertex = v*v;
+        this.check = v;
         matrix = new int[v][v];
         for (int i = 0; i < v; i++) {
             for (int j = 0; j < v; j++) {
@@ -126,26 +114,7 @@ class Graphmatrix {
     public boolean hasEdge(final int v, final int w) {
         return matrix[v][w] == 1;
     }
-    // /**
-    //  * { function_description }
-    //  *
-    //  * @param      C     { parameter_description }
-    //  *
-    //  * @return     { description_of_the_return_value }
-    //  */
-    // public  boolean percolates() {
-    //     for (int i = 0; i < v(); i++) {
-    //         for (int j = 0; j < v(); j++) {
-    //             if (isconnected(i, j)) {
-    //                 return true;
-    //             }
-    //         }
-    //     }
-    //     return false;
-    // }
 }
-
-
 
 class CC {
     private boolean[] marked;   // marked[v] = has vertex v been marked?
@@ -222,6 +191,17 @@ class CC {
     //         }
     //     }
     // }
+    boolean ispercolate(Graphmatrix G){
+        for (int i = 0; i < G.check; i++) {
+            for (int j = (G.vertex - G.check); j < G.vertex; j++) {
+                if(id[i] == id[j]) {
+                    return true;
+                }
+            }
+            
+        }
+        return false;
+    }
 
 
     /**
