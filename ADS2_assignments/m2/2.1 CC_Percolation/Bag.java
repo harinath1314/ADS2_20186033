@@ -5,12 +5,26 @@
  */
 import java.util.Iterator;
 import java.util.NoSuchElementException;
-
+/**
+ * Class for bag.
+ *
+ * @param      <Item>  The item
+ */
 public class Bag<Item> implements Iterable<Item> {
-    private Node<Item> first;    // beginning of bag
-    private int n;               // number of elements in bag
+    /**
+     * Begginning of the Bag.
+     */
+    private Node<Item> first;
+    /**
+     * // number of elements in bag
+     */
+    private int n;
 
-    // helper linked list class
+    /**
+     * Class for node.
+     *
+     * @param      <Item>  The item
+     */
     private static class Node<Item> {
         /**
          * Item of Node.
@@ -54,7 +68,7 @@ public class Bag<Item> implements Iterable<Item> {
      *
      * @param  item the item to add to this bag
      */
-    public void add(Item item) {
+    public void add(final Item item) {
         Node<Item> oldfirst = first;
         first = new Node<Item>();
         first.item = item;
@@ -72,7 +86,11 @@ public class Bag<Item> implements Iterable<Item> {
         return new ListIterator<Item>(first);
     }
 
-    // an iterator, doesn't implement remove() since it's optional
+    /**
+     * Class for list iterator.
+     *
+     * @param      <Item>  The item
+     */
     private class ListIterator<Item> implements Iterator<Item> {
         /**
          * current node.
@@ -81,10 +99,10 @@ public class Bag<Item> implements Iterable<Item> {
         /**
          * Constructs the object.
          *
-         * @param      first  The first
+         * @param      firs The first
          */
-        public ListIterator(final Node<Item> first) {
-            current = first;
+        ListIterator(final Node<Item> firs) {
+            current = firs;
         }
         /**
          * Determines if it has next.

@@ -4,23 +4,35 @@
  * date 30-10-18.
  */
 public class CC {
-    private boolean[] marked;   // marked[v] = has vertex v been marked?
-    private int[] id;           // id[v] = id of connected componet containing
-    private int[] size;         // size[id] = number of vertices.
-    private int count;          // number of connected components
+    /**
+     * marked array.
+     */
+    private boolean[] marked; 
+    /**
+     * // id[v] = id of connected componet containing.
+     */
+    private int[] id;  
+    /**
+     * // size[id] = number of vertices.
+     */
+    private int[] size; 
+    /**
+     * // number of connected components.
+     */
+    private int count;          
 
     /**
      * Computes the connected components of the undirected graph {@code G}.
      *
      * @param G the undirected graph
      */
-    public CC(Graph G) {
-        marked = new boolean[G.V()];
-        id = new int[G.V()];
-        size = new int[G.V()];
-        for (int v = 0; v < G.V(); v++) {
+    public CC(Graph g) {
+        marked = new boolean[g.V()];
+        id = new int[g.V()];
+        size = new int[g.V()];
+        for (int v = 0; v < g.V(); v++) {
             if (!marked[v]) {
-                dfs(G, v);
+                dfs(g, v);
                 count++;
             }
         }
@@ -29,16 +41,16 @@ public class CC {
     /**
      * depth first search.
      *
-     * @param      G     { Graph }
+     * @param      g     { graph g
      * @param      v     { vertex }
      */
-    private void dfs(Graph G, int v) {
+    private void dfs(final Graph g, final int v) {
         marked[v] = true;
         id[v] = count;
         size[count]++;
-        for (int w : G.adj(v)) {
+        for (int w : g.adj(v)) {
             if (!marked[w]) {
-                dfs(G, w);
+                dfs(g, w);
             }
         }
     }
@@ -51,7 +63,7 @@ public class CC {
      *
      * @return     { description_of_the_return_value }
      */
-    public int id(int v) {
+    public int id(final int v) {
         validateVertex(v);
         return id[v];
     }
@@ -63,7 +75,7 @@ public class CC {
      *
      * @return     { description_of_the_return_value }
      */
-    public int size(int v) {
+    public int size(final int v) {
         validateVertex(v);
         return size[id[v]];
     }
@@ -88,7 +100,7 @@ public class CC {
      * @throws IllegalArgumentException unless {@code 0 <= v < V}
      * @throws IllegalArgumentException unless {@code 0 <= w < V}
      */
-    public boolean connected(int v, int w) {
+    public boolean connected(final int v, final int w) {
         validateVertex(v);
         validateVertex(w);
         return id(v) == id(w);
@@ -107,14 +119,14 @@ public class CC {
      * @deprecated Replaced by {@link #connected(int, int)}.
      */
     @Deprecated
-    public boolean areConnected(int v, int w) {
+    public boolean areConnected(final int v, final int w) {
         validateVertex(v);
         validateVertex(w);
         return id(v) == id(w);
     }
 
     // throw an IllegalArgumentException unless {@code 0 <= v < V}
-    private void validateVertex(int v) {
+    private void validateVertex(final int v) {
         int V = marked.length;
         if (v < 0 || v >= V)
             throw new IllegalArgumentException("vertex "
