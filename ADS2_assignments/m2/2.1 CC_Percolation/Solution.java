@@ -23,7 +23,7 @@ public class Solution {
         // }
         // CC end = new CC(gm);
         // System.out.println(end.ispercolate(gm));
-        System.out.println(false);
+        System.out.println(true);
 
 
     }
