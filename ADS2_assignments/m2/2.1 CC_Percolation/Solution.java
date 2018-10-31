@@ -17,7 +17,7 @@ public class Solution {
         Scanner sc = new Scanner(System.in);
         int dimension = Integer.parseInt(sc.nextLine());
         Graphmatrix gm = new Graphmatrix(dimension);
-        while (sc.hasNext()) {
+        while (sc.hasNextLine()) {
             String[] order = sc.nextLine().split(" ");
             gm.addEdge(Integer.parseInt(order[0]), Integer.parseInt(order[1]));
         }
