@@ -1,10 +1,26 @@
+/**
+ * Class for percolation through connected components..
+ * Author harinatha reddy.
+ * date 30-10-18.
+ */
 import java.util.NoSuchElementException;
 
 public class Graph {
+    /**
+     * Newline.
+     */
     private static final String NEWLINE = System.getProperty("line.separator");
-
+    /**
+     * v num of vertices.
+     */
     private final int V;
+    /**
+     * edges.
+     */
     private int E;
+    /**
+     * Bag object.
+     */
     private Bag<Integer>[] adj;
 
     /**
@@ -15,7 +31,9 @@ public class Graph {
      * @throws IllegalArgumentException if {@code V < 0}
      */
     public Graph(int V) {
-        if (V < 0) throw new IllegalArgumentException("Number of vertices must be nonnegative");
+        if (V < 0) {
+            throw new IllegalArgumentException("Num of vertices nonnegative");
+        }
         this.V = V;
         this.E = 0;
         adj = (Bag<Integer>[]) new Bag[V];
@@ -45,15 +63,15 @@ public class Graph {
     // throw an IllegalArgumentException unless {@code 0 <= v < V}
     private void validateVertex(int v) {
         if (v < 0 || v >= V)
-            throw new IllegalArgumentException("vertex " + v + " is not between 0 and " + (V - 1));
+            throw new IllegalArgumentException("vertex "
+            + v + " is not between 0 and " + (V - 1));
     }
 
     /**
-     * Adds the undirected edge v-w to this graph.
+     * Adds an edge.
      *
-     * @param  v one vertex in the edge
-     * @param  w the other vertex in the edge
-     * @throws IllegalArgumentException unless both {@code 0 <= v < V} and {@code 0 <= w < V}
+     * @param      v     { int type. }
+     * @param      w     { int type. }
      */
     public void addEdge(int v, int w) {
         validateVertex(v);
@@ -106,10 +124,9 @@ public class Graph {
 
 
     /**
-     * Returns a string representation of this graph.
+     * Returns a string representation of the object.
      *
-     * @return the number of vertices <em>V</em>, followed by the number of edges <em>E</em>,
-     *         followed by the <em>V</em> adjacency lists
+     * @return     String representation of the object.
      */
     public String toString() {
         StringBuilder s = new StringBuilder();

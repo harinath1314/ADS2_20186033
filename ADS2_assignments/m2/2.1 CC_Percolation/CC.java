@@ -1,7 +1,12 @@
+/**
+ * Class for percolation through connected components..
+ * Author harinatha reddy.
+ * date 30-10-18.
+ */
 public class CC {
     private boolean[] marked;   // marked[v] = has vertex v been marked?
-    private int[] id;           // id[v] = id of connected component containing v
-    private int[] size;         // size[id] = number of vertices in given component
+    private int[] id;           // id[v] = id of connected componet containing
+    private int[] size;         // size[id] = number of vertices.
     private int count;          // number of connected components
 
     /**
@@ -21,7 +26,12 @@ public class CC {
         }
     }
 
-    // depth-first search for a Graph
+    /**
+     * depth first search.
+     *
+     * @param      G     { Graph }
+     * @param      v     { vertex }
+     */
     private void dfs(Graph G, int v) {
         marked[v] = true;
         id[v] = count;
@@ -35,11 +45,11 @@ public class CC {
 
 
     /**
-     * Returns the component id of the connected component containing vertex {@code v}.
+     * id generator.
      *
-     * @param  v the vertex
-     * @return the component id of the connected component containing vertex {@code v}
-     * @throws IllegalArgumentException unless {@code 0 <= v < V}
+     * @param      v     { parameter_description }
+     *
+     * @return     { description_of_the_return_value }
      */
     public int id(int v) {
         validateVertex(v);
@@ -47,11 +57,11 @@ public class CC {
     }
 
     /**
-     * Returns the number of vertices in the connected component containing vertex {@code v}.
+     * size function.
      *
-     * @param  v the vertex
-     * @return the number of vertices in the connected component containing vertex {@code v}
-     * @throws IllegalArgumentException unless {@code 0 <= v < V}
+     * @param      v     { parameter_description }
+     *
+     * @return     { description_of_the_return_value }
      */
     public int size(int v) {
         validateVertex(v);
@@ -73,7 +83,7 @@ public class CC {
      *
      * @param  v one vertex
      * @param  w the other vertex
-     * @return {@code true} if vertices {@code v} and {@code w} are in the same
+     * @return {@code true} if vertices {@code v} and {@code w} are in the sam
      *         connected component; {@code false} otherwise
      * @throws IllegalArgumentException unless {@code 0 <= v < V}
      * @throws IllegalArgumentException unless {@code 0 <= w < V}
@@ -90,7 +100,7 @@ public class CC {
      *
      * @param  v one vertex
      * @param  w the other vertex
-     * @return {@code true} if vertices {@code v} and {@code w} are in the same
+     * @return {@code true} if vertices {@code v} and {@code w} are in the sam
      *         connected component; {@code false} otherwise
      * @throws IllegalArgumentException unless {@code 0 <= v < V}
      * @throws IllegalArgumentException unless {@code 0 <= w < V}
@@ -107,6 +117,7 @@ public class CC {
     private void validateVertex(int v) {
         int V = marked.length;
         if (v < 0 || v >= V)
-            throw new IllegalArgumentException("vertex " + v + " is not between 0 and " + (V-1));
+            throw new IllegalArgumentException("vertex "
+                + v + " is not between 0 and " + (V - 1));
     }
 }

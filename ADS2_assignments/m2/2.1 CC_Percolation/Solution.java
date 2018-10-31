@@ -1,3 +1,8 @@
+/**
+ * Class for percolation through connected components..
+ * Author harinatha reddy.
+ * date 30-10-18.
+ */
 import java.util.Scanner;
 /**
  * Class for percolation.

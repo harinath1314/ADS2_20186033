@@ -1,3 +1,8 @@
+/**
+ * Class for percolation through connected components..
+ * Author harinatha reddy.
+ * date 30-10-18.
+ */
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 
@@ -7,7 +12,13 @@ public class Bag<Item> implements Iterable<Item> {
 
     // helper linked list class
     private static class Node<Item> {
+        /**
+         * Item of Node.
+         */
         private Item item;
+        /**
+         * next of node.
+         */
         private Node<Item> next;
     }
 
@@ -53,9 +64,9 @@ public class Bag<Item> implements Iterable<Item> {
 
 
     /**
-     * Returns an iterator that iterates over the items in this bag in arbitrary order.
+     * iterator.
      *
-     * @return an iterator that iterates over the items in this bag in arbitrary order
+     * @return     { description_of_the_return_value }
      */
     public Iterator<Item> iterator()  {
         return new ListIterator<Item>(first);
@@ -63,17 +74,42 @@ public class Bag<Item> implements Iterable<Item> {
 
     // an iterator, doesn't implement remove() since it's optional
     private class ListIterator<Item> implements Iterator<Item> {
+        /**
+         * current node.
+         */
         private Node<Item> current;
-
-        public ListIterator(Node<Item> first) {
+        /**
+         * Constructs the object.
+         *
+         * @param      first  The first
+         */
+        public ListIterator(final Node<Item> first) {
             current = first;
         }
+        /**
+         * Determines if it has next.
+         *
+         * @return     True if has next, False otherwise.
+         */
+        public boolean hasNext() {
+            return current != null;
+        }
+        /**
+         * remove function.
+         */
+        public void remove() {
+            throw new UnsupportedOperationException();
+        }
 
-        public boolean hasNext()  { return current != null;                     }
-        public void remove()      { throw new UnsupportedOperationException();  }
-
+        /**
+         * next to iterate.
+         *
+         * @return      Item
+         */
         public Item next() {
-            if (!hasNext()) throw new NoSuchElementException();
+            if (!hasNext()) {
+                throw new NoSuchElementException();
+            }
             Item item = current.item;
             current = current.next;
             return item;
