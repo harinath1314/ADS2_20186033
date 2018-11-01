@@ -22,13 +22,13 @@ public class Queue<Item> implements Iterable<Item> {
   /**
    * number of elelmenst on queue.
    */
-  private int N;
+  private int n;
   /**
-   * beginning of queue
+   * beginning of queue.
    */
   private Node first;
   /**
-   * end of queue
+   * end of queue.
    */
   private Node last;
 
@@ -69,13 +69,14 @@ public class Queue<Item> implements Iterable<Item> {
    * @return     { int type. }
    */
   public int size() {
-    return N;
+    return n;
   }
 
   /**
-    * Return the item least recently added to the queue.
-    * Throw an exception if the queue is empty.
-    */
+   * peek method.
+   *
+   * @return     { item. }
+   */
   public Item peek() {
     if (isEmpty()) {
       throw new RuntimeException("Queue underflow");
@@ -96,7 +97,7 @@ public class Queue<Item> implements Iterable<Item> {
     } else {
       last.next = x; last = x;
     }
-    N++;
+    n++;
   }
 
   /**
@@ -110,7 +111,7 @@ public class Queue<Item> implements Iterable<Item> {
     }
     Item item = first.item;
     first = first.next;
-    N--;
+    n--;
     if (isEmpty()) {
       last = null;
     }
