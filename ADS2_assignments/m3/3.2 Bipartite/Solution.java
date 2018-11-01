@@ -1,3 +1,8 @@
+/**
+ * Bipartite solution.
+ * author harinatha reddy
+ * date 31-10-18
+ */
 import java.util.Scanner;
 /**
  * class for solution.
