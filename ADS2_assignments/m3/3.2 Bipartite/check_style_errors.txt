@@ -5,25 +5,12 @@ Audit done.
 Starting audit...
 Audit done.
 Starting audit...
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m3/3.2 Bipartite/Queue.java:22:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m3/3.2 Bipartite/Queue.java:22:17: Name 'N' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MemberName]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m3/3.2 Bipartite/Queue.java:23:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m3/3.2 Bipartite/Queue.java:24:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m3/3.2 Bipartite/Queue.java:51: Expected @return tag. [JavadocMethod]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m3/3.2 Bipartite/Queue.java:58: Expected @return tag. [JavadocMethod]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m3/3.2 Bipartite/Queue.java:66: Expected @return tag. [JavadocMethod]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m3/3.2 Bipartite/Queue.java:78:25: Parameter item should be final. [FinalParameters]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m3/3.2 Bipartite/Queue.java:81:24: '{' at column 24 should have line break after. [LeftCurly]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m3/3.2 Bipartite/Queue.java:81:51: '}' at column 51 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m3/3.2 Bipartite/Queue.java:82:24: '{' at column 24 should have line break after. [LeftCurly]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m3/3.2 Bipartite/Queue.java:90: Expected @return tag. [JavadocMethod]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m3/3.2 Bipartite/Queue.java:97: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m3/3.2 Bipartite/Queue.java:104: Expected @return tag. [JavadocMethod]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m3/3.2 Bipartite/Queue.java:106: 'for' construct must use '{}'s. [NeedBraces]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m3/3.2 Bipartite/Queue.java:115: Expected @return tag. [JavadocMethod]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m3/3.2 Bipartite/Queue.java:120: Missing a Javadoc comment. [JavadocType]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m3/3.2 Bipartite/Queue.java:25:15: Name 'N' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MemberName]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m3/3.2 Bipartite/Queue.java:26: First sentence should end with a period. [JavadocStyle]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m3/3.2 Bipartite/Queue.java:30: First sentence should end with a period. [JavadocStyle]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m3/3.2 Bipartite/Queue.java:79: Expected @return tag. [JavadocMethod]
 Audit done.
-Checkstyle ends with 17 errors.
+Checkstyle ends with 4 errors.
 Starting audit...
 Audit done.
 Starting audit...

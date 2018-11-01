@@ -19,135 +19,162 @@ import java.util.NoSuchElementException;
  * @param      <Item>  The item
  */
 public class Queue<Item> implements Iterable<Item> {
-    private int N;         // number of elements on queue
-    private Node first;    // beginning of queue
-    private Node last;     // end of queue
+  /**
+   * number of elelmenst on queue.
+   */
+  private int N;
+  /**
+   * beginning of queue
+   */
+  private Node first;
+  /**
+   * end of queue
+   */
+  private Node last;
 
+  /**
+   * Class for node.
+   */
+  private class Node {
     /**
-     * Class for node.
+     * item.
      */
-    private class Node {
-        /**
-         * item.
-         */
-        private Item item;
-        /**
-         * next.
-         */
-        private Node next;
+    private Item item;
+    /**
+     * next.
+     */
+    private Node next;
+  }
+
+  /**
+    * Create an empty queue.
+    */
+  public Queue() {
+    first = null;
+    last  = null;
+  }
+
+  /**
+   * Determines if empty.
+   *
+   * @return     True if empty, False otherwise.
+   */
+  public boolean isEmpty() {
+    return first == null;
+  }
+
+  /**
+   * size function.
+   *
+   * @return     { int type. }
+   */
+  public int size() {
+    return N;
+  }
+
+  /**
+    * Return the item least recently added to the queue.
+    * Throw an exception if the queue is empty.
+    */
+  public Item peek() {
+    if (isEmpty()) {
+      throw new RuntimeException("Queue underflow");
+    }
+    return first.item;
+  }
+
+  /**
+   * enqueue method.
+   *
+   * @param      item  The item
+   */
+  public void enqueue(final Item item) {
+    Node x = new Node();
+    x.item = item;
+    if (isEmpty()) {
+      first = x;     last = x;
+    } else {
+      last.next = x; last = x;
+    }
+    N++;
+  }
+
+  /**
+   * dequeue method.
+   *
+   * @return      item.
+   */
+  public Item dequeue() {
+    if (isEmpty()) {
+      throw new RuntimeException("Queue underflow");
+    }
+    Item item = first.item;
+    first = first.next;
+    N--;
+    if (isEmpty()) {
+      last = null;
+    }
+    return item;
+  }
+
+  /**
+   * Returns a string representation of the object.
+   *
+   * @return     String representation of the object.
+   */
+  public String toString() {
+    StringBuilder s = new StringBuilder();
+    for (Item item : this) {
+      s.append(item + " ");
     }
 
-    /**
-      * Create an empty queue.
-      */
-    public Queue() {
-        first = null;
-        last  = null;
-    }
+    return s.toString();
+  }
 
-    /**
-      * Is the queue empty?
-      */
-    public boolean isEmpty() {
-        return first == null;
-    }
 
-    /**
-      * Return the number of items in the queue.
-      */
-    public int size() {
-        return N;
-    }
+  /**
+   * iterator.
+   *
+   * @return     { item. }
+   */
+  public Iterator<Item> iterator()  {
+    return new ListIterator();
+  }
 
+  /**
+   * Class for list iterator.
+   */
+  private class ListIterator implements Iterator<Item> {
     /**
-      * Return the item least recently added to the queue.
-      * Throw an exception if the queue is empty.
-      */
-    public Item peek() {
-        if (isEmpty()) {
-            throw new RuntimeException("Queue underflow");
-        }
-        return first.item;
-    }
-
+     * current node.
+     */
+    private Node current = first;
     /**
-     * enqueue method.
+     * Determines if it has next.
      *
-     * @param      item  The item
+     * @return     True if has next, False otherwise.
      */
-    public void enqueue(Item item) {
-        Node x = new Node();
-        x.item = item;
-        if (isEmpty()) { first = x;     last = x; }
-        else           { last.next = x; last = x; }
-        N++;
+    public boolean hasNext()  {
+      return current != null;
     }
-
     /**
-      * Remove and return the item on the queue least recently added.
-      * Throw an exception if the queue is empty.
-      */
-    public Item dequeue() {
-        if (isEmpty()) {
-            throw new RuntimeException("Queue underflow");
-        }
-        Item item = first.item;
-        first = first.next;
-        N--;
-        if (isEmpty()) last = null;   // to avoid loitering
-        return item;
+     * remove method.
+     */
+    public void remove()      {
+      throw new UnsupportedOperationException();
     }
-
     /**
-      * Return string representation.
-      */
-    public String toString() {
-        StringBuilder s = new StringBuilder();
-        for (Item item : this)
-            s.append(item + " ");
-        return s.toString();
+     * next method.
+     *
+     * @return     { description_of_the_return_value }
+     */
+    public Item next() {
+      if (!hasNext()) {
+        throw new NoSuchElementException();
+      }
+      Item item = current.item;
+      current = current.next;
+      return item;
     }
-
-
-    /**
-      * Return an iterator that iterates over items on queue in FIFO order.
-      */
-    public Iterator<Item> iterator()  {
-        return new ListIterator();
-    }
-
-    // an iterator, doesn't implement remove() since it's optional
-    private class ListIterator implements Iterator<Item> {
-        /**
-         * current node.
-         */
-        private Node current = first;
-        /**
-         * Determines if it has next.
-         *
-         * @return     True if has next, False otherwise.
-         */
-        public boolean hasNext()  {
-            return current != null;
-        }
-        /**
-         * remove method.
-         */
-        public void remove()      {
-            throw new UnsupportedOperationException();
-        }
-        /**
-         * next method.
-         *
-         * @return     { description_of_the_return_value }
-         */
-        public Item next() {
-            if (!hasNext()) {
-                throw new NoSuchElementException();
-            }
-            Item item = current.item;
-            current = current.next;
-            return item;
-        }
-    }
+  }
 }
