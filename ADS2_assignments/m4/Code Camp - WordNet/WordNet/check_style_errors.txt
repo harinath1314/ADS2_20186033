@@ -3,7 +3,7 @@ Starting audit...
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m4/Code Camp - WordNet/WordNet/Solution.java:11:1: File contains tab characters (this is the first instance). [FileTabCharacter]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m4/Code Camp - WordNet/WordNet/Solution.java:26: switch without "default" clause. [MissingSwitchDefault]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m4/Code Camp - WordNet/WordNet/Solution.java:43: Line is longer than 80 characters (found 82). [LineLength]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m4/Code Camp - WordNet/WordNet/Solution.java:44: Line is longer than 80 characters (found 83). [LineLength]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m4/Code Camp - WordNet/WordNet/Solution.java:44: Line is longer than 80 characters (found 97). [LineLength]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m4/Code Camp - WordNet/WordNet/Solution.java:45: Line is longer than 80 characters (found 96). [LineLength]
 Audit done.
 Checkstyle ends with 6 errors.

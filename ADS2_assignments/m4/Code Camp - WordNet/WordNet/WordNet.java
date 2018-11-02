@@ -6,7 +6,7 @@ public class WordNet {
     Digraph di;
     DirectedCycle dc;
 
-    public WordNet(String synsets, String hypernyms) {
+    public WordNet(String synsets, String hypernyms) throws Exception {
         try{
 
         
