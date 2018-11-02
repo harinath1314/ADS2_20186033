@@ -87,7 +87,7 @@ public class WordNet {
     // distance between nounA and nounB (defined below)
     public int distance(String nounA, String nounB) {
         if (!isNoun(nounA) || !isNoun(nounB)) {
-            throw new IllegalArgumentException();
+            throw new IllegalArgumentException("hari in the bob ");
         }
         ArrayList<Integer> idA = hs.get(nounA);
         ArrayList<Integer> idB = hs.get(nounB);
