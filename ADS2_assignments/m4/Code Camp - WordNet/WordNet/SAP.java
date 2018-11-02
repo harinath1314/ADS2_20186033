@@ -1,7 +1,9 @@
-/*public class SAP {
+public class SAP {
 
     // constructor takes a digraph (not necessarily a DAG)
-    public SAP(Digraph G)
+    public SAP(Digraph G){
+
+    }
 
     // length of shortest ancestral path between v and w; -1 if no such path
     public int length(int v, int w)
@@ -17,4 +19,4 @@
 
     // do unit testing of this class
     public static void main(String[] args)
-}*/
+}

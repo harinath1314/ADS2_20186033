@@ -1,13 +1,13 @@
 /**
  * WORDNET CODECAMP.
- * author harinath reddy 
+ * author harinath reddy
  * date 2-11-18.
  */
 import java.util.Scanner;
 /**
  * Class for solution.
  */
-public class Solution{
+public class Solution {
 	/**
 	 * main method starts here.
 	 *
@@ -18,14 +18,27 @@ public class Solution{
 		String synset = sc.nextLine();
 		String hypernym = sc.nextLine();
 		String task = sc.nextLine();
-		if(task.equals("Graph")){
-		WordNet wn = new WordNet(synset, hypernym);
-			
+
+		// if(task.equals("Graph")){
+		// 	System.out.println(wn.di);
+
+		// }
+		switch (task) {
+		case"Graph":
+			try {
+				WordNet wn = new WordNet(synset, hypernym);
+
+
+
+			}
+			catch(Exception e) {
+				System.out.println(e.getMessage());
+			}
+
 		}
 
 
 
-		
-		
+
 	}
 }

@@ -3,16 +3,21 @@ import java.util.*;
 public class WordNet {
     Bag<String>[]syn;
     int size;
+    Digraph di;
+    DirectedCycle dc;
 
     public WordNet(String synsets, String hypernyms) {
+        try{
+
+        
         In file = new In("/Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m4/Code Camp - WordNet/WordNet/Files/" + synsets);
         while (file.hasNextLine()) {
             String line = file.readLine();
             size++;
         }
-        Digraph di = new Digraph(size);
+        di = new Digraph(size);
         syn = (Bag<String>[]) new Bag[size];
-        for(int i =0; i < size; i++) {
+        for (int i = 0; i < size; i++) {
             syn[i] = new Bag<String>();
         }
         file = new In("/Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m4/Code Camp - WordNet/WordNet/Files/" + synsets);
@@ -32,24 +37,35 @@ public class WordNet {
             String[] tokens = line.split(",");
             for (int i = 1; i < tokens.length; i++) {
                 di.addEdge(Integer.parseInt(tokens[0]), Integer.parseInt(tokens[i]));
-                if(di.outdegree(Integer.parseInt(tokens[0])) > 1) {
-                    System.out.println("Multiple roots");
-                    return;
-                }
             }
         }
-        DirectedCycle dc = new DirectedCycle(di);
-        if(dc.hasCycle()){
-            System.out.println("Cycle detected");
-            return;
+        dc = new DirectedCycle(di);
+        int count = 0;
+        for (int i = 0; i < size; i++) {
+            if(di.outdegree(i) == 0) {
+                count++;
+            }
+            
         }
-        // for(int i )
+        if(count > 1) {
+            throw new IllegalArgumentException("Multiple roots");
+        }
+        if(dc.hasCycle()){
+            throw new IllegalArgumentException("Multiple roots");
+
+        }
+        else {
             System.out.println(di);
-
+        }
+    }catch (Exception e) {
+        System.out.println(e.getMessage());
     }
-    
+    }
 
 
+    public Digraph graphity(){
+        return di;
+    }
     // returns all WordNet nouns
     public Iterable<String>[] nouns() {
         return syn;
