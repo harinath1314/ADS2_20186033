@@ -50,6 +50,9 @@ public class WordNet {
         }
         Digraph di = new Digraph(size);
         syn = (Bag<String>[]) new Bag[size];
+        for(int i =0; i < size; i++) {
+            syn[i] = new Bag<String>();
+        }
         file = new In("/Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m4/Code Camp - WordNet/WordNet/Files/" + synsets);
         while (file.hasNextLine()) {
             String line = file.readLine();
