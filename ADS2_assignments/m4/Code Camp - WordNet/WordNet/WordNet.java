@@ -87,7 +87,7 @@ public class WordNet {
     // distance between nounA and nounB (defined below)
     public int distance(String nounA, String nounB) {
         if (!isNoun(nounA) || !isNoun(nounB)) {
-            throw new IllegalArgumentException("hari in the bob ");
+            throw new IllegalArgumentException("");
         }
         ArrayList<Integer> idA = hs.get(nounA);
         ArrayList<Integer> idB = hs.get(nounB);
@@ -98,7 +98,7 @@ public class WordNet {
     // in a shortest ancestral path (defined below)
     public String sap(String nounA, String nounB) {
         if (!isNoun(nounA) || !isNoun(nounB)) {
-            throw new IllegalArgumentException();
+            throw new IllegalArgumentException("");
         }
         ArrayList<Integer> idA = hs.get(nounA);
         ArrayList<Integer> idB = hs.get(nounB);
