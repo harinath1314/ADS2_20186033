@@ -377,8 +377,6 @@ Starting audit...
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m4/Code Camp - WordNet/WordNet/WordNet.java:9:5: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m4/Code Camp - WordNet/WordNet/WordNet.java:9:20: Parameter synsets should be final. [FinalParameters]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m4/Code Camp - WordNet/WordNet/WordNet.java:9:36: Parameter hypernyms should be final. [FinalParameters]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m4/Code Camp - WordNet/WordNet/WordNet.java:10:12: 'try' is not followed by whitespace. [WhitespaceAround]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m4/Code Camp - WordNet/WordNet/WordNet.java:10:12: '{' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m4/Code Camp - WordNet/WordNet/WordNet.java:12: Line has trailing spaces. [RegexpSingleline]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m4/Code Camp - WordNet/WordNet/WordNet.java:13: Line is longer than 80 characters (found 164). [LineLength]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m4/Code Camp - WordNet/WordNet/WordNet.java:23: Line is longer than 80 characters (found 161). [LineLength]
@@ -389,8 +387,6 @@ Starting audit...
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m4/Code Camp - WordNet/WordNet/WordNet.java:50:11: 'if' is not followed by whitespace. [WhitespaceAround]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m4/Code Camp - WordNet/WordNet/WordNet.java:53:11: 'if' is not followed by whitespace. [WhitespaceAround]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m4/Code Camp - WordNet/WordNet/WordNet.java:53:26: '{' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m4/Code Camp - WordNet/WordNet/WordNet.java:58:6: 'catch' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m4/Code Camp - WordNet/WordNet/WordNet.java:58:6: '}' is not followed by whitespace. [WhitespaceAround]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m4/Code Camp - WordNet/WordNet/WordNet.java:64:5: Class 'WordNet' looks like designed for extension (can be subclassed), but the method 'graphity' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'WordNet' final or making the method 'graphity' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m4/Code Camp - WordNet/WordNet/WordNet.java:64:5: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m4/Code Camp - WordNet/WordNet/WordNet.java:64:30: '{' is not preceded with whitespace. [WhitespaceAround]
@@ -409,7 +405,7 @@ Starting audit...
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m4/Code Camp - WordNet/WordNet/WordNet.java:92:23: Parameter nounA should be final. [FinalParameters]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m4/Code Camp - WordNet/WordNet/WordNet.java:92:37: Parameter nounB should be final. [FinalParameters]
 Audit done.
-Checkstyle ends with 45 errors.
+Checkstyle ends with 41 errors.
 Starting audit...
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m4/Code Camp - WordNet/WordNet/Stack.java:13: Line has trailing spaces. [RegexpSingleline]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m4/Code Camp - WordNet/WordNet/Stack.java:14: Line has trailing spaces. [RegexpSingleline]

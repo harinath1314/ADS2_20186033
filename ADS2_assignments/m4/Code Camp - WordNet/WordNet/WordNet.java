@@ -7,7 +7,7 @@ public class WordNet {
     DirectedCycle dc;
 
     public WordNet(String synsets, String hypernyms) throws Exception {
-        try{
+        // try{
 
         
         In file = new In("/Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m4/Code Camp - WordNet/WordNet/Files/" + synsets);
@@ -55,9 +55,9 @@ public class WordNet {
 
         }
 
-    }catch (Exception e) {
-        System.out.println(e.getMessage());
-    }
+    // }catch (Exception e) {
+    //     System.out.println(e.getMessage());
+    // }
     }
 
 
