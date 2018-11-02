@@ -44,6 +44,7 @@ public class Solution {
 					if (qyery[0].equals("null") || qyery[1].equals("null")) {
 						throw new Exception("IllegalArgumentException");
 					}
+					System.out.println("distance = " + wn.distance(qyery[0], qyery[1]) + ", ancestor = " + wn.sap(qyery[0], qyery[1]));
 				}
 
 			} catch (Exception e) {
