@@ -3,6 +3,10 @@
  */
 public class Digraph {
     /**
+     * ...
+     */
+    private static final String NEWLINE = System.getProperty("line.separator");
+    /**
      * { var_description }.
      */
     private final int vertices;
@@ -120,4 +124,22 @@ public class Digraph {
         }
         return reverse;
     }
+    /**
+    * Returns a string representation of the graph.
+    *
+    * @return the number of vertices <em>V</em>, followed by the number of edges <em>E</em>,  
+    *         followed by the <em>V</em> adjacency lists
+    */
+   public String toString() {
+       StringBuilder s = new StringBuilder();
+       s.append(vertices + " vertices, " + edges + " edges " + NEWLINE);
+       for (int v = 0; v < vertices; v++) {
+           s.append(String.format("%d: ", v));
+           for (int w : adj[v]) {
+               s.append(String.format("%d ", w));
+           }
+           s.append(NEWLINE);
+       }
+       return s.toString();
+   }
 }
