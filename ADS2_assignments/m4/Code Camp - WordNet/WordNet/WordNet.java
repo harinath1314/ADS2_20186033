@@ -55,9 +55,6 @@ public class WordNet {
 
         }
 
-        else if(!dc.hasCycle()){
-            System.out.println(di);
-        }
     }catch (Exception e) {
         System.out.println(e.getMessage());
     }

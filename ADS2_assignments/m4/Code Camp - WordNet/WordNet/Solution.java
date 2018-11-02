@@ -27,6 +27,7 @@ public class Solution {
 		case"Graph":
 			try {
 				WordNet wn = new WordNet(synset, hypernym);
+				System.out.println(wn.di);
 
 
 
