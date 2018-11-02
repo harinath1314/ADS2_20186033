@@ -103,7 +103,7 @@ public class WordNet {
         ArrayList<Integer> idA = hs.get(nounA);
         ArrayList<Integer> idB = hs.get(nounB);
         int ancestor = sh.ancestor(idA, idB);
-        String hari = "";
+        String hari = "----";
         while (syn[ancestor].iterator().hasNext()) {
             hari += syn[ancestor].iterator().next() + " ";
         }
