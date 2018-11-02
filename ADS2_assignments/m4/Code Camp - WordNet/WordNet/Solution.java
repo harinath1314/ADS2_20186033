@@ -34,6 +34,21 @@ public class Solution {
 			catch(Exception e) {
 				System.out.println(e.getMessage());
 			}
+			break;
+		case"Queries":
+			try{
+
+				WordNet wn = new WordNet(synset, hypernym);
+				while(sc.hasNextLine()){
+					String[] qyery = sc.nextLine().split(" ");
+					if(qyery[0] == null || qyery[1] == null){
+						throw new Exception("IllegalArgumentException");
+					}
+				}
+
+			}catch(Exception e){
+				System.out.println(e.getMessage());
+			}
 
 		}
 
