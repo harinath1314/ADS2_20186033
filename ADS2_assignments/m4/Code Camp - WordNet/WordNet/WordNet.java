@@ -54,8 +54,10 @@ public class WordNet {
             throw new IllegalArgumentException("Cycle detected");
 
         }
-        
-        
+
+        else if(!dc.hasCycle()){
+            System.out.println(di);
+        }
     }catch (Exception e) {
         System.out.println(e.getMessage());
     }

@@ -27,27 +27,25 @@ public class Solution {
 		case"Graph":
 			try {
 				WordNet wn = new WordNet(synset, hypernym);
-            System.out.println(wn.di);
 
 
 
-			}
-			catch(Exception e) {
+			} catch (Exception e) {
 				System.out.println(e.getMessage());
 			}
 			break;
 		case"Queries":
-			try{
+			try {
 
 				WordNet wn = new WordNet(synset, hypernym);
-				while(sc.hasNextLine()){
+				while (sc.hasNextLine()) {
 					String[] qyery = sc.nextLine().split(" ");
-					if(qyery[0] == null || qyery[1] == null){
+					if (qyery[0] == null || qyery[1] == null) {
 						throw new Exception("IllegalArgumentException");
 					}
 				}
 
-			}catch(Exception e){
+			} catch (Exception e) {
 				System.out.println(e.getMessage());
 			}
 
