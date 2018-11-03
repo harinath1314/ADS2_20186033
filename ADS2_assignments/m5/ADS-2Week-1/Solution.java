@@ -10,7 +10,7 @@ import java.util.ArrayList;
  */
 class PageRank {
     /**
-     * { var_description }
+     * { var_description }.
      */
     private HashMap<Integer, Double> pageHash;
     // int iterations;
@@ -38,18 +38,18 @@ class PageRank {
     /**
      * ..
      *
-     * @param      di    { parameter_description }
+     * @param      d    { parameter_description }
      */
-    void PR(final Digraph di) {
+    void PR(final Digraph d) {
         pageHash = new HashMap<Integer, Double>();
-        for (int i = 0; i < di.V(); i++) {
+        for (int i = 0; i < d.V(); i++) {
             if (di.outdegree(i) == 0) {
-                Double pas = (double)1 / di.V();
-                Double pa = pas ;
+                Double pas = (double) 1 / di.V();
+                Double pa = pas;
                 pageHash.put(i, pa);
             } else {
-                Double pas = (double)1 / di.V();
-                Double pa = pas ;
+                Double pas = (double) 1 / di.V();
+                Double pa = pas;
                 pageHash.put(i, pa);
             }
 
@@ -106,6 +106,13 @@ class PageRank {
  * Class for solution.
  */
 public class Solution {
+
+    /**
+     * Constructs the object.
+     */
+    Solution(){
+
+    }
     /**
      * mainmethod.
      *
@@ -116,9 +123,10 @@ public class Solution {
         Scanner sc = new Scanner(System.in);
         int vertices = Integer.parseInt(sc.nextLine());
         Digraph di = new Digraph(vertices);
-        HashMap<Integer, ArrayList<Integer>> hs = new HashMap<Integer, ArrayList<Integer>>();
+        HashMap<Integer, ArrayList<Integer>> hs = 
+        new HashMap<Integer, ArrayList<Integer>>();
 
-        for (int i = 0; i < vertices ; i++) {
+        for (int i = 0; i < vertices; i++) {
             String[] input = sc.nextLine().split(" ");
             for (int j = 1; j < input.length; j++) {
                 if (hs.containsKey(input[0])) {
@@ -134,7 +142,8 @@ public class Solution {
 
             }
             for (int k = 1; k < input.length; k++) {
-                di.addEdge(Integer.parseInt(input[0]), Integer.parseInt(input[k]));
+                di.addEdge(
+            Integer.parseInt(input[0]), Integer.parseInt(input[k]));
 
 
 
@@ -152,27 +161,6 @@ public class Solution {
 
 
 
-        // iterate count of vertices times
-        // to read the adjacency list from std input
-        // and build the graph
-
-
-        // Create page rank object and pass the graph object to the constructor
-
-        // print the page rank object
-
-        // This part is only for the final test case
-
-        // File path to the web content
-        // String file = "WebContent.txt";
-
-        // instantiate web search object
-        // and pass the page rank object and the file path to the constructor
-
-        // read the search queries from std in
-        // remove the q= prefix and extract the search word
-        // pass the word to iAmFeelingLucky method of web search
-        // print the return value of iAmFeelingLucky
-
+        
     }
 }
