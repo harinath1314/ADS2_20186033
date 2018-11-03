@@ -12,16 +12,11 @@ Expected Output:
 3 - 0.0
 
 Your Output: 
-4 vertices, 5 edges 
-0: 2 1 
-1: 2 
-2: 0 
-3: 2 
-
-
-Exception in thread "main" java.lang.NullPointerException
-	at PageRank.printer(Solution.java:65)
-	at Solution.main(Solution.java:113)
+Exception in thread "main" java.lang.ClassCastException: java.base/java.lang.Integer cannot be cast to java.base/java.lang.String
+	at java.base/java.lang.String.compareTo(String.java:124)
+	at java.base/java.util.TreeMap.getEntry(TreeMap.java:350)
+	at java.base/java.util.TreeMap.containsKey(TreeMap.java:231)
+	at Solution.main(Solution.java:87)
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -38,16 +33,11 @@ Expected Output:
 3 - 0.09090909090909086
 
 Your Output: 
-4 vertices, 6 edges 
-0: 1 
-1: 2 0 
-2: 3 0 
-3: 0 
-
-
-Exception in thread "main" java.lang.NullPointerException
-	at PageRank.printer(Solution.java:65)
-	at Solution.main(Solution.java:113)
+Exception in thread "main" java.lang.ClassCastException: java.base/java.lang.Integer cannot be cast to java.base/java.lang.String
+	at java.base/java.lang.String.compareTo(String.java:124)
+	at java.base/java.util.TreeMap.getEntry(TreeMap.java:350)
+	at java.base/java.util.TreeMap.containsKey(TreeMap.java:231)
+	at Solution.main(Solution.java:87)
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -64,16 +54,11 @@ Expected Output:
 3 - 0.07692307692307687
 
 Your Output: 
-4 vertices, 8 edges 
-0: 1 
-1: 2 0 
-2: 3 1 0 
-3: 2 0 
-
-
-Exception in thread "main" java.lang.NullPointerException
-	at PageRank.printer(Solution.java:65)
-	at Solution.main(Solution.java:113)
+Exception in thread "main" java.lang.ClassCastException: java.base/java.lang.Integer cannot be cast to java.base/java.lang.String
+	at java.base/java.lang.String.compareTo(String.java:124)
+	at java.base/java.util.TreeMap.getEntry(TreeMap.java:350)
+	at java.base/java.util.TreeMap.containsKey(TreeMap.java:231)
+	at Solution.main(Solution.java:87)
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -98,20 +83,11 @@ Expected Output:
 7 - 0.02941176470588232
 
 Your Output: 
-8 vertices, 14 edges 
-0: 3 2 1 
-1: 0 
-2: 0 
-3: 7 6 5 4 0 
-4: 0 
-5: 0 
-6: 0 
-7: 0 
-
-
-Exception in thread "main" java.lang.NullPointerException
-	at PageRank.printer(Solution.java:65)
-	at Solution.main(Solution.java:113)
+Exception in thread "main" java.lang.ClassCastException: java.base/java.lang.Integer cannot be cast to java.base/java.lang.String
+	at java.base/java.lang.String.compareTo(String.java:124)
+	at java.base/java.util.TreeMap.getEntry(TreeMap.java:350)
+	at java.base/java.util.TreeMap.containsKey(TreeMap.java:231)
+	at Solution.main(Solution.java:87)
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -132,18 +108,11 @@ Expected Output:
 5 - 0.07936507936507975
 
 Your Output: 
-6 vertices, 8 edges 
-0: 3 2 1 
-1: 0 
-2: 0 
-3: 5 0 
-4: 0 
-5: 
-
-
-Exception in thread "main" java.lang.NullPointerException
-	at PageRank.printer(Solution.java:65)
-	at Solution.main(Solution.java:113)
+Exception in thread "main" java.lang.ClassCastException: java.base/java.lang.Integer cannot be cast to java.base/java.lang.String
+	at java.base/java.lang.String.compareTo(String.java:124)
+	at java.base/java.util.TreeMap.getEntry(TreeMap.java:350)
+	at java.base/java.util.TreeMap.containsKey(TreeMap.java:231)
+	at Solution.main(Solution.java:87)
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -168,20 +137,11 @@ Expected Output:
 7 - 0.051470588235294074
 
 Your Output: 
-8 vertices, 10 edges 
-0: 3 2 1 
-1: 0 
-2: 0 
-3: 7 6 5 4 0 
-4: 
-5: 
-6: 
-7: 
-
-
-Exception in thread "main" java.lang.NullPointerException
-	at PageRank.printer(Solution.java:65)
-	at Solution.main(Solution.java:113)
+Exception in thread "main" java.lang.ClassCastException: java.base/java.lang.Integer cannot be cast to java.base/java.lang.String
+	at java.base/java.lang.String.compareTo(String.java:124)
+	at java.base/java.util.TreeMap.getEntry(TreeMap.java:350)
+	at java.base/java.util.TreeMap.containsKey(TreeMap.java:231)
+	at Solution.main(Solution.java:87)
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
@@ -198,16 +158,11 @@ Expected Output:
 3 - 0.25
 
 Your Output: 
-4 vertices, 4 edges 
-0: 1 
-1: 2 
-2: 3 
-3: 0 
-
-
-Exception in thread "main" java.lang.NullPointerException
-	at PageRank.printer(Solution.java:65)
-	at Solution.main(Solution.java:113)
+Exception in thread "main" java.lang.ClassCastException: java.base/java.lang.Integer cannot be cast to java.base/java.lang.String
+	at java.base/java.lang.String.compareTo(String.java:124)
+	at java.base/java.util.TreeMap.getEntry(TreeMap.java:350)
+	at java.base/java.util.TreeMap.containsKey(TreeMap.java:231)
+	at Solution.main(Solution.java:87)
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -228,18 +183,11 @@ Expected Output:
 5 - 0.12499999999999999
 
 Your Output: 
-6 vertices, 6 edges 
-0: 1 
-1: 2 
-2: 3 
-3: 5 0 
-4: 0 
-5: 
-
-
-Exception in thread "main" java.lang.NullPointerException
-	at PageRank.printer(Solution.java:65)
-	at Solution.main(Solution.java:113)
+Exception in thread "main" java.lang.ClassCastException: java.base/java.lang.Integer cannot be cast to java.base/java.lang.String
+	at java.base/java.lang.String.compareTo(String.java:124)
+	at java.base/java.util.TreeMap.getEntry(TreeMap.java:350)
+	at java.base/java.util.TreeMap.containsKey(TreeMap.java:231)
+	at Solution.main(Solution.java:87)
 ----------------------------------------
 
 ########## Testcase 8: Failed ##########
@@ -256,16 +204,11 @@ Expected Output:
 3 - 0.25
 
 Your Output: 
-4 vertices, 12 edges 
-0: 3 2 1 
-1: 3 2 0 
-2: 3 1 0 
-3: 2 1 0 
-
-
-Exception in thread "main" java.lang.NullPointerException
-	at PageRank.printer(Solution.java:65)
-	at Solution.main(Solution.java:113)
+Exception in thread "main" java.lang.ClassCastException: java.base/java.lang.Integer cannot be cast to java.base/java.lang.String
+	at java.base/java.lang.String.compareTo(String.java:124)
+	at java.base/java.util.TreeMap.getEntry(TreeMap.java:350)
+	at java.base/java.util.TreeMap.containsKey(TreeMap.java:231)
+	at Solution.main(Solution.java:87)
 ----------------------------------------
 
 ########## Testcase 9: Failed ##########
@@ -286,18 +229,11 @@ Expected Output:
 5 - 0.060240963855421686
 
 Your Output: 
-6 vertices, 14 edges 
-0: 3 2 1 
-1: 3 2 0 
-2: 5 3 1 0 
-3: 2 1 0 
-4: 0 
-5: 
-
-
-Exception in thread "main" java.lang.NullPointerException
-	at PageRank.printer(Solution.java:65)
-	at Solution.main(Solution.java:113)
+Exception in thread "main" java.lang.ClassCastException: java.base/java.lang.Integer cannot be cast to java.base/java.lang.String
+	at java.base/java.lang.String.compareTo(String.java:124)
+	at java.base/java.util.TreeMap.getEntry(TreeMap.java:350)
+	at java.base/java.util.TreeMap.containsKey(TreeMap.java:231)
+	at Solution.main(Solution.java:87)
 ----------------------------------------
 
 ########## Testcase 10: Failed ##########
@@ -310,14 +246,11 @@ Expected Output:
 1 - 0.5
 
 Your Output: 
-2 vertices, 2 edges 
-0: 1 
-1: 0 
-
-
-Exception in thread "main" java.lang.NullPointerException
-	at PageRank.printer(Solution.java:65)
-	at Solution.main(Solution.java:113)
+Exception in thread "main" java.lang.ClassCastException: java.base/java.lang.Integer cannot be cast to java.base/java.lang.String
+	at java.base/java.lang.String.compareTo(String.java:124)
+	at java.base/java.util.TreeMap.getEntry(TreeMap.java:350)
+	at java.base/java.util.TreeMap.containsKey(TreeMap.java:231)
+	at Solution.main(Solution.java:87)
 ----------------------------------------
 
 ########## Testcase 11: Failed ##########
@@ -355,23 +288,10 @@ Expected Output:
 0
 
 Your Output: 
-12 vertices, 22 edges 
-0: 3 2 1 
-1: 0 
-2: 0 
-3: 11 10 9 8 7 6 5 4 0 
-4: 0 
-5: 0 
-6: 0 
-7: 0 
-8: 0 
-9: 0 
-10: 0 
-11: 0 
-
-
-Exception in thread "main" java.lang.NullPointerException
-	at PageRank.printer(Solution.java:65)
-	at Solution.main(Solution.java:113)
+Exception in thread "main" java.lang.ClassCastException: java.base/java.lang.Integer cannot be cast to java.base/java.lang.String
+	at java.base/java.lang.String.compareTo(String.java:124)
+	at java.base/java.util.TreeMap.getEntry(TreeMap.java:350)
+	at java.base/java.util.TreeMap.containsKey(TreeMap.java:231)
+	at Solution.main(Solution.java:87)
 ----------------------------------------
 
