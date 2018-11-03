@@ -19,7 +19,7 @@ class PageRank {
 	int iniPR;
 	int pageRank;
 	PageRank(Digraph web) {
-		this.di = web;
+		this.di = web.reverse();
 		this.iniPR = 1 / web.V();
 
 	}
