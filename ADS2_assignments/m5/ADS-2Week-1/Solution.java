@@ -1,15 +1,24 @@
+/**
+ * class Solution.
+ */
 import java.util.Scanner;
 import java.util.HashMap;
 import java.util.ArrayList;
 
-
+/**
+ * Class for page rank.
+ */
 class PageRank {
+	/**
+	 * { var_description }
+	 */
 	HashMap<Integer, Double> pageHash;
 	// int iterations;
+
 	Digraph di;
 	int iniPR;
 	int pageRank;
-	PageRank(Digraph web){
+	PageRank(Digraph web) {
 		this.di = web;
 		this.iniPR = 1 / web.V();
 
@@ -32,27 +41,28 @@ class PageRank {
 
 	}
 
-	void getPR(int v){
+	void getPR(int v) {
 		for (int j = 0; j < 1000; j++) {
 			for (int i : di.adj(v)) {
 				Double temp = pageHash.get(i);
-				Double pres = temp/di.outdegree(i) ;
-				Double perfect = temp+pres;
+				Double pres = temp / di.outdegree(i) ;
+				Double perfect = temp + pres;
 
 				pageHash.put(i, perfect);
 			}
 
-			
+
 		}
 	}
 	// Set keys = pageHash.keySet();
-	void printer(){
-		for (Integer s : pageHash.keySet()) {
-		if(s != null){
-			System.out.println(s+ " - "+pageHash.get(s));
+	void printer() {
+		// for (Integer s : pageHash.keySet()) {
+		// 	if (s != null) {
+		// 		System.out.println(s + " - " + pageHash.get(s));
 
-		}			
-		}
+		// 	}
+		// }
+		System.out.println(pageHash.keySet());
 	}
 
 }
@@ -101,6 +111,8 @@ public class Solution {
 		System.out.println();
 		PageRank siri = new PageRank(di);
 		siri.printer();
+
+
 
 
 		// iterate count of vertices times
