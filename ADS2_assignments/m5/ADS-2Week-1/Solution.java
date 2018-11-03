@@ -30,10 +30,10 @@ class PageRank {
 			if (di.outdegree(i) == 0) {
 				Double pas = (double)iniPR;
 				Double pa = pas ;
-				pageHash.put(i, pas);
+				pageHash.put(i, pa);
 			} else {
 				Double pas = (double)iniPR;
-				Double pa = pas + (1 / di.outdegree(i));
+				Double pa = pas ;
 				pageHash.put(i, pa);
 			}
 
