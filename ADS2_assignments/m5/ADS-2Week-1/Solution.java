@@ -48,8 +48,10 @@ class PageRank {
 	// Set keys = pageHash.keySet();
 	void printer(){
 		for (Integer s : pageHash.keySet()) {
-			System.out.println(s);
+		if(s != null){
+			System.out.println(s+ " - "+pageHash.get(s));
 			
+		}			
 		}
 	}
 
