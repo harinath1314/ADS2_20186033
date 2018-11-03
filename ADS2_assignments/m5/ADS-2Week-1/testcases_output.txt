@@ -12,11 +12,17 @@ Expected Output:
 3 - 0.0
 
 Your Output: 
-Exception in thread "main" java.lang.ClassCastException: java.base/java.lang.Integer cannot be cast to java.base/java.lang.String
-	at java.base/java.lang.String.compareTo(String.java:124)
-	at java.base/java.util.TreeMap.getEntry(TreeMap.java:350)
-	at java.base/java.util.TreeMap.containsKey(TreeMap.java:231)
-	at Solution.main(Solution.java:87)
+4 vertices, 5 edges 
+0: 2 1 
+1: 2 
+2: 0 
+3: 2 
+
+
+0 - 0.0
+1 - 1.0715086071862673E301
+2 - Infinity
+3 - 1.0
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -33,11 +39,17 @@ Expected Output:
 3 - 0.09090909090909086
 
 Your Output: 
-Exception in thread "main" java.lang.ClassCastException: java.base/java.lang.Integer cannot be cast to java.base/java.lang.String
-	at java.base/java.lang.String.compareTo(String.java:124)
-	at java.base/java.util.TreeMap.getEntry(TreeMap.java:350)
-	at java.base/java.util.TreeMap.containsKey(TreeMap.java:231)
-	at Solution.main(Solution.java:87)
+4 vertices, 6 edges 
+0: 1 
+1: 2 0 
+2: 3 0 
+3: 0 
+
+
+0 - Infinity
+1 - 0.0
+2 - 0.0
+3 - 1.0715086071862673E301
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -54,11 +66,17 @@ Expected Output:
 3 - 0.07692307692307687
 
 Your Output: 
-Exception in thread "main" java.lang.ClassCastException: java.base/java.lang.Integer cannot be cast to java.base/java.lang.String
-	at java.base/java.lang.String.compareTo(String.java:124)
-	at java.base/java.util.TreeMap.getEntry(TreeMap.java:350)
-	at java.base/java.util.TreeMap.containsKey(TreeMap.java:231)
-	at Solution.main(Solution.java:87)
+4 vertices, 8 edges 
+0: 1 
+1: 2 0 
+2: 3 1 0 
+3: 2 0 
+
+
+0 - Infinity
+1 - 0.0
+2 - 0.0
+3 - 0.0
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -83,11 +101,25 @@ Expected Output:
 7 - 0.02941176470588232
 
 Your Output: 
-Exception in thread "main" java.lang.ClassCastException: java.base/java.lang.Integer cannot be cast to java.base/java.lang.String
-	at java.base/java.lang.String.compareTo(String.java:124)
-	at java.base/java.util.TreeMap.getEntry(TreeMap.java:350)
-	at java.base/java.util.TreeMap.containsKey(TreeMap.java:231)
-	at Solution.main(Solution.java:87)
+8 vertices, 14 edges 
+0: 3 2 1 
+1: 0 
+2: 0 
+3: 7 6 5 4 0 
+4: 0 
+5: 0 
+6: 0 
+7: 0 
+
+
+0 - 0.0
+1 - 1.0715086071862673E301
+2 - 1.0715086071862673E301
+3 - 0.0
+4 - 1.0715086071862673E301
+5 - 1.0715086071862673E301
+6 - 1.0715086071862673E301
+7 - 1.0715086071862673E301
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -108,11 +140,21 @@ Expected Output:
 5 - 0.07936507936507975
 
 Your Output: 
-Exception in thread "main" java.lang.ClassCastException: java.base/java.lang.Integer cannot be cast to java.base/java.lang.String
-	at java.base/java.lang.String.compareTo(String.java:124)
-	at java.base/java.util.TreeMap.getEntry(TreeMap.java:350)
-	at java.base/java.util.TreeMap.containsKey(TreeMap.java:231)
-	at Solution.main(Solution.java:87)
+6 vertices, 8 edges 
+0: 3 2 1 
+1: 0 
+2: 0 
+3: 5 0 
+4: 0 
+5: 
+
+
+0 - 0.0
+1 - 1.0715086071862673E301
+2 - 1.0715086071862673E301
+3 - 0.0
+4 - 1.0
+5 - NaN
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -137,11 +179,25 @@ Expected Output:
 7 - 0.051470588235294074
 
 Your Output: 
-Exception in thread "main" java.lang.ClassCastException: java.base/java.lang.Integer cannot be cast to java.base/java.lang.String
-	at java.base/java.lang.String.compareTo(String.java:124)
-	at java.base/java.util.TreeMap.getEntry(TreeMap.java:350)
-	at java.base/java.util.TreeMap.containsKey(TreeMap.java:231)
-	at Solution.main(Solution.java:87)
+8 vertices, 10 edges 
+0: 3 2 1 
+1: 0 
+2: 0 
+3: 7 6 5 4 0 
+4: 
+5: 
+6: 
+7: 
+
+
+0 - 0.0
+1 - 1.0715086071862673E301
+2 - 1.0715086071862673E301
+3 - 0.0
+4 - NaN
+5 - NaN
+6 - NaN
+7 - NaN
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
@@ -158,11 +214,17 @@ Expected Output:
 3 - 0.25
 
 Your Output: 
-Exception in thread "main" java.lang.ClassCastException: java.base/java.lang.Integer cannot be cast to java.base/java.lang.String
-	at java.base/java.lang.String.compareTo(String.java:124)
-	at java.base/java.util.TreeMap.getEntry(TreeMap.java:350)
-	at java.base/java.util.TreeMap.containsKey(TreeMap.java:231)
-	at Solution.main(Solution.java:87)
+4 vertices, 4 edges 
+0: 1 
+1: 2 
+2: 3 
+3: 0 
+
+
+0 - 1.0715086071862673E301
+1 - 1.0715086071862673E301
+2 - 1.0715086071862673E301
+3 - 1.0715086071862673E301
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -183,11 +245,21 @@ Expected Output:
 5 - 0.12499999999999999
 
 Your Output: 
-Exception in thread "main" java.lang.ClassCastException: java.base/java.lang.Integer cannot be cast to java.base/java.lang.String
-	at java.base/java.lang.String.compareTo(String.java:124)
-	at java.base/java.util.TreeMap.getEntry(TreeMap.java:350)
-	at java.base/java.util.TreeMap.containsKey(TreeMap.java:231)
-	at Solution.main(Solution.java:87)
+6 vertices, 6 edges 
+0: 1 
+1: 2 
+2: 3 
+3: 5 0 
+4: 0 
+5: 
+
+
+0 - Infinity
+1 - 1.0715086071862673E301
+2 - 1.0715086071862673E301
+3 - 0.0
+4 - 1.0
+5 - NaN
 ----------------------------------------
 
 ########## Testcase 8: Failed ##########
@@ -204,11 +276,17 @@ Expected Output:
 3 - 0.25
 
 Your Output: 
-Exception in thread "main" java.lang.ClassCastException: java.base/java.lang.Integer cannot be cast to java.base/java.lang.String
-	at java.base/java.lang.String.compareTo(String.java:124)
-	at java.base/java.util.TreeMap.getEntry(TreeMap.java:350)
-	at java.base/java.util.TreeMap.containsKey(TreeMap.java:231)
-	at Solution.main(Solution.java:87)
+4 vertices, 12 edges 
+0: 3 2 1 
+1: 3 2 0 
+2: 3 1 0 
+3: 2 1 0 
+
+
+0 - 0.0
+1 - 0.0
+2 - 0.0
+3 - 0.0
 ----------------------------------------
 
 ########## Testcase 9: Failed ##########
@@ -229,11 +307,21 @@ Expected Output:
 5 - 0.060240963855421686
 
 Your Output: 
-Exception in thread "main" java.lang.ClassCastException: java.base/java.lang.Integer cannot be cast to java.base/java.lang.String
-	at java.base/java.lang.String.compareTo(String.java:124)
-	at java.base/java.util.TreeMap.getEntry(TreeMap.java:350)
-	at java.base/java.util.TreeMap.containsKey(TreeMap.java:231)
-	at Solution.main(Solution.java:87)
+6 vertices, 14 edges 
+0: 3 2 1 
+1: 3 2 0 
+2: 5 3 1 0 
+3: 2 1 0 
+4: 0 
+5: 
+
+
+0 - 0.0
+1 - 0.0
+2 - 0.0
+3 - 0.0
+4 - 1.0
+5 - NaN
 ----------------------------------------
 
 ########## Testcase 10: Failed ##########
@@ -246,11 +334,13 @@ Expected Output:
 1 - 0.5
 
 Your Output: 
-Exception in thread "main" java.lang.ClassCastException: java.base/java.lang.Integer cannot be cast to java.base/java.lang.String
-	at java.base/java.lang.String.compareTo(String.java:124)
-	at java.base/java.util.TreeMap.getEntry(TreeMap.java:350)
-	at java.base/java.util.TreeMap.containsKey(TreeMap.java:231)
-	at Solution.main(Solution.java:87)
+2 vertices, 2 edges 
+0: 1 
+1: 0 
+
+
+0 - 1.0715086071862673E301
+1 - 1.0715086071862673E301
 ----------------------------------------
 
 ########## Testcase 11: Failed ##########
@@ -288,10 +378,32 @@ Expected Output:
 0
 
 Your Output: 
-Exception in thread "main" java.lang.ClassCastException: java.base/java.lang.Integer cannot be cast to java.base/java.lang.String
-	at java.base/java.lang.String.compareTo(String.java:124)
-	at java.base/java.util.TreeMap.getEntry(TreeMap.java:350)
-	at java.base/java.util.TreeMap.containsKey(TreeMap.java:231)
-	at Solution.main(Solution.java:87)
+12 vertices, 22 edges 
+0: 3 2 1 
+1: 0 
+2: 0 
+3: 11 10 9 8 7 6 5 4 0 
+4: 0 
+5: 0 
+6: 0 
+7: 0 
+8: 0 
+9: 0 
+10: 0 
+11: 0 
+
+
+0 - 0.0
+1 - 1.0715086071862673E301
+2 - 1.0715086071862673E301
+3 - 0.0
+4 - 1.0715086071862673E301
+5 - 1.0715086071862673E301
+6 - 1.0715086071862673E301
+7 - 1.0715086071862673E301
+8 - 1.0715086071862673E301
+9 - 1.0715086071862673E301
+10 - 1.0715086071862673E301
+11 - 1.0715086071862673E301
 ----------------------------------------
 

@@ -2,7 +2,7 @@
  * class Solution.
  */
 import java.util.Scanner;
-import java.util.TreeMap;
+import java.util.HashMap;
 import java.util.ArrayList;
 
 /**
@@ -12,7 +12,7 @@ class PageRank {
 	/**
 	 * { var_description }
 	 */
-	TreeMap<Integer, Double> pageHash;
+	HashMap<Integer, Double> pageHash;
 	// int iterations;
 
 	Digraph di;
@@ -25,7 +25,7 @@ class PageRank {
 	}
 
 	void PR(Digraph di) {
-		pageHash = new TreeMap<Integer, Double>();
+		pageHash = new HashMap<Integer, Double>();
 		for (int i = 0; i < di.V(); i++) {
 			if (di.outdegree(i) == 0) {
 				pageHash.put(i, 0.0);
@@ -56,13 +56,19 @@ class PageRank {
 	}
 	// Set keys = pageHash.keySet();
 	void printer() {
-		// for (Integer s : pageHash.keySet()) {
-		// 	if (s != null) {
-		// 		System.out.println(s + " - " + pageHash.get(s));
+		PR(di);
+		for(int i = 0; i < di.V(); i++){
+			getPR(i);
+		}
+		for (Integer s : pageHash.keySet()) {
+			if (s != null) {
+				System.out.println(s + " - " + pageHash.get(s));
 
-		// 	}
-		// }
-		System.out.println(pageHash.keySet());
+			}
+		}
+		// System.out.println(pageHash.keySet());
+		// 
+
 	}
 
 }
@@ -79,7 +85,7 @@ public class Solution {
 		Scanner sc = new Scanner(System.in);
 		int vertices = Integer.parseInt(sc.nextLine());
 		Digraph di = new Digraph(vertices);
-		TreeMap<Integer, ArrayList<Integer>> hs = new TreeMap<Integer, ArrayList<Integer>>();
+		HashMap<Integer, ArrayList<Integer>> hs = new HashMap<Integer, ArrayList<Integer>>();
 
 		for (int i = 0; i < vertices ; i++) {
 			String[] input = sc.nextLine().split(" ");
