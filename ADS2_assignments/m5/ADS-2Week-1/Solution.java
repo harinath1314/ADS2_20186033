@@ -63,10 +63,10 @@ class PageRank {
 		// 	getPR(i);
 		// }
 		for (Integer s : pageHash.keySet()) {
-			if (s != null) {
+			// if (s != null) {
 				System.out.println(s + " - " + pageHash.get(s));
 
-			}
+			// }
 		}
 		// System.out.println(pageHash.keySet());
 		// 
