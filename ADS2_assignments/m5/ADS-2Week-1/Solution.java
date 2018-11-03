@@ -19,7 +19,7 @@ class PageRank {
 	int iniPR;
 	int pageRank;
 	PageRank(Digraph web) {
-		this.di = web.reverse();
+		this.di = web;
 		this.iniPR = 1 / web.V();
 
 	}
@@ -28,7 +28,9 @@ class PageRank {
 		pageHash = new HashMap<Integer, Double>();
 		for (int i = 0; i < di.V(); i++) {
 			if (di.outdegree(i) == 0) {
-				pageHash.put(i, 0.0);
+				Double pas = (double)iniPR;
+				Double pa = pas ;
+				pageHash.put(i, pas);
 			} else {
 				Double pas = (double)iniPR;
 				Double pa = pas + (1 / di.outdegree(i));
