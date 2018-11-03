@@ -116,7 +116,7 @@ public class Solution {
 
 		}
 		System.out.println(di);
-		System.out.println();
+		// System.out.println();
 		PageRank siri = new PageRank(di);
 		siri.printer();
 
