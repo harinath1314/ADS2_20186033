@@ -18,13 +18,7 @@ Starting audit...
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m5/ADS-2Week-1/Solution.java:32:48: ';' is preceded with whitespace. [NoWhitespaceBefore]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m5/ADS-2Week-1/Solution.java:35:54: 'typecast' is not followed by whitespace. [WhitespaceAfter]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m5/ADS-2Week-1/Solution.java:36:48: ';' is preceded with whitespace. [NoWhitespaceBefore]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m5/ADS-2Week-1/Solution.java:46:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m5/ADS-2Week-1/Solution.java:46:20: Parameter v should be final. [FinalParameters]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m5/ADS-2Week-1/Solution.java:47:37: '1000' is a magic number. [MagicNumber]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m5/ADS-2Week-1/Solution.java:50:69: ';' is preceded with whitespace. [NoWhitespaceBefore]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m5/ADS-2Week-1/Solution.java:60:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m5/ADS-2Week-1/Solution.java:62:20: 'for' is not followed by whitespace. [WhitespaceAround]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m5/ADS-2Week-1/Solution.java:62:48: '{' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m5/ADS-2Week-1/Solution.java:72: Line has trailing spaces. [RegexpSingleline]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m5/ADS-2Week-1/Solution.java:83: Missing a Javadoc comment. [JavadocType]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m5/ADS-2Week-1/Solution.java:83:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
@@ -38,7 +32,7 @@ Starting audit...
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m5/ADS-2Week-1/Solution.java:131: Line is longer than 80 characters (found 87). [LineLength]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m5/ADS-2Week-1/Solution.java:141: Line is longer than 80 characters (found 85). [LineLength]
 Audit done.
-Checkstyle ends with 38 errors.
+Checkstyle ends with 32 errors.
 Starting audit...
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m5/ADS-2Week-1/Digraph.java:7: Line has trailing spaces. [RegexpSingleline]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m5/ADS-2Week-1/Digraph.java:14: Line has trailing spaces. [RegexpSingleline]

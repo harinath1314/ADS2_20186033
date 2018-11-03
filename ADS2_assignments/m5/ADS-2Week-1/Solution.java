@@ -43,25 +43,25 @@ class PageRank {
 
 	}
 
-	void getPR(int v) {
-		for (int j = 0; j < 1000; j++) {
-			for (int i : di.adj(v)) {
-				Double temp = pageHash.get(i);
-				Double pres = temp / di.outdegree(i) ;
-				Double perfect = temp + pres;
+	// void getPR(int v) {
+	// 	for (int j = 0; j < 1000; j++) {
+	// 		for (int i : di.adj(v)) {
+	// 			Double temp = pageHash.get(i);
+	// 			Double pres = temp / di.outdegree(i) ;
+	// 			Double perfect = temp + pres;
 
-				pageHash.put(i, perfect);
-			}
+	// 			pageHash.put(i, perfect);
+	// 		}
 
 
-		}
-	}
+	// 	}
+	// }
 	// Set keys = pageHash.keySet();
 	void printer() {
 		PR(di);
-		for(int i = 0; i < di.V(); i++){
-			getPR(i);
-		}
+		// for(int i = 0; i < di.V(); i++){
+		// 	getPR(i);
+		// }
 		for (Integer s : pageHash.keySet()) {
 			if (s != null) {
 				System.out.println(s + " - " + pageHash.get(s));
