@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 class PageRank {
 	HashMap<Integer, Double> pageHash;
-	int iterations;
+	// int iterations;
 	Digraph di;
 	int iniPR;
 	int pageRank;
@@ -48,7 +48,7 @@ class PageRank {
 	// Set keys = pageHash.keySet();
 	void printer(){
 		for (Integer s : pageHash.keySet()) {
-			System.out.println(s+ " - "+pageHash.get(s));
+			System.out.println(s);
 			
 		}
 	}

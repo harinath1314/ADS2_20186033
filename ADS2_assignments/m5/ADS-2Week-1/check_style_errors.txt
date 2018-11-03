@@ -3,8 +3,6 @@ Starting audit...
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m5/ADS-2Week-1/Solution.java:7:1: File contains tab characters (this is the first instance). [FileTabCharacter]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m5/ADS-2Week-1/Solution.java:7:9: Missing a Javadoc comment. [JavadocVariable]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m5/ADS-2Week-1/Solution.java:7:34: Variable 'pageHash' must be private and have accessor methods. [VisibilityModifier]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m5/ADS-2Week-1/Solution.java:8:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m5/ADS-2Week-1/Solution.java:8:13: Variable 'iterations' must be private and have accessor methods. [VisibilityModifier]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m5/ADS-2Week-1/Solution.java:9:9: Missing a Javadoc comment. [JavadocVariable]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m5/ADS-2Week-1/Solution.java:9:17: Variable 'di' must be private and have accessor methods. [VisibilityModifier]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m5/ADS-2Week-1/Solution.java:10:9: Missing a Javadoc comment. [JavadocVariable]
@@ -31,9 +29,6 @@ Starting audit...
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m5/ADS-2Week-1/Solution.java:45: Line has trailing spaces. [RegexpSingleline]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m5/ADS-2Week-1/Solution.java:49:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m5/ADS-2Week-1/Solution.java:49:23: '{' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m5/ADS-2Week-1/Solution.java:51:45: '+' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m5/ADS-2Week-1/Solution.java:51:52: '+' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m5/ADS-2Week-1/Solution.java:51:53: '+' is not followed by whitespace. [WhitespaceAround]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m5/ADS-2Week-1/Solution.java:52: Line has trailing spaces. [RegexpSingleline]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m5/ADS-2Week-1/Solution.java:63: Missing a Javadoc comment. [JavadocType]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m5/ADS-2Week-1/Solution.java:63:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
@@ -47,7 +42,7 @@ Starting audit...
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m5/ADS-2Week-1/Solution.java:109: Line is longer than 80 characters (found 87). [LineLength]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m5/ADS-2Week-1/Solution.java:119: Line is longer than 80 characters (found 85). [LineLength]
 Audit done.
-Checkstyle ends with 47 errors.
+Checkstyle ends with 42 errors.
 Starting audit...
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m5/ADS-2Week-1/Digraph.java:7: Line has trailing spaces. [RegexpSingleline]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m5/ADS-2Week-1/Digraph.java:14: Line has trailing spaces. [RegexpSingleline]
