@@ -28,11 +28,11 @@ class PageRank {
 		pageHash = new HashMap<Integer, Double>();
 		for (int i = 0; i < di.V(); i++) {
 			if (di.outdegree(i) == 0) {
-				Double pas = (double)iniPR;
+				Double pas = (double)1/di.V();
 				Double pa = pas ;
 				pageHash.put(i, pa);
 			} else {
-				Double pas = (double)iniPR;
+				Double pas = (double)1/di.V();
 				Double pa = pas ;
 				pageHash.put(i, pa);
 			}
