@@ -35,7 +35,7 @@ public class Solution {
 				}
 
 			}
-			for (int k = 0; k < input.length; k++) {
+			for (int k = 1; k < input.length; k++) {
                 di.addEdge(Integer.parseInt(input[0]), Integer.parseInt(input[k]));
 
 
