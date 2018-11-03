@@ -34,7 +34,6 @@ Starting audit...
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m5/ADS-2Week-1/Solution.java:52:45: '+' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m5/ADS-2Week-1/Solution.java:52:52: '+' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m5/ADS-2Week-1/Solution.java:52:53: '+' is not followed by whitespace. [WhitespaceAround]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m5/ADS-2Week-1/Solution.java:53: Line has trailing spaces. [RegexpSingleline]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m5/ADS-2Week-1/Solution.java:54: Line has trailing spaces. [RegexpSingleline]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m5/ADS-2Week-1/Solution.java:65: Missing a Javadoc comment. [JavadocType]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m5/ADS-2Week-1/Solution.java:65:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
@@ -48,7 +47,7 @@ Starting audit...
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m5/ADS-2Week-1/Solution.java:111: Line is longer than 80 characters (found 87). [LineLength]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m5/ADS-2Week-1/Solution.java:121: Line is longer than 80 characters (found 85). [LineLength]
 Audit done.
-Checkstyle ends with 48 errors.
+Checkstyle ends with 47 errors.
 Starting audit...
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m5/ADS-2Week-1/Digraph.java:7: Line has trailing spaces. [RegexpSingleline]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m5/ADS-2Week-1/Digraph.java:14: Line has trailing spaces. [RegexpSingleline]

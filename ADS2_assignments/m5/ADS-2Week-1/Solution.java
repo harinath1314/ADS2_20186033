@@ -10,7 +10,7 @@ class PageRank {
 	int iniPR;
 	int pageRank;
 	PageRank(Digraph web){
-		this.di = web.reverse();
+		this.di = web;
 		this.iniPR = 1 / web.V();
 
 	}
@@ -50,7 +50,7 @@ class PageRank {
 		for (Integer s : pageHash.keySet()) {
 		if(s != null){
 			System.out.println(s+ " - "+pageHash.get(s));
-			
+
 		}			
 		}
 	}
