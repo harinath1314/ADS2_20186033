@@ -2,13 +2,62 @@ import java.util.Scanner;
 import java.util.HashMap;
 import java.util.ArrayList;
 
+
 class PageRank {
+	HashMap<Integer, Double> pageHash;
+	int iterations;
+	Digraph di;
+	int iniPR;
+	int pageRank;
+	PageRank(Digraph web){
+		this.di = web.reverse();
+		this.iniPR = 1 / web.V();
+
+	}
+
+	void PR(Digraph di) {
+		pageHash = new HashMap<Integer, Double>();
+		for (int i = 0; i < di.V(); i++) {
+			if (di.outdegree(i) == 0) {
+				pageHash.put(i, 0.0);
+			} else {
+				Double pas = (double)iniPR;
+				Double pa = pas + (1 / di.outdegree(i));
+				pageHash.put(i, pa);
+			}
+
+
+		}
+
+
+	}
+
+	void getPR(int v){
+		for (int j = 0; j < 1000; j++) {
+			for (int i : di.adj(v)) {
+				Double temp = pageHash.get(i);
+				Double pres = temp/di.outdegree(i) ;
+				Double perfect = temp+pres;
+
+				pageHash.put(i, perfect);
+			}
+
+			
+		}
+	}
+	// Set keys = pageHash.keySet();
+	void printer(){
+		for (Integer s : pageHash.keySet()) {
+			System.out.println(s+ " - "+pageHash.get(s));
+			
+		}
+	}
 
 }
 
-class WebSearch {
+// class WebSearch {
 
-}
+// }
 
 
 public class Solution {
@@ -36,17 +85,20 @@ public class Solution {
 
 			}
 			for (int k = 1; k < input.length; k++) {
-                di.addEdge(Integer.parseInt(input[0]), Integer.parseInt(input[k]));
+				di.addEdge(Integer.parseInt(input[0]), Integer.parseInt(input[k]));
 
 
 
-				
+
 			}
 
 
 
 		}
 		System.out.println(di);
+		System.out.println();
+		PageRank siri = new PageRank(di);
+		siri.printer();
 
 
 		// iterate count of vertices times
@@ -61,7 +113,7 @@ public class Solution {
 		// This part is only for the final test case
 
 		// File path to the web content
-		String file = "WebContent.txt";
+		// String file = "WebContent.txt";
 
 		// instantiate web search object
 		// and pass the page rank object and the file path to the constructor
