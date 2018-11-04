@@ -39,7 +39,7 @@ public class Solution {
 			try {
 
 				WordNet wn = new WordNet(synset, hypernym);
-				while (sc.hasNextLine()) {
+				while (sc.hasNext()) {
 					String[] qyery = sc.nextLine().split(" ");
 					if (qyery[0].equals("null") || qyery[1].equals("null")) {
 						throw new Exception("IllegalArgumentException");
