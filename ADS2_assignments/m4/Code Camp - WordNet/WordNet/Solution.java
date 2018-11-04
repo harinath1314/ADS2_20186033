@@ -48,7 +48,8 @@ public class Solution {
 					}
 					System.out.println("oooooooooooooooooooooo");
 					System.out.println(qyery[0]);
-					System.out.println("distance = " + wn.distance(qyery[0], qyery[1]) + ", ancestor = " + wn.sap(qyery[0], qyery[1]));
+					// System.out.println("distance = " + wn.distance(qyery[0], qyery[1]) + ", ancestor = " + wn.sap(qyery[0], qyery[1]));
+					System.out.println("distance = " + wn.distance(qyery[0], qyery[1]));
 				}
 
 			} catch (Exception e) {
