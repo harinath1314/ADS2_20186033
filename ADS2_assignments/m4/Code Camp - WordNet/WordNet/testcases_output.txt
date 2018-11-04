@@ -44,6 +44,7 @@ distance = 10, ancestor = entity
 Your Output: 
 ===============
 ----------------------
+oooooooooooooooooooooo
 null
 ----------------------------------------
 
@@ -59,6 +60,7 @@ distance = 1, ancestor = animal_oil
 Your Output: 
 ===============
 ----------------------
+oooooooooooooooooooooo
 null
 ----------------------------------------
 
@@ -71,6 +73,7 @@ distance = 2, ancestor = wax
 Your Output: 
 ===============
 ----------------------
+oooooooooooooooooooooo
 null
 ----------------------------------------
 
@@ -85,6 +88,7 @@ distance = 0, ancestor = f
 Your Output: 
 ===============
 ----------------------
+oooooooooooooooooooooo
 null
 ----------------------------------------
 
@@ -104,6 +108,7 @@ distance = 1, ancestor = k
 Your Output: 
 ===============
 ----------------------
+oooooooooooooooooooooo
 null
 ----------------------------------------
 
@@ -120,6 +125,7 @@ distance = 1, ancestor = h
 Your Output: 
 ===============
 ----------------------
+oooooooooooooooooooooo
 null
 ----------------------------------------
 
@@ -139,6 +145,7 @@ distance = 4, ancestor = f
 Your Output: 
 ===============
 ----------------------
+oooooooooooooooooooooo
 null
 ----------------------------------------
 
@@ -225,6 +232,7 @@ distance = 8, ancestor = abstraction abstract_entity
 Your Output: 
 ===============
 ----------------------
+oooooooooooooooooooooo
 null
 ----------------------------------------
 
