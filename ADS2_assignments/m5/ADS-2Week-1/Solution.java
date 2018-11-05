@@ -2,20 +2,31 @@ import java.util.Scanner;
 import java.util.HashMap;
 import java.util.ArrayList;
 
-
+/**
+ * Class for page rank.
+ */
 class PageRank {
     HashMap<Integer, Double>map;
     Digraph graph;
     Digraph revGraph;
     private int vertices;
+    /**
+     * Constructs the object.
+     *
+     * @param      dg    { parameter_description }
+     */
     PageRank(Digraph dg) {
         graph = dg;
         vertices = graph.V();
-        map = new HashMap<Integer, Double>();
         revGraph = graph.reverse();
     }
+    /**
+     * Calculates the pr.
+     */
     public void calculatePr() {
         Double inip = 0.0000000000000;
+        map = new HashMap<Integer, Double>();
+
         int count = 0;
         double temp = (double) vertices;
         double initialPr = (1 / temp);
@@ -27,7 +38,7 @@ class PageRank {
             }
         }
         double[] tempa = new double[graph.V()];
-        for ( int j = 104; j < 1000; j++) {
+        for ( int j = 1; j < 999; j++) {
             for ( int i = 0; i < vertices; i++) {
                 inip = 0.000000000000000;
                 for (int each : revGraph.adj(i)) {
@@ -41,13 +52,14 @@ class PageRank {
             }
         }
     }
+    /**
+     * .
+     */
     public void print() {
-        // for ( int i = 0; i < map.size(); i++) {
-        //     System.out.println(i + " - " + map.get(i));
-        // }
+        calculatePr();
         for (Integer s : map.keySet()) {
-            System.out.println(s+" - "+map.get(s));
-            
+            System.out.println(s + " - " + map.get(s));
+
         }
     }
 }
@@ -58,8 +70,15 @@ class WebSearch {
 
 }
 
-
+/**
+ * Class for solution.
+ */
 public class Solution {
+    /**
+     * mainmetheod.
+     *
+     * @param      args  The arguments
+     */
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int vertices = Integer.parseInt(sc.nextLine());
@@ -83,7 +102,7 @@ public class Solution {
             }
         }
         PageRank pr = new PageRank(d);
-        pr.calculatePr();
+
         pr.print();
     }
 }
