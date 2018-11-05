@@ -42,12 +42,13 @@ class PageRank {
         }
     }
     public void print() {
-        for ( int i = 0; i < map.size(); i++) {
-            System.out.println(i + " - " + map.get(i));
-        }
-        // for ( : ) {
-            
+        // for ( int i = 0; i < map.size(); i++) {
+        //     System.out.println(i + " - " + map.get(i));
         // }
+        for (Integer s : map.keySet()) {
+            System.out.println(s+" - "+map.get(s));
+            
+        }
     }
 }
 /**
@@ -63,9 +64,9 @@ public class Solution {
         Scanner sc = new Scanner(System.in);
         int vertices = Integer.parseInt(sc.nextLine());
         Digraph d = new Digraph(vertices);
-            for (int i = 0; i < vertices; i++) {
-                
-            
+        for (int i = 0; i < vertices; i++) {
+
+
             String[] arra1 = sc.nextLine().split(" ");
             for (int j = 1; j < arra1.length; j++) {
                 d.addEdge(Integer.parseInt(arra1[0]), Integer.parseInt(arra1[j]));
