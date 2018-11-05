@@ -1,8 +1,5 @@
 Starting audit...
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/Solution.java:58:5: Redundant 'public' modifier. [RedundantModifier]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/Solution.java:147: 'if' construct must use '{}'s. [NeedBraces]
 Audit done.
-Checkstyle ends with 2 errors.
 Starting audit...
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/StdOut.java:18: Line is longer than 80 characters (found 106). [LineLength]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/StdOut.java:19: Line is longer than 80 characters (found 114). [LineLength]

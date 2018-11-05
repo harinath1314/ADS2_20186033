@@ -55,7 +55,7 @@ class KruskalMST {
      * Compute a minimum spanning tree (or forest) of an edge-weighted graph.
      * @param g the edge-weighted graph
      */
-    public KruskalMST(final EdgeWeightedGraph g) {
+    KruskalMST(final EdgeWeightedGraph g) {
         // more efficient to build heap by passing array of edges
         MinPQ<Edge> pq = new MinPQ<Edge>();
         for (Edge e : g.edges()) {
@@ -144,7 +144,9 @@ class KruskalMST {
             uf = new UF(g.V());
             for (Edge f : mst) {
                 int x = f.either(), y = f.other(x);
-                if (f != e) uf.union(x, y);
+                if (f != e) {
+                    uf.union(x, y);
+                }
             }
 
             // check that e is min weight edge in crossing cut
