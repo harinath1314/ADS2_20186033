@@ -1,16 +1,25 @@
 Starting audit...
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/Solution.java:2: Line has trailing spaces. [RegexpSingleline]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/Solution.java:6: Missing a Javadoc comment. [JavadocType]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/Solution.java:6:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/Solution.java:6:28: '{' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/Solution.java:7:1: File contains tab characters (this is the first instance). [FileTabCharacter]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/Solution.java:7:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/Solution.java:7:19: '{' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/Solution.java:10:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/Solution.java:10:33: Parameter args should be final. [FinalParameters]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/Solution.java:9:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/Solution.java:10:1: File contains tab characters (this is the first instance). [FileTabCharacter]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/Solution.java:21:33: Parameter args should be final. [FinalParameters]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/Solution.java:46:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/Solution.java:47:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/Solution.java:53:5: Redundant 'public' modifier. [RedundantModifier]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/Solution.java:53:23: Parameter G should be final. [FinalParameters]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/Solution.java:53:41: Name 'G' must match pattern '^[a-z][a-zA-Z0-9]*$'. [ParameterName]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/Solution.java:87: Line is longer than 80 characters (found 82). [LineLength]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/Solution.java:88: Line is longer than 80 characters (found 81). [LineLength]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/Solution.java:93: Line has trailing spaces. [RegexpSingleline]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/Solution.java:95:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/Solution.java:95:27: Parameter G should be final. [FinalParameters]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/Solution.java:95:45: Name 'G' must match pattern '^[a-z][a-zA-Z0-9]*$'. [ParameterName]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/Solution.java:103: Line is longer than 80 characters (found 103). [LineLength]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/Solution.java:127: Line is longer than 80 characters (found 81). [LineLength]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/Solution.java:134: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/Solution.java:136: Line has trailing spaces. [RegexpSingleline]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/Solution.java:142: Line is longer than 80 characters (found 96). [LineLength]
 Audit done.
-Checkstyle ends with 10 errors.
+Checkstyle ends with 19 errors.
 Starting audit...
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/StdOut.java:18: Line is longer than 80 characters (found 106). [LineLength]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/StdOut.java:19: Line is longer than 80 characters (found 114). [LineLength]
@@ -569,23 +578,9 @@ Starting audit...
 Audit done.
 Checkstyle ends with 34 errors.
 Starting audit...
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/KruskalMST.java:12:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/KruskalMST.java:13:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/KruskalMST.java:19:23: Parameter G should be final. [FinalParameters]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/KruskalMST.java:19:41: Name 'G' must match pattern '^[a-z][a-zA-Z0-9]*$'. [ParameterName]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/KruskalMST.java:53: Line is longer than 80 characters (found 82). [LineLength]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/KruskalMST.java:54: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/KruskalMST.java:59: Line has trailing spaces. [RegexpSingleline]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/KruskalMST.java:61:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/KruskalMST.java:61:27: Parameter G should be final. [FinalParameters]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/KruskalMST.java:61:45: Name 'G' must match pattern '^[a-z][a-zA-Z0-9]*$'. [ParameterName]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/KruskalMST.java:69: Line is longer than 80 characters (found 103). [LineLength]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/KruskalMST.java:93: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/KruskalMST.java:100: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/KruskalMST.java:102: Line has trailing spaces. [RegexpSingleline]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/KruskalMST.java:108: Line is longer than 80 characters (found 96). [LineLength]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/KruskalMST.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 Audit done.
-Checkstyle ends with 15 errors.
+Checkstyle ends with 1 errors.
 Starting audit...
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/EdgeWeightedGraph.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/EdgeWeightedGraph.java:5: Missing a Javadoc comment. [JavadocType]
