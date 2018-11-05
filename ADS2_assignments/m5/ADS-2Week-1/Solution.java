@@ -58,7 +58,7 @@ class PageRank {
          for (int i : di.adj(v)) {
              Double temp = pageHash.get(i);
              Double pres = temp / di.outdegree(i) ;
-             Double perfect = temp + pres;
+             Double perfect = pres;
 
              presentHash.put(i, perfect);
          }
