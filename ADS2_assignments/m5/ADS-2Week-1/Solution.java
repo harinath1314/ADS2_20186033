@@ -43,18 +43,18 @@ class PageRank {
      *
      * @param      d    { parameter_description }
      */
-    void PR(final Digraph d) {
+    void PR() {
         pageHash = new HashMap<Integer, Double>();
-            for (int k = 0; k < d.V(); k++) {
-                if(d.outdegree(k) == 0){
-                    for (int x = 0; x<d.V(); x++) {
-                        if(x!=k){d.addEdge(x,k);}
+            for (int k = 0; k < di.V(); k++) {
+                if(di.outdegree(k) == 0){
+                    for (int x = 0; x<di.V(); x++) {
+                        if(x!=k){di.addEdge(x,k);}
                         
                     }
                 }
                 
             }
-        for (int i = 0; i < d.V(); i++) {
+        for (int i = 0; i < di.V(); i++) {
 
                 Double pas = (double) 1 / di.V();
                 pageHash.put(i, pas);
@@ -77,7 +77,7 @@ class PageRank {
      // }
     }
     void calcuation(){
-        PR(di);
+        // PR(di);
         for (int i = 0; i < 1000; i++) {
             for (int j = 0; j < di.V(); j++) {
                 getPR(j);
@@ -86,11 +86,8 @@ class PageRank {
         }
     }
     void printer() {
-        // PR(di);
-        // for(int i = 0; i < di.V(); i++){
-        //  getPR(i);
-        // }
-        
+        PR();
+        calcuation();
         for (Integer s : presentHash.keySet()) {
             // if (s != null) {
             System.out.println(s + " - " + presentHash.get(s));
@@ -138,7 +135,6 @@ public class Solution {
         }
         System.out.println(di);
         PageRank siri = new PageRank(di);
-        siri.calcuation();
         siri.printer();
 
 
