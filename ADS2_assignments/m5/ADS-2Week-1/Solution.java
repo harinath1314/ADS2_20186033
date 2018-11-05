@@ -13,6 +13,9 @@ class PageRank {
      * { var_description }.
      */
     private HashMap<Integer, Double> pageHash;
+    private HashMap<Integer, Double> presentHash = new HashMap<Integer, Double>();
+
+
     // int iterations;
 
     private Digraph di;
@@ -31,7 +34,7 @@ class PageRank {
      * @param      web   The web
      */
     PageRank(final Digraph web) {
-        this.di = web;
+        this.di = web.reverse();
         this.iniPR = 1 / web.V();
 
     }
@@ -43,51 +46,44 @@ class PageRank {
     void PR(final Digraph d) {
         pageHash = new HashMap<Integer, Double>();
         for (int i = 0; i < d.V(); i++) {
-            if (di.outdegree(i) == 0) {
                 Double pas = (double) 1 / di.V();
-                Double pa = pas;
-                pageHash.put(i, pa);
-            } else {
-                Double pas = (double) 1 / di.V();
-                Double pa = pas;
-                pageHash.put(i, pa);
-            }
-
-
+                pageHash.put(i, pas);
         }
 
 
     }
 
-    // void getPR(int v) {
-    //  for (int j = 0; j < 1000; j++) {
-    //      for (int i : di.adj(v)) {
-    //          Double temp = pageHash.get(i);
-    //          Double pres = temp / di.outdegree(i) ;
-    //          Double perfect = temp + pres;
+    void getPR(int v) {
+     // for (int j = 0; j < 1000; j++) {
+         for (int i : di.adj(v)) {
+             Double temp = pageHash.get(i);
+             Double pres = temp / di.outdegree(i) ;
+             Double perfect = temp + pres;
 
-    //          pageHash.put(i, perfect);
-    //      }
-
-
-    //  }
-    // }
-    // Set keys = pageHash.keySet();
-    // /**
+             presentHash.put(i, perfect);
+         }
 
 
-
-    /**
-     * .
-     */
-    void printer() {
+     // }
+    }
+    void calcuation(){
         PR(di);
+        for (int i = 0; i < 1000; i++) {
+            for (int j = 0; j < di.V(); j++) {
+                getPR(j);
+            }
+        pageHash.putAll(presentHash);
+        }
+    }
+    void printer() {
+        // PR(di);
         // for(int i = 0; i < di.V(); i++){
         //  getPR(i);
         // }
-        for (Integer s : pageHash.keySet()) {
+        
+        for (Integer s : presentHash.keySet()) {
             // if (s != null) {
-            System.out.println(s + " - " + pageHash.get(s));
+            System.out.println(s + " - " + presentHash.get(s));
 
             // }
         }
@@ -123,39 +119,16 @@ public class Solution {
         Scanner sc = new Scanner(System.in);
         int vertices = Integer.parseInt(sc.nextLine());
         Digraph di = new Digraph(vertices);
-        HashMap<Integer, ArrayList<Integer>> hs = 
-        new HashMap<Integer, ArrayList<Integer>>();
-
         for (int i = 0; i < vertices; i++) {
             String[] input = sc.nextLine().split(" ");
-            for (int j = 1; j < input.length; j++) {
-                if (hs.containsKey(input[0])) {
-                    ArrayList<Integer> s = hs.get(input[0]);
-                    s.add(Integer.parseInt(input[j]));
-                    hs.put(Integer.parseInt(input[0]), s);
-
-                } else {
-                    ArrayList<Integer> h = new ArrayList<Integer>();
-                    h.add(Integer.parseInt(input[j]));
-                    hs.put(Integer.parseInt(input[0]), h);
-                }
-
-            }
             for (int k = 1; k < input.length; k++) {
                 di.addEdge(
             Integer.parseInt(input[0]), Integer.parseInt(input[k]));
-
-
-
-
             }
-
-
-
         }
         System.out.println(di);
-        // System.out.println();
         PageRank siri = new PageRank(di);
+        siri.calcuation();
         siri.printer();
 
 
