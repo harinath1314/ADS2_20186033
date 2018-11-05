@@ -42,11 +42,7 @@ distance = 7, ancestor = entity
 distance = 10, ancestor = entity
 
 Your Output: 
-===============
-----------------------
-oooooooooooooooooooooo
-enzyme
-nullHARINATHA
+null
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -59,11 +55,7 @@ distance = 7, ancestor = lipid lipide lipoid
 distance = 1, ancestor = animal_oil
 
 Your Output: 
-===============
-----------------------
-oooooooooooooooooooooo
-DNA_polymerase
-nullHARINATHA
+null
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -73,11 +65,7 @@ distance = 13, ancestor = thing
 distance = 2, ancestor = wax
 
 Your Output: 
-===============
-----------------------
-oooooooooooooooooooooo
-Ghedda_wax
-nullHARINATHA
+null
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -89,11 +77,7 @@ distance = 0, ancestor = e
 distance = 0, ancestor = f
 
 Your Output: 
-===============
-----------------------
-oooooooooooooooooooooo
-b
-nullHARINATHA
+null
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -110,11 +94,7 @@ distance = 2, ancestor = j
 distance = 1, ancestor = k
 
 Your Output: 
-===============
-----------------------
-oooooooooooooooooooooo
-a
-nullHARINATHA
+null
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
@@ -128,11 +108,7 @@ distance = 3, ancestor = h
 distance = 1, ancestor = h
 
 Your Output: 
-===============
-----------------------
-oooooooooooooooooooooo
-a
-nullHARINATHA
+null
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -149,11 +125,7 @@ distance = 3, ancestor = f
 distance = 4, ancestor = f
 
 Your Output: 
-===============
-----------------------
-oooooooooooooooooooooo
-a
-nullHARINATHA
+null
 ----------------------------------------
 
 ########## Testcase 8: Passed ##########
@@ -196,24 +168,20 @@ Your Output:
 Multiple roots
 ----------------------------------------
 
-########## Testcase 11: Failed ##########
+########## Testcase 11: Passed ##########
 Expected Output: 
 IllegalArgumentException
 
 Your Output: 
-===============
-----------------------
-IllegalArgumentExceptionHARINATHA
+IllegalArgumentException
 ----------------------------------------
 
-########## Testcase 12: Failed ##########
+########## Testcase 12: Passed ##########
 Expected Output: 
 IllegalArgumentException
 
 Your Output: 
-===============
-----------------------
-IllegalArgumentExceptionHARINATHA
+IllegalArgumentException
 ----------------------------------------
 
 ########## Testcase 13: Failed ##########
@@ -237,11 +205,7 @@ distance = 0, ancestor = era epoch
 distance = 8, ancestor = abstraction abstract_entity
 
 Your Output: 
-===============
-----------------------
-oooooooooooooooooooooo
-zoospore
-nullHARINATHA
+null
 ----------------------------------------
 
 ########## Testcase 14: Passed ##########

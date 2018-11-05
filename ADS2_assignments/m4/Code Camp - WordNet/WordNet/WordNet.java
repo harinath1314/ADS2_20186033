@@ -10,7 +10,7 @@ public class WordNet {
 
     public WordNet(String synsets, String hypernyms) throws Exception {
 
-        hs = new HashMap();
+        hs = new HashMap<String, ArrayList<Integer>>();
         In file = new In("/Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m4/Code Camp - WordNet/WordNet/Files/" + synsets);
         while (file.hasNextLine()) {
             String line = file.readLine();
@@ -87,7 +87,7 @@ public class WordNet {
     // distance between nounA and nounB (defined below)
     public int distance(String nounA, String nounB) {
         if (!isNoun(nounA) || !isNoun(nounB)) {
-            throw new IllegalArgumentException("SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS");
+            throw new IllegalArgumentException("");
         }
         ArrayList<Integer> idA = hs.get(nounA);
         ArrayList<Integer> idB = hs.get(nounB);
@@ -98,12 +98,12 @@ public class WordNet {
     // in a shortest ancestral path (defined below)
     public String sap(String nounA, String nounB) {
         if (!isNoun(nounA) || !isNoun(nounB)) {
-            throw new IllegalArgumentException("SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS");
+            throw new IllegalArgumentException("");
         }
         ArrayList<Integer> idA = hs.get(nounA);
         ArrayList<Integer> idB = hs.get(nounB);
         int ancestor = sh.ancestor(idA, idB);
-        String hari = "----";
+        String hari = "";
         while (syn[ancestor].iterator().hasNext()) {
             hari += syn[ancestor].iterator().next() + " ";
         }
