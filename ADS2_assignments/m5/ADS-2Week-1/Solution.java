@@ -17,8 +17,8 @@ class PageRank {
     public void calculatePr() {
         Double inip = 0.0000000000000;
         int count = 0;
-        Double temp = (double) vertices;
-        Double initialPr = (1 / temp);
+        double temp = (double) vertices;
+        double initialPr = (1 / temp);
         for (int i = 0; i < vertices; i++) {
             if (graph.indegree(i) == 0) {
                 map.put(i, 0.00000000000000);
@@ -26,13 +26,13 @@ class PageRank {
                 map.put(i, initialPr);
             }
         }
-        Double[] tempa = new Double[graph.V()];
-        for ( int j = 0; j < 1000; j++) {
+        double[] tempa = new double[graph.V()];
+        for ( int j = 0; j < 1050; j++) {
             for ( int i = 0; i < vertices; i++) {
                 inip = 0.000000000000000;
                 for (int each : revGraph.adj(i)) {
-                    Double value = map.get(each);
-                    inip += ((Double)value / (double)graph.outdegree(each));
+                    double value = map.get(each);
+                    inip += ((double)value / (double)graph.outdegree(each));
                 }
                 tempa[i] = inip;
             }
