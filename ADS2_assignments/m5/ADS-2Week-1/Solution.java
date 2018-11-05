@@ -59,12 +59,8 @@ class PageRank {
                 Double pas = (double) 1 / di.V();
                 pageHash.put(i, pas);
         }
-
-
     }
-
     void getPR(int v) {
-     // for (int j = 0; j < 1000; j++) {
          for (int i : di.adj(v)) {
              Double temp = pageHash.get(i);
              Double pres = temp / di.outdegree(i) ;
@@ -72,9 +68,6 @@ class PageRank {
 
              presentHash.put(i, perfect);
          }
-
-
-     // }
     }
     void calcuation(){
         // PR(di);
@@ -88,17 +81,10 @@ class PageRank {
     void printer() {
         PR();
         calcuation();
-        for (Integer s : presentHash.keySet()) {
-            // if (s != null) {
-            System.out.println(s + " - " + presentHash.get(s));
-
-            // }
+        for (Integer s : pageHash.keySet()) {
+            System.out.println(s + " - " + pageHash.get(s));
         }
-        // System.out.println(pageHash.keySet());
-        //
-
     }
-
 }
 
 // class WebSearch {
