@@ -40,7 +40,7 @@ public class Solution {
 
 				WordNet wn = new WordNet(synset, hypernym);
 				System.out.println("===============");
-				while (sc.hasNext()) {
+				while (sc.hasNextLine()) {
 					System.out.println("----------------------");
 					String[] qyery = sc.nextLine().split(" ");
 					if (qyery[0].equals("null") || qyery[1].equals("null")) {
@@ -50,7 +50,7 @@ public class Solution {
 					System.out.println(qyery[0]);
 					// System.out.println("distance = " + wn.distance(qyery[0], qyery[1]) + ", ancestor = " + wn.sap(qyery[0], qyery[1]));
 					// System.out.println("distance = " + wn.distance(qyery[0], qyery[1]));
-					// System.out.println(wn.distance(qyery[0], qyery[1])+"pppppppp");
+					System.out.println(wn.distance(qyery[0], qyery[1])+"pppppppp");
 					System.out.println("---------");
 				}
 
