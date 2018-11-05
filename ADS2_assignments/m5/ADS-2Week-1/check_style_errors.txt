@@ -13,7 +13,8 @@ Starting audit...
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m5/ADS-2Week-1/Solution.java:11:14: Parameter dg should be final. [FinalParameters]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m5/ADS-2Week-1/Solution.java:17:5: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m5/ADS-2Week-1/Solution.java:30:14: '(' is followed by whitespace. [ParenPad]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m5/ADS-2Week-1/Solution.java:30:30: '104' is a magic number. [MagicNumber]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m5/ADS-2Week-1/Solution.java:30:23: '14' is a magic number. [MagicNumber]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m5/ADS-2Week-1/Solution.java:30:31: '104' is a magic number. [MagicNumber]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m5/ADS-2Week-1/Solution.java:31:18: '(' is followed by whitespace. [ParenPad]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m5/ADS-2Week-1/Solution.java:35:38: 'typecast' is not followed by whitespace. [WhitespaceAfter]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m5/ADS-2Week-1/Solution.java:44:5: Missing a Javadoc comment. [JavadocMethod]
@@ -29,7 +30,7 @@ Starting audit...
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m5/ADS-2Week-1/Solution.java:72: Line is longer than 80 characters (found 82). [LineLength]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m5/ADS-2Week-1/Solution.java:78:47: ')' is preceded with whitespace. [ParenPad]
 Audit done.
-Checkstyle ends with 29 errors.
+Checkstyle ends with 30 errors.
 Starting audit...
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m5/ADS-2Week-1/Digraph.java:7: Line has trailing spaces. [RegexpSingleline]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m5/ADS-2Week-1/Digraph.java:14: Line has trailing spaces. [RegexpSingleline]
