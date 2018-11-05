@@ -32,7 +32,7 @@ class PageRank {
                 inip = 0.000000000000000;
                 for (int each : revGraph.adj(i)) {
                     double value = map.get(each);
-                    inip += ((double)value / (double)graph.outdegree(each));
+                    inip += ((double)(value / graph.outdegree(each)));
                 }
                 tempa[i] = inip;
             }
@@ -45,6 +45,9 @@ class PageRank {
         for ( int i = 0; i < map.size(); i++) {
             System.out.println(i + " - " + map.get(i));
         }
+        // for ( : ) {
+            
+        // }
     }
 }
 /**
