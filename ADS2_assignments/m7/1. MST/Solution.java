@@ -86,8 +86,9 @@ class KruskalMST {
 	}
 
 	/**
-	 * Returns the sum of the edge weights in a minimum spanning tree (or forest).
-	 * @return the sum of the edge weights in a minimum spanning tree (or forest)
+	 * weight .
+	 *
+	 * @return     { description_of_the_return_value }
 	 */
 	public double weight() {
 		return weight;
@@ -108,7 +109,9 @@ class KruskalMST {
 			total += e.weight();
 		}
 		if (Math.abs(total - weight()) > FLOATING_POINT_EPSILON) {
-			System.err.printf("Weight of edges does not equal weight(): %f vs. %f\n", total, weight());
+			System.err.printf(
+			    "Weight of edges does not equal weight(): %f vs. %f\n",
+			    total, weight());
 			return false;
 		}
 
@@ -132,7 +135,6 @@ class KruskalMST {
 			}
 		}
 
-		// check that it is a minimal spanning forest (cut optimality conditions)
 		for (Edge e : edges()) {
 
 			// all edges in MST except e
@@ -147,7 +149,8 @@ class KruskalMST {
 				int x = f.either(), y = f.other(x);
 				if (!uf.connected(x, y)) {
 					if (f.weight() < e.weight()) {
-						System.err.println("Edge " + f + " violates cut optimality conditions");
+						System.err.println("Edge " + f
+						    + " violates cut optimality conditions");
 						return false;
 					}
 				}

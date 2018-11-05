@@ -8,12 +8,11 @@ Starting audit...
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/Solution.java:89: Line is longer than 80 characters (found 86). [LineLength]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/Solution.java:90: Line is longer than 80 characters (found 85). [LineLength]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/Solution.java:103:55: Name 'G' must match pattern '^[a-z][a-zA-Z0-9]*$'. [ParameterName]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/Solution.java:111: Line is longer than 80 characters (found 115). [LineLength]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/Solution.java:135: Line is longer than 80 characters (found 89). [LineLength]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/Solution.java:142: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/Solution.java:150: Line is longer than 80 characters (found 120). [LineLength]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/Solution.java:112: Line is longer than 80 characters (found 83). [LineLength]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/Solution.java:143: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/Solution.java:152: Line is longer than 80 characters (found 93). [LineLength]
 Audit done.
-Checkstyle ends with 13 errors.
+Checkstyle ends with 12 errors.
 Starting audit...
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/StdOut.java:18: Line is longer than 80 characters (found 106). [LineLength]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/StdOut.java:19: Line is longer than 80 characters (found 114). [LineLength]
