@@ -1,131 +1,86 @@
-/**
- * class Solution.
- */
 import java.util.Scanner;
 import java.util.HashMap;
 import java.util.ArrayList;
 
-/**
- * Class for page rank.
- */
+
 class PageRank {
-    /**
-     * { var_description }.
-     */
-    private HashMap<Integer, Double> pageHash;
-    private HashMap<Integer, Double> presentHash = new HashMap<Integer, Double>();
-
-
-    // int iterations;
-
-    private Digraph di;
-    /**
-     * ..
-     *
-     */
-    private int iniPR;
-    /**
-     * .
-     */
-    private int pageRank;
-    /**
-     * Constructs the object.
-     *
-     * @param      web   The web
-     */
-    PageRank(final Digraph web) {
-        this.di = web.reverse();
-        this.iniPR = 1 / web.V();
-
+    HashMap<Integer, Double>map;
+    Digraph graph;
+    Digraph revGraph;
+    private int vertices;
+    PageRank(Digraph dg) {
+        graph = dg;
+        vertices = graph.V();
+        map = new HashMap<Integer, Double>();
+        revGraph = graph.reverse();
     }
-    /**
-     * ..
-     *
-     * @param      d    { parameter_description }
-     */
-    void PR() {
-        pageHash = new HashMap<Integer, Double>();
-            for (int k = 0; k < di.V(); k++) {
-                if(di.outdegree(k) == 0){
-                    for (int x = 0; x<di.V(); x++) {
-                        if(x!=k){di.addEdge(x,k);}
-                        
-                    }
+    public void calculatePr() {
+        Double inip = 0.0;
+        int count = 0;
+        double temp = (double) vertices;
+        double initialPr = (1 / temp);
+        for (int i = 0; i < vertices; i++) {
+            if (graph.indegree(i) == 0) {
+                map.put(i, 0.0);
+            } else {
+                map.put(i, initialPr);
+            }
+        }
+        double[] tempa = new double[graph.V()];
+        for ( int j = 0; j < 1000; j++) {
+            for ( int i = 0; i < vertices; i++) {
+                inip = 0.0;
+                for (int each : revGraph.adj(i)) {
+                    double value = map.get(each);
+                    inip += ((double)value / (double)graph.outdegree(each));
                 }
-                
+                tempa[i] = inip;
             }
-        for (int i = 0; i < di.V(); i++) {
-
-                Double pas = (double) 1 / di.V();
-                pageHash.put(i, pas);
+            for (int i = 0; i < vertices; i++) {
+                map.put(i, tempa[i]);
+            }
         }
     }
-    void getPR(int v) {
-         for (int i : di.adj(v)) {
-             Double temp = pageHash.get(i);
-             Double pres = temp / di.outdegree(i) ;
-             Double perfect = pres;
-
-             presentHash.put(i, perfect);
-         }
-    }
-    void calcuation(){
-        // PR(di);
-        for (int i = 0; i < 1000; i++) {
-            for (int j = 0; j < di.V(); j++) {
-                getPR(j);
-            }
-        pageHash.putAll(presentHash);
-        }
-    }
-    void printer() {
-        PR();
-        calcuation();
-        for (Integer s : pageHash.keySet()) {
-            System.out.println(s + " - " + pageHash.get(s));
+    public void print() {
+        for ( int i = 0; i < map.size(); i++) {
+            System.out.println(i + " - " + map.get(i));
         }
     }
 }
-
-// class WebSearch {
-
-// }
-
 /**
- * Class for solution.
+ * Class for web search.
  */
+class WebSearch {
+
+}
+
+
 public class Solution {
-
-    /**
-     * Constructs the object.
-     */
-    Solution(){
-
-    }
-    /**
-     * mainmethod.
-     *
-     * @param      args  The arguments
-     */
-    public static void main(final String[] args) {
-        // read the first line of the input to get the number of vertices
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int vertices = Integer.parseInt(sc.nextLine());
-        Digraph di = new Digraph(vertices);
-        for (int i = 0; i < vertices; i++) {
-            String[] input = sc.nextLine().split(" ");
-            for (int k = 1; k < input.length; k++) {
-                di.addEdge(
-            Integer.parseInt(input[0]), Integer.parseInt(input[k]));
+        Digraph d = new Digraph(vertices);
+            for (int i = 0; i < vertices; i++) {
+                
+            
+            String[] arra1 = sc.nextLine().split(" ");
+            for (int j = 1; j < arra1.length; j++) {
+                d.addEdge(Integer.parseInt(arra1[0]), Integer.parseInt(arra1[j]));
             }
         }
-        System.out.println(di);
-        PageRank siri = new PageRank(di);
-        siri.printer();
-
-
-
-
-        
+        System.out.println(d);
+        for (int k = 0; k < d.V(); k++) {
+            if (d.outdegree(k) == 0) {
+                for (int a = 0; a < d.V(); a++ ) {
+                    if (k != a) {
+                        d.addEdge(k, a);
+                    }
+                }
+            }
+        }
+        PageRank pr = new PageRank(d);
+        pr.calculatePr();
+        pr.print();
     }
 }
+
