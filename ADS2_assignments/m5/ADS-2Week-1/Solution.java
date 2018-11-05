@@ -45,7 +45,17 @@ class PageRank {
      */
     void PR(final Digraph d) {
         pageHash = new HashMap<Integer, Double>();
+            for (int k = 0; k < d.V(); k++) {
+                if(d.outdegree(k) == 0){
+                    for (int x = 0; x<d.V(); x++) {
+                        if(x!=k){d.addEdge(x,k);}
+                        
+                    }
+                }
+                
+            }
         for (int i = 0; i < d.V(); i++) {
+
                 Double pas = (double) 1 / di.V();
                 pageHash.put(i, pas);
         }
