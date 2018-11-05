@@ -14,9 +14,9 @@ public final class Solution{
 		String baa = sc.nextLine();
 
 		int b = Integer.parseInt(baa);
-		EdgeWeightedGraph ewg = new EdgeWeightedGraph(a, b);
+		EdgeWeightedGraph ewg = new EdgeWeightedGraph(a, b, sc);
 		KruskalMST kmst = new KruskalMST(ewg);
-		System.out.println(kmst.weight());
+		System.out.printf("%.5f", kmst.weight());
 
 	}
 }

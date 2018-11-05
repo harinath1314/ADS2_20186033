@@ -609,6 +609,8 @@ Starting audit...
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/EdgeWeightedGraph.java:36:37: Parameter E should be final. [FinalParameters]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/EdgeWeightedGraph.java:36:41: 'E' hides a field. [HiddenField]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/EdgeWeightedGraph.java:36:41: Name 'E' must match pattern '^[a-z][a-zA-Z0-9]*$'. [ParameterName]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/EdgeWeightedGraph.java:36:44: Parameter sc should be final. [FinalParameters]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/EdgeWeightedGraph.java:36:52: Expected @param tag for 'sc'. [JavadocMethod]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/EdgeWeightedGraph.java:40: 'if' construct must use '{}'s. [NeedBraces]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/EdgeWeightedGraph.java:40: Line is longer than 80 characters (found 93). [LineLength]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/EdgeWeightedGraph.java:51: Line has trailing spaces. [RegexpSingleline]
@@ -642,7 +644,7 @@ Starting audit...
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/EdgeWeightedGraph.java:212:29: Parameter args should be final. [FinalParameters]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/EdgeWeightedGraph.java:214:27: Name 'G' must match pattern '^[a-z][a-zA-Z0-9]*$'. [LocalVariableName]
 Audit done.
-Checkstyle ends with 54 errors.
+Checkstyle ends with 56 errors.
 Starting audit...
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/Edge.java:4: Line has trailing spaces. [RegexpSingleline]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m7/1. MST/Edge.java:6:5: Missing a Javadoc comment. [JavadocVariable]

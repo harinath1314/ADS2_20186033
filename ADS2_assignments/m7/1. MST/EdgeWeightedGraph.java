@@ -33,10 +33,10 @@ public class EdgeWeightedGraph {
      * @throws IllegalArgumentException if {@code V < 0}
      * @throws IllegalArgumentException if {@code E < 0}
      */
-    public EdgeWeightedGraph(int V, int E) {
+    public EdgeWeightedGraph(int V, int E, Scanner sc) {
         this(V);
 
-        Scanner sc = new Scanner(System.in);
+        // Scanner sc = new Scanner(System.in);
         if (E < 0) throw new IllegalArgumentException("Number of edges must be nonnegative");
         for (int i = 0; i < E; i++) {
             String[] input = sc.nextLine().split(" ");
