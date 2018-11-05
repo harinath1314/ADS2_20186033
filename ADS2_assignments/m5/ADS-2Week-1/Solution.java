@@ -27,7 +27,7 @@ class PageRank {
             }
         }
         double[] tempa = new double[graph.V()];
-        for ( int j = 0; j < 900; j++) {
+        for ( int j = 0; j < 800; j++) {
             for ( int i = 0; i < vertices; i++) {
                 inip = 0.0;
                 for (int each : revGraph.adj(i)) {
