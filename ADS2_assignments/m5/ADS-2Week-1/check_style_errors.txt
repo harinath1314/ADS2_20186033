@@ -13,7 +13,7 @@ Starting audit...
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m5/ADS-2Week-1/Solution.java:11:14: Parameter dg should be final. [FinalParameters]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m5/ADS-2Week-1/Solution.java:17:5: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m5/ADS-2Week-1/Solution.java:30:14: '(' is followed by whitespace. [ParenPad]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m5/ADS-2Week-1/Solution.java:30:30: '1050' is a magic number. [MagicNumber]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m5/ADS-2Week-1/Solution.java:30:30: '1000' is a magic number. [MagicNumber]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m5/ADS-2Week-1/Solution.java:31:18: '(' is followed by whitespace. [ParenPad]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m5/ADS-2Week-1/Solution.java:35:38: 'typecast' is not followed by whitespace. [WhitespaceAfter]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m5/ADS-2Week-1/Solution.java:44:5: Missing a Javadoc comment. [JavadocMethod]
