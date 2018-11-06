@@ -27,11 +27,13 @@ public final class Solution {
         int nofdirectpaths = sc.nextInt();
         sc.nextLine();
         String[] stations = sc.nextLine().split(" ");
+        // to store the stations as index valsues which are used for vertices.
         HashMap<String, Integer> hs  = new HashMap<String, Integer>();
         for (int j = 0; j < nofrs; j++) {
             hs.put(stations[j], j);
-            
+
         }
+        //
         EdgeWeightedGraph ewdg = new EdgeWeightedGraph(nofrs);
         for (int i = 0; i < nofdirectpaths; i++) {
             String[] edgedetails = sc.nextLine().split(" ");
@@ -39,21 +41,19 @@ public final class Solution {
             ewdg.addEdge(de);
 
 
-            
+
         }
 
         int qyer = Integer.parseInt(sc.nextLine());
-        for (int q =0; q < qyer; q++) {
+        for (int q = 0; q < qyer; q++) {
             String[] querydetails = sc.nextLine().split(" ");
-
-        DijkstraUndirectedSP dsp = new DijkstraUndirectedSP(ewdg, hs.get(querydetails[0]));
+            // object for DijkstrasShortest path algorith
+            // it has a complexity of
+            DijkstraUndirectedSP dsp = new DijkstraUndirectedSP(ewdg, hs.get(querydetails[0]));
             System.out.println(Math.round(dsp.distTo(hs.get(querydetails[1]))));
 
-            
         }
-
-
-
 
     }
 }
+
