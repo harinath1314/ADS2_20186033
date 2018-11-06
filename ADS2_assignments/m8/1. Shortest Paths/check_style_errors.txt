@@ -1,44 +1,8 @@
 Starting audit...
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m8/1. Shortest Paths/Solution.java:7:8: Unused import - java.util.Arrays. [UnusedImports]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m8/1. Shortest Paths/Solution.java:12:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m8/1. Shortest Paths/Solution.java:40: Line is longer than 80 characters (found 115). [LineLength]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m8/1. Shortest Paths/Solution.java:52: Line is longer than 80 characters (found 95). [LineLength]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m8/1. Shortest Paths/Solution.java:51: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 4 errors.
-Starting audit...
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m8/1. Shortest Paths/Edge.java:3: Line has trailing spaces. [RegexpSingleline]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m8/1. Shortest Paths/Edge.java:10: Line is longer than 80 characters (found 103). [LineLength]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m8/1. Shortest Paths/Edge.java:16: Line has trailing spaces. [RegexpSingleline]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m8/1. Shortest Paths/Edge.java:18:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m8/1. Shortest Paths/Edge.java:19:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m8/1. Shortest Paths/Edge.java:20:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m8/1. Shortest Paths/Edge.java:29: Line has trailing spaces. [RegexpSingleline]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m8/1. Shortest Paths/Edge.java:33:17: Parameter v should be final. [FinalParameters]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m8/1. Shortest Paths/Edge.java:33:21: 'v' hides a field. [HiddenField]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m8/1. Shortest Paths/Edge.java:33:24: Parameter w should be final. [FinalParameters]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m8/1. Shortest Paths/Edge.java:33:28: 'w' hides a field. [HiddenField]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m8/1. Shortest Paths/Edge.java:33:31: Parameter weight should be final. [FinalParameters]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m8/1. Shortest Paths/Edge.java:33:38: 'weight' hides a field. [HiddenField]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m8/1. Shortest Paths/Edge.java:34: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m8/1. Shortest Paths/Edge.java:34: Line is longer than 80 characters (found 100). [LineLength]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m8/1. Shortest Paths/Edge.java:35: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m8/1. Shortest Paths/Edge.java:35: Line is longer than 80 characters (found 100). [LineLength]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m8/1. Shortest Paths/Edge.java:36: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m8/1. Shortest Paths/Edge.java:36: Line is longer than 80 characters (found 86). [LineLength]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m8/1. Shortest Paths/Edge.java:61: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m8/1. Shortest Paths/Edge.java:68:22: Parameter vertex should be final. [FinalParameters]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m8/1. Shortest Paths/Edge.java:69: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m8/1. Shortest Paths/Edge.java:70: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m8/1. Shortest Paths/Edge.java:71: 'else' construct must use '{}'s. [NeedBraces]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m8/1. Shortest Paths/Edge.java:77: Line is longer than 80 characters (found 86). [LineLength]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m8/1. Shortest Paths/Edge.java:80: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m8/1. Shortest Paths/Edge.java:85:26: Parameter that should be final. [FinalParameters]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m8/1. Shortest Paths/Edge.java:103:29: Parameter args should be final. [FinalParameters]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m8/1. Shortest Paths/Edge.java:104:27: '12' is a magic number. [MagicNumber]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m8/1. Shortest Paths/Edge.java:104:31: '34' is a magic number. [MagicNumber]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m8/1. Shortest Paths/Edge.java:104:35: '5.67' is a magic number. [MagicNumber]
-Audit done.
-Checkstyle ends with 31 errors.
+Checkstyle ends with 1 errors.
+Files to process must be specified, found 0.
 Files to process must be specified, found 0.
 Files to process must be specified, found 0.
 Files to process must be specified, found 0.

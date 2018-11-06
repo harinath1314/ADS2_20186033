@@ -4,7 +4,6 @@
  * date 6-11-18.
  */
 import java.util.Scanner;
-import java.util.Arrays;
 import java.util.HashMap;
 /**
  * class Solution.
@@ -13,7 +12,7 @@ public final class Solution {
     /**
      * Constructs the object.
      */
-    Solution() {
+    private Solution() {
 
     }
     /**
@@ -37,7 +36,8 @@ public final class Solution {
         EdgeWeightedGraph ewdg = new EdgeWeightedGraph(nofrs);
         for (int i = 0; i < nofdirectpaths; i++) {
             String[] edgedetails = sc.nextLine().split(" ");
-            Edge de = new Edge(hs.get(edgedetails[0]), hs.get(edgedetails[1]), Double.parseDouble(edgedetails[2]));
+            Edge de = new Edge(hs.get(edgedetails[0]),
+               hs.get(edgedetails[1]), Double.parseDouble(edgedetails[2]));
             ewdg.addEdge(de);
 
 
@@ -48,8 +48,9 @@ public final class Solution {
         for (int q = 0; q < qyer; q++) {
             String[] querydetails = sc.nextLine().split(" ");
             // object for DijkstrasShortest path algorith
-            // it has a complexity of
-            DijkstraUndirectedSP dsp = new DijkstraUndirectedSP(ewdg, hs.get(querydetails[0]));
+            // it has a complexity of 
+            DijkstraUndirectedSP dsp = new
+            DijkstraUndirectedSP(ewdg, hs.get(querydetails[0]));
             System.out.println(Math.round(dsp.distTo(hs.get(querydetails[1]))));
 
         }
