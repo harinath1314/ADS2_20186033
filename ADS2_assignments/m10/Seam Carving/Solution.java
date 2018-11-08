@@ -46,9 +46,9 @@ public class Solution {
         SeamCarver seamCarver = null;
         try {
             switch (cases) {
-                case"":
-                System.out.println("picture is null");
-                break;
+                // case"":
+                // System.out.println("picture is null");
+                // break;
             case "width":
                 while (scan.hasNextLine()) {
                     String file = scan.nextLine();
