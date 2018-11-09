@@ -1,5 +1,3 @@
-
-
 import java.awt.Color;
 import java.util.ArrayList;
 public class SeamCarver {
@@ -93,17 +91,37 @@ public class SeamCarver {
 		for (int row = 0; row < height(); row++) {
 			if (distTo[(width() * row) + (width() - 1)] < curMinDist) {
 				curMinDist = distTo[(width() * row) + (width() - 1)];
-				lastSeamPixel = (width() * row) + (width() - 1);
+				lastSeamPixel = (width() * row) + (width() -1);//------------------->
 			}
 		}
 		int[] horSeam = new int[width()];
 		int curPixel = lastSeamPixel;
-		int i = horSeam.length - 1;
+		int temp = lastSeamPixel;// my talent
+
+		int i = 0;
 		// while not beginning of the seam. LeftCol = -1
-		while (curPixel != -1) {
-			horSeam[i] = curPixel / width();
+		horSeam[i] = ((curPixel) % (width()));
 			curPixel = edgeTo[curPixel];
-			i--;
+		int j = horSeam.length - 1;
+
+
+		// while (curPixel != -1) {
+		// 	// System.out.println(curPixel+" ====== divide");
+		// 	horSeam[j] = ((curPixel) / (width()));
+		// 	// System.out.println(width()+"-----wid");
+		// 	// System.out.println(horSeam[i]+"------------------");
+		// 	curPixel = edgeTo[curPixel];
+		// 	// System.out.println(curPixel+" ------- ");
+		// 	j--;
+		// }
+		for (int k = horSeam.length - 1; k > 0; k--) {
+			if(temp == -1){
+				break;
+			}
+			horSeam[k] = ((temp) / (width()));
+			temp = edgeTo[temp];
+
+			
 		}
 		return horSeam;
 	}
