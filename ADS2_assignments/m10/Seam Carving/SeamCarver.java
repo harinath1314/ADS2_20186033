@@ -123,7 +123,12 @@ public class SeamCarver {
 
 			
 		// }
+		if(horSeam[0] != 0)
+		{
 		horSeam[0] += 1;
+			
+		}
+
 		return horSeam;
 	}
 
