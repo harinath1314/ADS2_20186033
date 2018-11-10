@@ -1,8 +1,5 @@
 Starting audit...
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m12/ADS-2_Exam-2/Solution.java:14: Class Solution should be declared as final. [FinalClass]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m12/ADS-2_Exam-2/Solution.java:57: Line is longer than 80 characters (found 101). [LineLength]
 Audit done.
-Checkstyle ends with 2 errors.
 Files to process must be specified, found 0.
 Files to process must be specified, found 0.
 Files to process must be specified, found 0.
