@@ -5,17 +5,15 @@ Starting audit...
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m12/ADS-2_Exam-2/Solution.java:4:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m12/ADS-2_Exam-2/Solution.java:4:33: Parameter args should be final. [FinalParameters]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m12/ADS-2_Exam-2/Solution.java:11: Line is longer than 80 characters (found 82). [LineLength]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m12/ADS-2_Exam-2/Solution.java:23: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m12/ADS-2_Exam-2/Solution.java:24:27: 'if' is not followed by whitespace. [WhitespaceAround]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m12/ADS-2_Exam-2/Solution.java:24:71: '{' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m12/ADS-2_Exam-2/Solution.java:27:26: 'else' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m12/ADS-2_Exam-2/Solution.java:27:26: '}' is not followed by whitespace. [WhitespaceAround]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m12/ADS-2_Exam-2/Solution.java:23: Line is longer than 80 characters (found 89). [LineLength]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m12/ADS-2_Exam-2/Solution.java:28: Line is longer than 80 characters (found 91). [LineLength]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m12/ADS-2_Exam-2/Solution.java:31: Line is longer than 80 characters (found 90). [LineLength]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m12/ADS-2_Exam-2/Solution.java:39: Line is longer than 80 characters (found 87). [LineLength]
-[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m12/ADS-2_Exam-2/Solution.java:40: Line is longer than 80 characters (found 110). [LineLength]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m12/ADS-2_Exam-2/Solution.java:40: Line is longer than 80 characters (found 87). [LineLength]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m12/ADS-2_Exam-2/Solution.java:45: Line is longer than 80 characters (found 89). [LineLength]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m12/ADS-2_Exam-2/Solution.java:48: Line is longer than 80 characters (found 87). [LineLength]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m12/ADS-2_Exam-2/Solution.java:49: Line is longer than 80 characters (found 110). [LineLength]
 Audit done.
-Checkstyle ends with 15 errors.
+Checkstyle ends with 13 errors.
 Starting audit...
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m12/ADS-2_Exam-2/StdOut.java:18: Line is longer than 80 characters (found 106). [LineLength]
 [ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m12/ADS-2_Exam-2/StdOut.java:19: Line is longer than 80 characters (found 114). [LineLength]

@@ -19,12 +19,12 @@ public class Solution {
 			break;
 
 		case "DirectedPaths":
-		String[] paths = sc.nextLine().split(" ");
-		DijkstraSP dsp = new DijkstraSP(ewg, Integer.parseInt(paths[0]));
-			if(!dsp.hasPathTo(Integer.parseInt(paths[1]))){
+			String[] paths = sc.nextLine().split(" ");
+			DijkstraSP dsp = new DijkstraSP(ewg, Integer.parseInt(paths[0]));
+			if (!dsp.hasPathTo(Integer.parseInt(paths[1]))) {
 				System.out.println("No Path Found.");
 
-			}else {
+			} else {
 				System.out.println(dsp.distTo(Integer.parseInt(paths[1])));
 			}
 
@@ -36,6 +36,15 @@ public class Solution {
 			break;
 
 		case "ViaPaths":
+			String[] via = sc.nextLine().split(" ");
+			DijkstraSP spd = new DijkstraSP(ewg, Integer.parseInt(via[0]));
+			if (!spd.hasPathTo(Integer.parseInt(via[2]))) {
+				System.out.println("No Path Found.");
+
+			} else {
+				System.out.println(spd.distTo(Integer.parseInt(via[2])));
+			}
+
 			// Handle the case of ViaPaths, where three integers are given.
 			// First is the source and second is the via is the one where path should pass throuh.
 			// third is the destination.
