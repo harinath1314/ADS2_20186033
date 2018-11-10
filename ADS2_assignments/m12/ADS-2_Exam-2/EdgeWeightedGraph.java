@@ -1,29 +1,7 @@
-import java.util.Scanner;
 /**
- *  The {@code EdgeWeightedGraph} class represents an edge-weighted
- *  graph of vertices named 0 through <em>V</em> – 1, where each
- *  undirected edge is of type {@link Edge} and has a real-valued weight.
- *  It supports the following two primary operations: add an edge to the graph,
- *  iterate over all of the edges incident to a vertex. It also provides
- *  methods for returning the number of vertices <em>V</em> and the number
- *  of edges <em>E</em>. Parallel edges and self-loops are permitted.
- *  By convention, a self-loop <em>v</em>-<em>v</em> appears in the
- *  adjacency list of <em>v</em> twice and contributes two to the degree
- *  of <em>v</em>.
- *  <p>
- *  This implementation uses an adjacency-lists representation, which 
- *  is a vertex-indexed array of {@link Bag} objects.
- *  All operations take constant time (in the worst case) except
- *  iterating over the edges incident to a given vertex, which takes
- *  time proportional to the number of such edges.
- *  <p>
- *  For additional documentation,
- *  see <a href="https://algs4.cs.princeton.edu/43mst">Section 4.3</a> of
- *  <i>Algorithms, 4th Edition</i> by Robert Sedgewick and Kevin Wayne.
- *
- *  @author Robert Sedgewick
- *  @author Kevin Wayne
+ * Class for edge weighted graph.
  */
+import java.util.Scanner;
 public class EdgeWeightedGraph {
     private static final String NEWLINE = System.getProperty("line.separator");
 
@@ -57,19 +35,64 @@ public class EdgeWeightedGraph {
      */
     public EdgeWeightedGraph(int V, int E, Scanner sc) {
         this(V);
+
+        // Scanner sc = new Scanner(System.in);
         if (E < 0) throw new IllegalArgumentException("Number of edges must be nonnegative");
         for (int i = 0; i < E; i++) {
-            String[] tokens = sc.nextLine().split(" ");
-            // int v = StdRandom.uniform(V);
-            // int w = StdRandom.uniform(V);
-            // double weight = Math.round(100 * StdRandom.uniform()) / 100.0;
-            Edge e = new Edge(Integer.parseInt(tokens[0]), Integer.parseInt(tokens[1]), Integer.parseInt(tokens[2]));
+            String[] input = sc.nextLine().split(" ");
+            int v = Integer.parseInt(input[0]);
+            int w = Integer.parseInt(input[1]);
+            double weight = Double.parseDouble(input[2]);
+            Edge e = new Edge(v, w, weight);
             addEdge(e);
         }
     }
 
-    
-    
+    /**  
+     * Initializes an edge-weighted graph from an input stream.
+     * The format is the number of vertices <em>V</em>,
+     * followed by the number of edges <em>E</em>,
+     * followed by <em>E</em> pairs of vertices and edge weights,
+     * with each entry separated by whitespace.
+     *
+     * @param  in the input stream
+     * @throws IllegalArgumentException if the endpoints of any edge are not in prescribed range
+     * @throws IllegalArgumentException if the number of vertices or edges is negative
+     */
+    public EdgeWeightedGraph(In in) {
+        this(in.readInt());
+        int E = in.readInt();
+        if (E < 0) throw new IllegalArgumentException("Number of edges must be nonnegative");
+        for (int i = 0; i < E; i++) {
+            int v = in.readInt();
+            int w = in.readInt();
+            validateVertex(v);
+            validateVertex(w);
+            double weight = in.readDouble();
+            Edge e = new Edge(v, w, weight);
+            addEdge(e);
+        }
+    }
+
+    /**
+     * Initializes a new edge-weighted graph that is a deep copy of {@code G}.
+     *
+     * @param  G the edge-weighted graph to copy
+     */
+    public EdgeWeightedGraph(EdgeWeightedGraph G) {
+        this(G.V());
+        this.E = G.E();
+        for (int v = 0; v < G.V(); v++) {
+            // reverse so that adjacency list is in same order as original
+            Stack<Edge> reverse = new Stack<Edge>();
+            for (Edge e : G.adj[v]) {
+                reverse.push(e);
+            }
+            for (Edge e : reverse) {
+                adj[v].add(e);
+            }
+        }
+    }
 
 
     /**
@@ -170,7 +193,7 @@ public class EdgeWeightedGraph {
      */
     public String toString() {
         StringBuilder s = new StringBuilder();
-        s.append(V + " vertices "+  E+" edges" + NEWLINE);
+        s.append(V + " " + E + NEWLINE);
         for (int v = 0; v < V; v++) {
             s.append(v + ": ");
             for (Edge e : adj[v]) {
@@ -181,6 +204,42 @@ public class EdgeWeightedGraph {
         return s.toString();
     }
 
-    
+    /**
+     * Unit tests the {@code EdgeWeightedGraph} data type.
+     *
+     * @param args the command-line arguments
+     */
+    public static void main(String[] args) {
+        In in = new In(args[0]);
+        EdgeWeightedGraph G = new EdgeWeightedGraph(in);
+        StdOut.println(G);
+    }
 
 }
+
+/******************************************************************************
+ *  Copyright 2002-2018, Robert Sedgewick and Kevin Wayne.
+ *
+ *  This file is part of algs4.jar, which accompanies the textbook
+ *
+ *      Algorithms, 4th edition by Robert Sedgewick and Kevin Wayne,
+ *      Addison-Wesley Professional, 2011, ISBN 0-321-57351-X.
+ *      http://algs4.cs.princeton.edu
+ *
+ *
+ *  algs4.jar is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation, either version 3 of the License, or
+ *  (at your option) any later version.
+ *
+ *  algs4.jar is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License
+ *  along with algs4.jar.  If not, see http://www.gnu.org/licenses.
+ ******************************************************************************/
+
+
+// Last updated: Sat Nov 3 14:34:46 EDT 2018.
