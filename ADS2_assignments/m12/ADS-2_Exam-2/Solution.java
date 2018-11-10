@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.ArrayList;
 public class Solution {
 
 	public static void main(String[] args) {
@@ -36,38 +37,53 @@ public class Solution {
 			break;
 
 		case "ViaPaths":
-			String[] via = sc.nextLine().split(" ");
-			DijkstraSP spd = new DijkstraSP(ewg, Integer.parseInt(via[0]));
-			DijkstraSP pds = new DijkstraSP(ewg, Integer.parseInt(via[1]));
-
-			if (!spd.hasPathTo(Integer.parseInt(via[2]))) {
-				System.out.println("No Path Found.");
-
-			} else {
-				System.out.println(spd.distTo(Integer.parseInt(via[1]))+pds.distTo(Integer.parseInt(via[2])));
-				// for ( Edge s: spd.pathTo(Integer.parseInt(via[2]))) {
-				// 	System.out.print(s.()+" ");
-				 	
-				//  } 
-				Stack<Edge> pa = spd.pathTo(Integer.parseInt(via[1]));
-				Stack<Edge> ap = pds.pathTo(Integer.parseInt(via[2]));
-
-				for (int k = 0; k < pa.size(); k++) {
-					System.out.print(pa.pop() + " ");
-					
-				}
-				
-			}
-
-			// Handle the case of ViaPaths, where three integers are given.
-			// First is the source and second is the via is the one where path should pass throuh.
+			// Handle the case of middlePaths, where three integers are given.
+			// First is the source and second is the middle is the one where path should pass throuh.
 			// third is the destination.
 			// If the path exists print the distance between them.
 			// Other wise print "No Path Found."
-			break;
-
-
-
+		 String[] input = sc.nextLine().split(" ");
+            int start = Integer.parseInt(input[0]);
+            int middle = Integer.parseInt(input[1]);
+            int end = Integer.parseInt(input[2]);
+            DijkstraSP viapath = new DijkstraSP(ewg, start);
+            double totalSum = 0.0;
+            ArrayList<Integer> path = new ArrayList<>();
+            if (viapath.hasPathTo(end)) {
+                if (viapath.hasPathTo(middle)) {
+                    path.add(start);
+                    totalSum += viapath.distTo(middle);
+                    for (Edge e : viapath.pathTo(middle)) {
+                        int temp = e.either();
+                        if (!path.contains(temp)) {
+                            path.add(temp);
+                        }
+                        if (!path.contains(e.other(temp))) {
+                            path.add(e.other(temp));
+                        }
+                    }
+                    viapath = new DijkstraSP(ewg, middle);
+                    if (viapath.hasPathTo(end)) {
+                        totalSum += viapath.distTo(end);
+                        for (Edge e : viapath.pathTo(end)) {
+                            int temp = e.either();
+                            if (!path.contains(temp)) {
+                                path.add(temp);
+                            }
+                            if (!path.contains(e.other(temp))) {
+                                path.add(e.other(temp));
+                            }
+                        }
+                    }
+                }
+                System.out.println(totalSum);
+                String out = path.toString().replaceAll(",", "");
+                out = out.substring(1, out.length() - 1);
+                System.out.println(out);
+            } else {
+                System.out.println("No Path Found.");
+            }
+            break;
 
 		default:
 			break;
