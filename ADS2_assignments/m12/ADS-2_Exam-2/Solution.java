@@ -1,48 +1,64 @@
+/**
+ * ads2 week 2 module 12.
+ * author harinatha reddy.
+ * date 10-11-18;
+ */
+/**
+ * .
+ */
 import java.util.Scanner;
 import java.util.ArrayList;
+/**
+ * Class for solution.
+ */
 public class Solution {
+    /**
+     * Constructs the object.
+     */
+    private Solution() {
 
-	public static void main(String[] args) {
-		// Self loops are not allowed...
-		// Parallel Edges are allowed...
-		// Take the Graph input here...
-		Scanner sc = new Scanner(System.in);
-		int cities = Integer.parseInt(sc.nextLine());
-		int rlines = Integer.parseInt(sc.nextLine());
-		EdgeWeightedGraph ewg = new EdgeWeightedGraph(cities, rlines, sc);
-		// KruskalMST ks = new KruskalMST(ewg);
+    }
+    /**
+     * ain method starts here.
+     *
+     * @param      args  The arguments
+     */
+    public static void main(final String[] args) {
+        // Self loops are not allowed...
+        // Parallel Edges are allowed...
+        // Take the Graph input here...
+        Scanner sc = new Scanner(System.in);
+        int cities = Integer.parseInt(sc.nextLine());
+        int rlines = Integer.parseInt(sc.nextLine());
+        EdgeWeightedGraph ewg = new EdgeWeightedGraph(cities, rlines, sc);
+        // KruskalMST ks = new KruskalMST(ewg);
 
-		String caseToGo = sc.nextLine();
-		switch (caseToGo) {
-		case "Graph":
-			//Print the Graph Object.
-			System.out.println(ewg);
-			break;
+        String caseToGo = sc.nextLine();
+        switch (caseToGo) {
+        case "Graph":
+            //Print the Graph Object.
+            System.out.println(ewg);
+            break;
 
-		case "DirectedPaths":
-			String[] paths = sc.nextLine().split(" ");
-			DijkstraSP dsp = new DijkstraSP(ewg, Integer.parseInt(paths[0]));
-			if (!dsp.hasPathTo(Integer.parseInt(paths[1]))) {
-				System.out.println("No Path Found.");
+        case "DirectedPaths":
+            String[] paths = sc.nextLine().split(" ");
+            DijkstraSP dsp = new DijkstraSP(ewg, Integer.parseInt(paths[0]));
+            if (!dsp.hasPathTo(Integer.parseInt(paths[1]))) {
+                System.out.println("No Path Found.");
 
-			} else {
-				System.out.println(dsp.distTo(Integer.parseInt(paths[1])));
-			}
+            } else {
+                System.out.println(dsp.distTo(Integer.parseInt(paths[1])));
+            }
 
-			// Handle the case of DirectedPaths, where two integers are given.
-			// First is the source and second is the destination.
-			// If the path exists print the distance between them.
-			// Other wise print "No Path Found."
-			// System.out.println(ks.weight());
-			break;
+            break;
 
-		case "ViaPaths":
-			// Handle the case of middlePaths, where three integers are given.
-			// First is the source and second is the middle is the one where path should pass throuh.
-			// third is the destination.
-			// If the path exists print the distance between them.
-			// Other wise print "No Path Found."
-		 String[] input = sc.nextLine().split(" ");
+        case "ViaPaths":
+            // Handle the case of middlePaths, where three integers are given.
+            // First is the source and second is the middle is the one where path should pass throuh.
+            // third is the destination.
+            // If the path exists print the distance between them.
+            // Other wise print "No Path Found."
+            String[] input = sc.nextLine().split(" ");
             int start = Integer.parseInt(input[0]);
             int middle = Integer.parseInt(input[1]);
             int end = Integer.parseInt(input[2]);
@@ -85,10 +101,10 @@ public class Solution {
             }
             break;
 
-		default:
-			break;
-		}
+        default:
+            break;
+        }
 
-	}
+    }
 }
 
