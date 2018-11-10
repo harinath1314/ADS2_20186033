@@ -1,4 +1,6 @@
 import java.util.Scanner;
+import java.util.ArrayList;
+import java.util.Arrays`;
 /**
  *  The {@code EdgeWeightedDigraph} class represents a edge-weighted
  *  digraph of vertices named 0 through <em>V</em> - 1, where each
@@ -29,6 +31,8 @@ public class EdgeWeightedDigraph {
     private int E;                      // number of edges in this digraph
     private Bag<DirectedEdge>[] adj;    // adj[v] = adjacency list for vertex v
     private int[] indegree;             // indegree[v] = indegree of vertex v
+    // private ArrayList<Integer> parallel = new ArrayList<Integer>();
+    private int[] parallel;
     
     /**
      * Initializes an empty edge-weighted digraph with {@code V} vertices and 0 edges.
@@ -41,6 +45,7 @@ public class EdgeWeightedDigraph {
         this.V = V;
         this.E = 0;
         this.indegree = new int[V];
+        this.parallel = new int[V];
         adj = (Bag<DirectedEdge>[]) new Bag[V];
         for (int v = 0; v < V; v++)
             adj[v] = new Bag<DirectedEdge>();
@@ -150,7 +155,17 @@ public class EdgeWeightedDigraph {
         int w = e.to();
         validateVertex(v);
         validateVertex(w);
+        if(contains(w)){
         adj[v].add(e);
+        adj[w].add(e);
+            
+
+        }
+        parallel.add(w);
+        adj[v].add(e);
+
+        System.out.println("v === "+v + "----"+w+ "     ---->"+e.weight());
+
         indegree[w]++;
         E++;
     }
@@ -179,6 +194,18 @@ public class EdgeWeightedDigraph {
     public int outdegree(int v) {
         validateVertex(v);
         return adj[v].size();
+    }
+    public boolean contains(int v){
+        for (int i = 0 ; i < V; i++) {
+            for (int j = 0; j < parallel.length; j++) {
+                if(i == parallel[j]){
+                    return true;
+                }
+            }
+            
+            
+        }
+        return false;
     }
 
     /**

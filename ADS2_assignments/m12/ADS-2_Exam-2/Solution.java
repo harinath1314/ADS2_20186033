@@ -8,13 +8,13 @@ public class Solution {
 		Scanner sc = new Scanner(System.in);
 			int cities = Integer.parseInt(sc.nextLine());
 			int rlines = Integer.parseInt(sc.nextLine());
-			EdgeWeightedDigraph ewdg = new EdgeWeightedDigraph(cities, rlines, sc);			
+			EdgeWeightedGraph ewg = new EdgeWeightedGraph(cities, rlines, sc);			
 
 		String caseToGo = sc.nextLine();
 		switch (caseToGo) {
 		case "Graph":
 			//Print the Graph Object.
-		System.out.println(ewdg);
+		System.out.println(ewg);
 			break;
 
 		case "DirectedPaths":
