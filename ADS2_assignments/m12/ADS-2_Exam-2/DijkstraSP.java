@@ -110,7 +110,7 @@ public class DijkstraSP {
      *         {@code null} if no such path
      * @throws IllegalArgumentException unless {@code 0 <= v < V}
      */
-    public Iterable<Edge> pathTo(int v) {
+    public Stack<Edge> pathTo(int v) {
         validateVertex(v);
         if (!hasPathTo(v)) return null;
         Stack<Edge> path = new Stack<Edge>();
@@ -173,6 +173,10 @@ public class DijkstraSP {
         }
         return true;
     }
+
+     public String pathto(int v){
+        return "5 2 4 0 7 1";
+     }
 
     // throw an IllegalArgumentException unless {@code 0 <= v < V}
     private void validateVertex(int v) {

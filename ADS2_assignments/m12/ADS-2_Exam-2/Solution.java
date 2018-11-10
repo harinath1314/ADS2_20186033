@@ -38,11 +38,25 @@ public class Solution {
 		case "ViaPaths":
 			String[] via = sc.nextLine().split(" ");
 			DijkstraSP spd = new DijkstraSP(ewg, Integer.parseInt(via[0]));
+			DijkstraSP pds = new DijkstraSP(ewg, Integer.parseInt(via[1]));
+
 			if (!spd.hasPathTo(Integer.parseInt(via[2]))) {
 				System.out.println("No Path Found.");
 
 			} else {
-				System.out.println(spd.distTo(Integer.parseInt(via[2])));
+				System.out.println(spd.distTo(Integer.parseInt(via[1]))+pds.distTo(Integer.parseInt(via[2])));
+				// for ( Edge s: spd.pathTo(Integer.parseInt(via[2]))) {
+				// 	System.out.print(s.()+" ");
+				 	
+				//  } 
+				Stack<Edge> pa = spd.pathTo(Integer.parseInt(via[1]));
+				Stack<Edge> ap = pds.pathTo(Integer.parseInt(via[2]));
+
+				for (int k = 0; k < pa.size(); k++) {
+					System.out.print(pa.pop() + " ");
+					
+				}
+				
 			}
 
 			// Handle the case of ViaPaths, where three integers are given.
@@ -51,6 +65,9 @@ public class Solution {
 			// If the path exists print the distance between them.
 			// Other wise print "No Path Found."
 			break;
+
+
+
 
 		default:
 			break;
