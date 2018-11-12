@@ -1,0 +1,20 @@
+Starting audit...
+Audit done.
+Starting audit...
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m13/Radix Sorts/Quick3string.java:4:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m13/Radix Sorts/Quick3string.java:76: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m13/Radix Sorts/Quick3string.java:77:9: Avoid nested blocks. [AvoidNestedBlocks]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m13/Radix Sorts/Quick3string.java:91:35: Parameter a should be final. [FinalParameters]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m13/Radix Sorts/Quick3string.java:91:47: Parameter lo should be final. [FinalParameters]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m13/Radix Sorts/Quick3string.java:91:55: Parameter hi should be final. [FinalParameters]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m13/Radix Sorts/Quick3string.java:91:63: Parameter d should be final. [FinalParameters]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m13/Radix Sorts/Quick3string.java:92: 'for' construct must use '{}'s. [NeedBraces]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m13/Radix Sorts/Quick3string.java:105:30: Parameter a should be final. [FinalParameters]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m13/Radix Sorts/Quick3string.java:105:42: Parameter i should be final. [FinalParameters]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m13/Radix Sorts/Quick3string.java:105:49: Parameter j should be final. [FinalParameters]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m13/Radix Sorts/Quick3string.java:127:33: Parameter v should be final. [FinalParameters]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m13/Radix Sorts/Quick3string.java:127:43: Parameter w should be final. [FinalParameters]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m13/Radix Sorts/Quick3string.java:127:53: Parameter d should be final. [FinalParameters]
+[ERROR] /Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m13/Radix Sorts/Quick3string.java:148: 'for' construct must use '{}'s. [NeedBraces]
+Audit done.
+Checkstyle ends with 15 errors.
