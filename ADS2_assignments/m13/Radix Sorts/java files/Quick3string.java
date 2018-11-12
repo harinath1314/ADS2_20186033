@@ -71,9 +71,10 @@ public class Quick3string {
             }
         }
 
-        // a[lo..lt-1] < v = a[lt..gt] < a[gt+1..hi].
         sort(a, lo, lt - 1, d);
-        if (v >= 0) sort(a, lt, gt, d + 1);
+        if (v >= 0) {
+            sort(a, lt, gt, d + 1);
+        }
         {
             sort(a, gt + 1, hi, d);
 
@@ -88,7 +89,8 @@ public class Quick3string {
      * @param      hi    The higher
      * @param      d     { parameter_description }
      */
-    private static void insertion(String[] a, int lo, int hi, int d) {
+    private static void insertion(final String[] a, final int lo,
+                                  final int hi, final int d) {
         for (int i = lo; i <= hi; i++)
             for (int j = i; j > lo && less(a[j], a[j - 1], d); j--) {
                 exch(a, j, j - 1);
@@ -124,7 +126,7 @@ public class Quick3string {
      *
      * @return     { description_of_the_return_value }
      */
-    private static boolean less(String v, String w, int d) {
+    private static boolean less(final String v, final String w, final int d) {
         assert v.substring(0, d).equals(w.substring(0, d));
         for (int i = d; i < Math.min(v.length(), w.length()); i++) {
             if (v.charAt(i) < w.charAt(i)) {
@@ -145,10 +147,12 @@ public class Quick3string {
      * @return     True if sorted, False otherwise.
      */
     private static boolean isSorted(final String[] a) {
-        for (int i = 1; i < a.length; i++)
+        for (int i = 1; i < a.length; i++) {
             if (a[i].compareTo(a[i - 1]) < 0) {
                 return false;
             }
+        }
+
         return true;
     }
 

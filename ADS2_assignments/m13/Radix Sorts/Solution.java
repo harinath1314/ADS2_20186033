@@ -31,11 +31,7 @@ public final class Solution {
         }
         Quick3string qs = new Quick3string();
         qs.sort(arr);
-        // for (int j = 0; j < number; j++) {
-        //     System.out.println(arr[j]);
-
-        // }
-        System.out.println( Arrays.toString(arr));
+        System.out.println(Arrays.toString(arr));
 
     }
 }
