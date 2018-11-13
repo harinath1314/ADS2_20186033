@@ -2,15 +2,28 @@ import java.util.Scanner;
 
 public class Solution {
     public static void main(String[] args) {
-        String[] words = loadWords();
+        String[] word = loadWords();
         //Your code goes here...
         TST tst = new TST();
-        for (int i = 0; i < words.length; i++) {
-            tst.put(words[i], 0);
+        for (int i = 0; i < word.length; i++) {
+            int n = word[i].length();
+            String[] suffixes = new String[n];
+            for (int j = 0; j < n; j++) {
+                suffixes[j] = word[i].substring(j, n);
+                tst.put(suffixes[j], 0);
+
+            }
 
         }
         Scanner sc = new Scanner(System.in);
-        System.out.println(tst.keysWithPrefix(sc.nextLine()));
+        Iterable<String> st = tst.keysWithPrefix(sc.nextLine());
+        // Iterable<String> st = tst.keys();
+
+
+
+        for (String s : st) {
+            System.out.println(s.toString());
+        }
 
 
     }
@@ -20,4 +33,5 @@ public class Solution {
         String[] words = in.readAllStrings();
         return words;
     }
+
 }
