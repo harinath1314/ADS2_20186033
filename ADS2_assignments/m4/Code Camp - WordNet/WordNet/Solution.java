@@ -9,6 +9,12 @@ import java.util.Scanner;
  */
 public class Solution {
     /**
+     * Constructs the object.
+     */
+    private Solution() {
+
+    }
+    /**
      * main method starts here.
      *
      * @param      args  The arguments
@@ -48,17 +54,19 @@ public class Solution {
                     }
                     // System.out.println("oooooooooooooooooooooo");
                     // System.out.println(qyery[0]);
-                    System.out.println("distance = " + wn.distance(qyery[0], qyery[1]) + ", ancestor = " + wn.sap(qyery[0], qyery[1]));
-                    // System.out.println("distance = " + wn.distance(qyery[0], qyery[1]));
-                    // System.out.println(wn.distance(qyery[0], qyery[1])+"pppppppp");
-                    // System.out.println(wn.sap(qyery[0], qyery[1]));
-                    // System.out.println("---------");
+                    System.out.println("distance = "
+                                       + wn.distance(qyery[0], qyery[1])
+                       + ", ancestor = " + wn.sap(qyery[0], qyery[1]));
+
                 }
 
             } catch (Exception e) {
                 // System.out.println(e.getMessage()+"HARINATHA ");
                 System.out.println(e.getMessage());
             }
+            break;
+        default:
+            break;
 
         }
 
