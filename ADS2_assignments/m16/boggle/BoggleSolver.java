@@ -70,7 +70,9 @@ public class BoggleSolver {
     public  int scoreOf(String s) {
         int pointValue;
         int length = s.length();
-        if      (length < 5)  pointValue = 1;
+
+        if (length >=0 && length <= 2) pointValue = 0;
+        else if      (length >= 3 && length <= 4)  pointValue = 1;
         else if (length == 5) pointValue = 2;
         else if (length == 6) pointValue = 3;
         else if (length == 7) pointValue = 5;
