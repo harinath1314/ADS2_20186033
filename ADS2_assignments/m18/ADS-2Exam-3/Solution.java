@@ -108,9 +108,11 @@ class T9 {
 
 
 		private TST tst ;
+		private BinarySearchST<String, Integer> bst;
 
 	public T9(BinarySearchST<String, Integer> st) {
 		// your code goes here
+		bst = st;
 		tst = new TST();
 		for (String s : st.keys()) {
 			tst.put(s, st.get(s));
@@ -127,13 +129,28 @@ class T9 {
 
 	public Iterable<String> potentialWords(String t9Signature) {
 		// your code goes here
+
 		return null;
 	}
 
 	// return all possibilities(words), find top k with highest frequency.
 	public Iterable<String> getSuggestions(Iterable<String> words, int k) {
 		// your code goes here
-		return null;
+		String[] list = new String[k];
+			Bag<String> bag = new Bag<String>();
+			BinarySearchST<String, Integer> gst = new BinarySearchST<String, Integer>();
+		for (String word : words) {
+			int count = 0;
+			for (String s: getAllWords(word)) {
+				count += bst.get(s);	
+			}
+			gst.put(word, count);
+		}
+		for (int i =0; i < k; i++) {
+			bag.add(gst.max());
+			gst.deleteMax();	
+		}
+		return bag;
 	}
 
 	// final output
