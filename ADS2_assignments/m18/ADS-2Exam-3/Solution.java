@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.TreeSet;
 
 
 public class Solution {
@@ -136,21 +137,22 @@ class T9 {
 	// return all possibilities(words), find top k with highest frequency.
 	public Iterable<String> getSuggestions(Iterable<String> words, int k) {
 		// your code goes here
-		String[] list = new String[k];
-			Bag<String> bag = new Bag<String>();
-			BinarySearchST<String, Integer> gst = new BinarySearchST<String, Integer>();
-		for (String word : words) {
-			int count = 0;
-			for (String s: getAllWords(word)) {
-				count += bst.get(s);	
+		
+		MaxPQ<Integer> freaks = new MaxPQ<Integer>();
+		for (String each : words) {
+			freaks.insert((Integer)tst.get(each));
+		}
+		TreeSet<String> treeset = new TreeSet<String>();
+		for (int i = 0; i < k; i++) {
+			int value = freaks.delMax();
+			for (String word : words) {
+				if (value == (Integer)tst.get(word)) {
+					treeset.add(word);
+				}
 			}
-			gst.put(word, count);
 		}
-		for (int i =0; i < k; i++) {
-			bag.add(gst.max());
-			gst.deleteMax();	
-		}
-		return bag;
+
+		return treeset;
 	}
 
 	// final output
@@ -159,3 +161,4 @@ class T9 {
 		return getSuggestions(potentialWords(t9Signature), k);
 	}
 }
+
