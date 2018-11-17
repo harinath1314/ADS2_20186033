@@ -11,7 +11,7 @@ public class Solution {
 		switch (cases) {
 		case "loadDictionary":
 			// input000.txt and output000.txt
-			BinarySearchST<String, Integer> hash = loadDictionary("/Files/t9.csv");
+			BinarySearchST<String, Integer> hash = loadDictionary("/Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m18/ADS-2Exam-3/Files/t9.csv");
 			while (scan.hasNextLine()) {
 				String key = scan.nextLine();
 				System.out.println(hash.get(key));
@@ -87,7 +87,18 @@ public class Solution {
 
 	public static BinarySearchST<String, Integer> loadDictionary(String file) {
 		BinarySearchST<String, Integer>  st = new BinarySearchST<String, Integer>();
-		// your code goes here
+		String[] words = toReadFile("/Users/harinathareddy/Desktop/MSIT COURSES/ADS2_20186033/ADS2_20186033/ADS2_assignments/m18/ADS-2Exam-3/Files/t9.csv");
+		for (int i = 0; i < words.length; i++) {
+			if (st.contains(words[i].toLowerCase())) {
+				st.put(words[i].toLowerCase(), st.get(words[i].toLowerCase()) + 1);
+
+
+			} else {
+				st.put(words[i].toLowerCase(), 1);
+
+			}
+		}
+
 		return st;
 	}
 
