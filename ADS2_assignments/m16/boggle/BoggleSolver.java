@@ -4,7 +4,9 @@ import java.util.TreeSet;
  * Class for boggle solver.
  */
 public class BoggleSolver {
-
+    /**
+     * trieobject variable.
+     */
     private TrieST<Integer> trieobj;
     /**
      * set of valid words.
