@@ -6,7 +6,7 @@
  *
  *  GUI for the boggle solver. Pits the user against a computer opponent
  *  of various difficulties. Can be launched from the command line, where 
- *  the default size of the board for that game must be specified. 
+ *  the default size of the board for that game mzust be specified. 
  *  
  *  To add: Way to change the size of the board from inside the game
  *
@@ -951,7 +951,6 @@ public class BoggleGame extends JFrame {
     }
     
     
-
     /**
      * @param args the dimension of the Boggle game
      */
@@ -1008,49 +1007,3 @@ public class BoggleGame extends JFrame {
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
