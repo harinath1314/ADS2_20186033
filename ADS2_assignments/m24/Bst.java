@@ -1,102 +1,174 @@
 /**
- * BST using arrays.
+ * class for BST using Arrays.
+ * ADS2 assignnet 24.
+ * author harinath reddy.
  */
 import java.util.Scanner;
-public final class Bst {
-    private static String[] keys;
-    private static int [] values;
-    private static int size;
-    /**
-     * Constructs the object.
-     */
-    Bst(int n) {
-        this.keys = new String[n];
-        this.values = new int[n];
-        this.size = 0;
+class BSTArray<Key extends Comparable<Key>, Value> {
+    private Key[] keys;
+    private Value[] values;
+    private int[] size;
+    private int[] left;
+    private int[] right;
 
-
-
-    }
-    public static int get(String key) {
-        if (key == null) throw new IllegalArgumentException("argument to get() is null");
-        int i = rank(key);
-        if (i < size && keys[i].equals(key)) return values[i];
-        return 0;
-    }
-    public static int rank(String key) {
-        if (key == null) throw new IllegalArgumentException("argument to rank() is null");
-
-        int lo = 0, hi = size - 1;
-        while (lo <= hi) {
-            int mid = lo + (hi - lo) / 2;
-            int cmp = key.compareTo(keys[mid]);
-            if      (cmp < 0) hi = mid - 1;
-            else if (cmp > 0) lo = mid + 1;
-            else return mid;
+    BSTArray(int size) {
+        keys = (Key[]) new Comparable[size];
+        values = (Value[]) new Object[size];
+        this.size = new int[size];
+        left = new int[size];
+        right = new int[size];
+        for (int i = 0; i < size; i++) {
+            left[i] = -1;
+            right[i] = -1;
         }
-        return lo;
     }
-    public static void put(String key, int val)  {
-        if (key == null) throw new IllegalArgumentException("first argument to put() is null");
 
-        if (val == 0) {
-            delete(key);
+    public int size() {
+        return size(0);
+    }
+
+    private int size(int index) {
+        if (index == -1) {
+            return 0;
+        }
+
+        return size[index];
+    }
+
+    private int min(int index) {
+        if (left[index] == -1) {
+            return index;
+        }
+        return min(left[index]);
+    }
+
+    public Value get(Key key) {
+        return get(0, key);
+    }
+
+    private Value get(int index, Key key) {
+        if (index == -1 || keys[index] == null) {
+            return null;
+        }
+        int compare = key.compareTo(keys[index]);
+        if (compare < 0) {
+            return get(left[index], key);
+        } else if (compare > 0) {
+            return get(right[index], key);
+        } else {
+            return values[index];
+        }
+    }
+
+    public void put(Key key, Value value) {
+        if (size() == keys.length) {
+            System.out.println("BST is full");
             return;
         }
-
-        int i = rank(key);
-
-        if (i < size && keys[i].equals(key)) {
-            values[i] = val;
-            return;
-        }
-
-        for (int j = size; j > i; j--)  {
-            keys[j] = keys[j - 1];
-            values[j] = values[j - 1];
-        }
-        keys[i] = key;
-        values[i] = val;
-        size++;
-
-    }
-    public static void delete(String key) {
-        if (key == null) throw new IllegalArgumentException("argument to delete() is null");
-        int i = rank(key);
-
-        if (i == size || !keys[i].equals(key)) {
-            return;
-        }
-
-        for (int j = i; j < size - 1; j++)  {
-            keys[j] = keys[j + 1];
-            values[j] = values[j + 1];
-        }
-
-        size--;
-        keys[size] = null;
-        values[size] = 0;
+        put(0, key, value);
     }
 
+    private int put(int index, Key key, Value value) {
+        if (index == -1 || keys[index] == null) {
+            int nextIndex = size();
+            keys[nextIndex] = key;
+            values[nextIndex] = value;
+            size[nextIndex] = 1;
+            // size += 1;
+            return nextIndex;
+        }
+
+        int compare = key.compareTo(keys[index]);
+
+        if (compare < 0) {
+            left[index] = put(left[index], key, value);
+        } else if (compare > 0) {
+            right[index] = put(right[index], key, value);
+        } else {
+            values[index] = value;
+        }
+
+        size[index] = size(left[index]) + 1 + size(right[index]);
+        return index;
+    }
+
+    public void delete(Key key) {
+        int rootIndex = delete(0, key);
+    }
+
+    private int delete(int index, Key key) {
+        if (index == -1 || keys[index] == null) {
+            return -1;
+        }
+
+        int compare = key.compareTo(keys[index]);
+        if (compare < 0) {
+            int leftIndex = delete(left[index], key);
+            left[index] = leftIndex;
+        } else if (compare > 0) {
+            int rightIndex = delete(right[index], key);
+            right[index] = rightIndex;
+        } else {
+            keys[index] = null;
+            values[index] = null;
+            size[index] = 0;
+
+            if (left[index] == -1) {
+                int rightLinkIndex = right[index];
+                right[index] = -1;
+                return rightLinkIndex;
+            } else if (right[index] == -1) {
+                int leftLinkIndex = left[index];
+                left[index] = -1;
+                return leftLinkIndex;
+            } else {
+                int temp = min(right[index]);
+                right[temp] = deleteMin(right[index], false);
+                left[temp] = left[index];
+                right[index] = -1;
+                left[index] = -1;
+                index = temp;
+            }
+        }
+        size[index] = size(left[index]) + 1 + size(right[index]);
+        return index;
+    }
+
+    public void deleteMin() {
+        int rootIndex = deleteMin(0, true);
+    }
+    private int deleteMin(int index, boolean setKeyNull) {
+        if (index == -1 || keys[index] == null) {
+            return -1;
+        }
+
+        int leftIndex = deleteMin(left[index], setKeyNull);
+        left[index] = leftIndex;
+
+        size[index] = size(left[index]) + 1 + size(right[index]);
+        return index;
+    }
+}
+
+class Bst {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
-        String cas = sc.nextLine();
-        switch (cas) {
-        case "put":
-            put(sc.next(), sc.nextInt());
-            break;
-        case "get":
-            get(sc.nextLine());
-            break;
-        case"delete":
-            delete(sc.nextLine());
-            break;
-        default:
-            break;
-
-
+        int n = sc.nextInt();
+        BSTArray<Integer, String> bstobj = new BSTArray<>(n);
+        while (n > 0) {
+            String s = sc.nextLine();
+            String[] inputs = s.split(" ");
+            switch (inputs[0]) {
+            case"put":
+                bstobj.put(Integer.parseInt(inputs[1]), inputs[2]);
+                break;
+            case"get":
+                System.out.println(bstobj.get(Integer.parseInt(inputs[1])));
+                break;
+            case"delete":
+                bstobj.delete(Integer.parseInt(inputs[1]));
+            }
+            n--;
         }
     }
-
 }
